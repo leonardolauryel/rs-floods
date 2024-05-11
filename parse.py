@@ -1,5 +1,6 @@
 from utils import *
 from constants import *
+from error_log import log_error, get_errors
 
 import requests
 import re
@@ -117,44 +118,35 @@ def create_locations_obj():
     shelters = fetch_shelter_data()
     active = True
 
-    try:
-        json_file = 'location_lat_lng.json'
-        location_lat_lng = read_json(json_file)
-        print("Dados json de location_lat_lng carregados com sucesso.\n")
-    except Exception as e:
-        print("Falha ao ler o arquivo JSON.\n")
-
     location_id = 0
     for shelter in shelters:
+        # TO-DO: Colocar um link para o google maps  
         description = shelter['address']
 
-        shelter_name_key = sanitize_key(shelter['name'])
 
-        loc = location_lat_lng.get(shelter_name_key)
-
+        # TO-DO: Melhorar style
         url = f"src=\"https://sos-rs.com/abrigo/{shelter['id']}\""
         overlayed_popup_content = f"<p><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
 
-        if (loc and loc['lat'] and loc['lng']):
-            latitude = loc['lat']
-            longitude = loc['lng']
+        latitude = shelter['latitude']
+        longitude = shelter['longitude']
+
+        if is_valid_coordinates(latitude, longitude):
+            locations[shelter['id']] = {
+                'location_id': location_id,
+                'name': escape_sql_string(shelter['name']),
+                'description': escape_sql_string(description),
+                'overlayed_popup_content': overlayed_popup_content,
+                'latitude': latitude,
+                'longitude': longitude,
+                'active': active,
+                'shelterSupplies': shelter['shelterSupplies'],
+                'address': shelter['address']
+            }
+
+            location_id += 1
         else:
-            latitude = 0
-            longitude = 0
-
-        locations[shelter['id']] = {
-            'location_id': location_id,
-            'name': escape_sql_string(shelter['name']),
-            'description': escape_sql_string(description),
-            'overlayed_popup_content': overlayed_popup_content,
-            'latitude': latitude,
-            'longitude': longitude,
-            'active': active,
-            'shelterSupplies': shelter['shelterSupplies'],
-            'address': shelter['address']
-        }
-
-        location_id += 1
+            log_error(f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
 
     return locations
 
@@ -321,13 +313,7 @@ def create_sql_commands():
     sql_commands = []
 
     menus = create_menus_obj()
-    locations = create_locations_obj()
-
-
-    # Deixar comentado. Isso é usado somente quando for preciso
-    # obter as relações de supply e category supply
-    #get_supply_category_relationship(locations)
-    
+    locations = create_locations_obj()    
     tags = create_tags_obj(locations, menus)
     tags_related_locations = create_tag_related_location_obj(tags, locations)
 

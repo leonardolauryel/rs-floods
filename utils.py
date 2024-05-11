@@ -1,4 +1,4 @@
-def validate_coordinates(latitude, longitude):
+def is_valid_coordinates(latitude, longitude):
     # Check if the coordinates are not None
     if latitude is None or longitude is None:
         return False
