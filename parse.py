@@ -1,54 +1,17 @@
 from utils import *
 from constants import *
-from error_log import log_error, get_errors
+from logs_message import create_log, get_logs
 
 import requests
 import re
 import unicodedata
 import json
-import random
 import logging
 import time
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-
-# Desativa o logging
-#logging.disable(logging.CRITICAL)
-
-def get_supply_category_relationship(locations):
-    filename = 'supply_category_relationship.json'
-    tag_related_location = {}
-
-    counter = 1
-    try:
-        for key in locations:
-            print(counter)
-            print(f"Obtendo dado do abrigo com id {key}")
-            shelter = fetch_shelter_data_by_id(key)
-            print(f"Dados do abrigo {shelter['name']} foram obtidos")
-            print()
-            counter += 1
-            for supply in shelter['shelterSupplies']:
-
-                supply_name_key = sanitize_key(supply['supply']['name'])
-
-                key = tag_related_location.get(supply_name_key)
-                if(key is None):
-                    tag_related_location[supply_name_key] = {
-                        'supply_id': supply['supply']['id'],
-                        'supply_name': supply['supply']['name'],
-                        'supply_category_id': supply['supply']['supplyCategory']['id'],
-                        'supply_category_name': supply['supply']['supplyCategory']['name'],
-                    }
-    except Exception as e:
-        # Executado para qualquer outro erro
-        print(f"Ocorreu um erro inesperado: {e}")
-
-    save_json(tag_related_location, filename)
-
 # -------------- Requisições -------------- 
 def fetch_supply_categories_data():
-    url = 'https://api.sos-rs.com/supply-categories'
+    url = f"{API_URL}/supply-categories"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -63,7 +26,7 @@ def fetch_shelter_data():
     all_data = []
 
     while True:
-        url = f"https://api.sos-rs.com/shelters?page={page}&perPage={perPage}"
+        url = f"{API_URL}/shelters?page={page}&perPage={perPage}"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -79,7 +42,18 @@ def fetch_shelter_data():
     return all_data
 
 def fetch_shelter_data_by_id(id):
-    url = f"https://api.sos-rs.com/shelters/{id}"
+    url = f"{API_URL}/shelters/{id}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+        return data['data']
+    else:
+        print("Falha na requisição:", response.status_code)
+        return None
+
+def fetch_supplies_data():
+    url = f"{API_URL}/supplies"
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -90,6 +64,12 @@ def fetch_shelter_data_by_id(id):
         return None
 
 
+def get_parent_menu_id(menus, supply):
+    parent_menu = menus.get(supply['supplyCategory']['id'])
+    if(parent_menu is not None):
+        return parent_menu['menu_id']
+    else:
+        return False
 
 
 # --------------  Criação de objetos Menus, Locations e Tags -------------- 
@@ -146,65 +126,34 @@ def create_locations_obj():
 
             location_id += 1
         else:
-            log_error(f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
+            create_log("error", f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
 
     return locations
 
-def create_tags_obj(locations, menus):
+def create_tags_obj(menus):
     tags = {}
-
-    description = ''
     active = True
- 
+    description = ""
 
-    # Ler json de relação entre Supply e Category Supply
-    try:
-        json_file = 'supply_category_relationship.json'
-        tag_related_location = read_json(json_file)
-        print("Dados json carregados com sucesso.\n")
-    except Exception as e:
-        print("Falha ao ler o arquivo JSON.\n")
-    
+    supplies = fetch_supplies_data()
 
     tag_id = 0
-    for location in locations.values():
+    for supply in supplies:
+        color = generate_random_hex_color()
+        parent_menu_id = get_parent_menu_id(menus, supply)
         
-        for supply in location['shelterSupplies']:
-            supply_name_key = sanitize_key(supply['supply']['name'])
-
-            # obter o id do menu
-            try:
-                supply_category_id = tag_related_location.get(supply_name_key)['supply_category_id']
-            except Exception as e:
-                logging.info(f"Não encontrado a relação do supply {supply['supply']['name']}")
-            
-            if(supply_category_id is not None):
-                parent_menu_id = menus.get(supply_category_id)['menu_id']
-
-                color = gerar_cor_hex_aleatoria()
-
-                supply_name_key = sanitize_key(supply['supply']['name'])
-                key = tags.get(supply_name_key)
-                
-                if(key is None):
-                    tags[supply_name_key] = {
-                        'tag_id': tag_id,
-                        'name': supply['supply']['name'],
-                        'description': description,
-                        'color': color,
-                        'active': active,
-                        'parent_menu_id': parent_menu_id
-                    }
-                    tag_id += 1
-
-    # tags['nosupplierinfo'] = {
-    #     'tag_id': tag_id,
-    #     'name': "Sem informações de itens",
-    #     'description': description,
-    #     'color': '#808080',
-    #     'active': active,
-    #     'parent_menu_id': parent_menu_id,
-    # }
+        if parent_menu_id:
+            tags[supply['id']] = {
+                'tag_id': tag_id,
+                'name': supply['name'],
+                'description': description,
+                'color': color,
+                'active': active,
+                'parent_menu_id': parent_menu_id
+            }
+            tag_id += 1
+        else:
+            create_log("info", f"Não foi possível encontrar o menu da tag {supply['name']}")
 
     return tags
 
@@ -216,20 +165,29 @@ def create_tag_related_location_obj(tags, locations):
         # Se tiver suprimetos
         if len(location['shelterSupplies']):
             for supply in location['shelterSupplies']:
-                supply_name_key = sanitize_key(supply['supply']['name'])
-                tag = tags[supply_name_key]
-                tag_id = tag['tag_id']
-                location_id = location['location_id']
-                key = f"{tag_id}_{location_id}"
+                supply_key = supply['supply']['id']
+                tag = tags.get(supply_key)
 
-                if tags_related_locations.get(key) is None:
-                    tags_related_locations[key] = {
-                        'tags_related_locations_id': tags_related_locations_id,
-                        'tag_id': tag_id,
-                        'location_id': location_id
-                    }
+                if tag:
+                    tag_id = tag['tag_id']
+                    location_id = location['location_id']
 
-                    tags_related_locations_id += 1
+                    if is_valid_tag_id_location_id(tag_id, location_id):
+                        key = f"{tag_id}_{location_id}"
+                        tags_related_locations[key] = {
+                            'tags_related_locations_id': tags_related_locations_id,
+                            'tag_id': tag_id,
+                            'location_id': location_id
+                        }
+
+                        tags_related_locations_id += 1
+                    else:
+                        create_log("error", f"Não foi encontrada a relação entre o abrigo '{location['name']}' e o suprimento '{tag['name']}'.")
+                else:
+                    create_log("error", f"Não foi encontrado suprimento com id {supply_key}")
+
+        else:
+            create_log("info", f"O abrigo '{location['name']}' não tem suprimentos cadastrados.")
 
     return tags_related_locations
 
@@ -313,13 +271,13 @@ def create_sql_commands():
     sql_commands = []
 
     menus = create_menus_obj()
+    tags = create_tags_obj(menus)
     locations = create_locations_obj()    
-    tags = create_tags_obj(locations, menus)
     tags_related_locations = create_tag_related_location_obj(tags, locations)
 
     
 
-    #Configurações iniciais do mapa
+    # #Configurações iniciais do mapa
     sql_commands.extend(create_settings_sql())
 
     sql_commands.extend(create_menus_sql(menus))

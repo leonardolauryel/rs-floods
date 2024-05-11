@@ -1,3 +1,5 @@
+import random
+
 def is_valid_coordinates(latitude, longitude):
     # Check if the coordinates are not None
     if latitude is None or longitude is None:
@@ -8,6 +10,12 @@ def is_valid_coordinates(latitude, longitude):
         return True
     else:
         return False
+
+def is_valid_tag_id_location_id(tag_id, location_id):
+    if tag_id is not None and location_id is not None:
+        return True
+    else:
+        False
 
 def escape_sql_string(value):
     """
@@ -36,7 +44,7 @@ def sanitize_key(s):
     # Substitui qualquer coisa que não seja letra, número ou sublinhado por uma string vazia
     return re.sub(r'[^\w]+', '', s)
 
-def gerar_cor_hex_aleatoria():
+def generate_random_hex_color():
     """
     Gera uma cor hexadecimal aleatória.
 
