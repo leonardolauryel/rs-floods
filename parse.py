@@ -3,9 +3,6 @@ from constants import *
 from logs_message import create_log, get_logs
 
 import requests
-import re
-import unicodedata
-import json
 import logging
 import time
 
@@ -98,6 +95,16 @@ def create_locations_obj():
     shelters = fetch_shelter_data()
     active = True
 
+    # Abre o json de coordenadas para caso precise
+    try:
+        json_file = './location_lat_lng.json'
+        all_coordinates = read_json(json_file)
+        print("Dados json de coorenadas carregados com sucesso.\n")
+    except Exception as e:
+        print("Falha ao ler o arquivo JSON de coordenadas.\n")
+
+    shelters_without_coordinates = {}
+
     location_id = 0
     for shelter in shelters:
         # TO-DO: Colocar um link para o google maps  
@@ -112,33 +119,49 @@ def create_locations_obj():
         longitude = shelter['longitude']
 
         if not shelter['id'].endswith('\r'):
-            if is_valid_coordinates(latitude, longitude):
-                location = {
-                    'location_id': location_id,
-                    'name': escape_sql_string(shelter['name']),
-                    'description': escape_sql_string(description),
-                    'overlayed_popup_content': overlayed_popup_content,
-                    'latitude': latitude,
-                    'longitude': longitude,
-                    'active': active,
-                    'shelterSupplies': [],
-                    'address': shelter['address']
-                }
+            # Se as coordenadas não são validas, tenta obter elas do arquivo local
+            if not is_valid_coordinates(latitude, longitude):
+                shelter_name_key = sanitize_key(shelter['name'])
+                coordinates = all_coordinates.get(shelter_name_key)
 
-                for supply in shelter['shelterSupplies']:
-                    if supply['priority'] == URGENT_NEED:
-                        location['shelterSupplies'].append(supply)
-                        
-                locations[shelter['id']] = location
+                if (coordinates and coordinates['lat'] and coordinates['lng']):
+                    latitude = coordinates['lat']
+                    longitude = coordinates['lng']
+                    create_log("info", f"As coordenadas do abrigo '{shelter['name']}' foram obtidas dos dados locais")
+                else:
+                    #tentar pegar do google
+                    latitude = 0
+                    longitude = 0
+
+                    shelters_without_coordinates[sanitize_key(shelter['name'])] = {
+                        'name': shelter['name'],
+                        'address': shelter['address']
+                    }
 
                 
+            location = {
+                'location_id': location_id,
+                'name': escape_sql_string(shelter['name']),
+                'description': escape_sql_string(description),
+                'overlayed_popup_content': overlayed_popup_content,
+                'latitude': latitude,
+                'longitude': longitude,
+                'active': active,
+                'shelterSupplies': [],
+                'address': shelter['address']
+            }
 
-                location_id += 1
-            else:
-                create_log("error", f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
+            for supply in shelter['shelterSupplies']:
+                if supply['priority'] == URGENT_NEED:
+                    location['shelterSupplies'].append(supply)
+                    
+            locations[shelter['id']] = location
+            location_id += 1
         else:
             pass
             #create_log("error", f"O id do abrigo '{shelter['name']}' termina com /r")
+
+    create_log("error", f"Os abrigos '{shelters_without_coordinates}' não possuem coordenadas.")
 
     return locations
 

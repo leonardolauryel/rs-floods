@@ -1,4 +1,8 @@
 import random
+import unicodedata
+import re
+import json
+
 
 def is_valid_coordinates(latitude, longitude):
     # Check if the coordinates are not None
