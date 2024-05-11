@@ -4,10 +4,10 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 # Desativa o logging
 logging.disable(logging.DEBUG)
-#logging.disable(logging.INFO)
-#logging.disable(logging.WARNING)
-#logging.disable(logging.ERROR)
-#logging.disable(logging.CRITICAL)
+logging.disable(logging.INFO)
+logging.disable(logging.WARNING)
+logging.disable(logging.ERROR)
+logging.disable(logging.CRITICAL)
 
 debug_messages = []
 info_messages = []
@@ -38,6 +38,7 @@ def create_log(type, message):
             error_messages.append(msg)
 
 def get_logs(type):
+    data = []
     match type:
         case "debug":
             return debug_messages.copy()
@@ -49,5 +50,34 @@ def get_logs(type):
             return error_messages.copy()
         case "critical":
             return critical_messages.copy()
+        case "all":
+            if len(debug_messages):
+                data.append("\n\nDEBUG")
+                for debug_message in sorted(debug_messages):
+                    data.append(debug_message)
+            
+            if len(info_messages):
+                data.append("\n\nINFO")
+                for info_message in sorted(info_messages):
+                    data.append(info_message)
+            
+            if len(warning_messages):
+                data.append("\n\nWARNING")
+                for warning_message in sorted(warning_messages):
+                    data.append(warning_message)
+                
+            if len(error_messages):
+                data.append("\n\nERROR")
+                for error_message in sorted(error_messages):
+                    data.append(error_message)
+            
+            if len(critical_messages):
+                data.append("\n\nCRITICAL")
+                for critical_message in sorted(critical_messages):
+                    data.append(critical_message)
+
+    with open('logs.txt', 'w') as file:
+        for log in data:
+            file.write(f"{log}\n")
 
     

@@ -8,3 +8,7 @@ INITIAL_LONGITUDE = -51.1227169
 OUTPUT_FILE = "sos-rs.sql"
 
 API_URL = "https://api.sos-rs.com"
+
+URGENT_NEED = 100
+NEED = 10
+AVAILABLE = 1

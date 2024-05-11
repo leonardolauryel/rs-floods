@@ -106,54 +106,90 @@ def create_locations_obj():
 
         # TO-DO: Melhorar style
         url = f"src=\"https://sos-rs.com/abrigo/{shelter['id']}\""
-        overlayed_popup_content = f"<p><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
+        overlayed_popup_content = f"<p><iframe style=\"position: absolute;top: -62px;left: -42vw;width: 84vw;height: 69vh;border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
 
         latitude = shelter['latitude']
         longitude = shelter['longitude']
 
-        if is_valid_coordinates(latitude, longitude):
-            locations[shelter['id']] = {
-                'location_id': location_id,
-                'name': escape_sql_string(shelter['name']),
-                'description': escape_sql_string(description),
-                'overlayed_popup_content': overlayed_popup_content,
-                'latitude': latitude,
-                'longitude': longitude,
-                'active': active,
-                'shelterSupplies': shelter['shelterSupplies'],
-                'address': shelter['address']
-            }
+        if not shelter['id'].endswith('\r'):
+            if is_valid_coordinates(latitude, longitude):
+                location = {
+                    'location_id': location_id,
+                    'name': escape_sql_string(shelter['name']),
+                    'description': escape_sql_string(description),
+                    'overlayed_popup_content': overlayed_popup_content,
+                    'latitude': latitude,
+                    'longitude': longitude,
+                    'active': active,
+                    'shelterSupplies': [],
+                    'address': shelter['address']
+                }
 
-            location_id += 1
+                for supply in shelter['shelterSupplies']:
+                    if supply['priority'] == URGENT_NEED:
+                        location['shelterSupplies'].append(supply)
+                        
+                locations[shelter['id']] = location
+
+                
+
+                location_id += 1
+            else:
+                create_log("error", f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
         else:
-            create_log("error", f"As coordenadas do abrigo '{shelter['name']}' não existem ou são inválidas.")
+            pass
+            #create_log("error", f"O id do abrigo '{shelter['name']}' termina com /r")
 
     return locations
 
-def create_tags_obj(menus):
+def create_tags_obj(menus, locations):
     tags = {}
     active = True
     description = ""
 
-    supplies = fetch_supplies_data()
-
     tag_id = 0
-    for supply in supplies:
-        color = generate_random_hex_color()
-        parent_menu_id = get_parent_menu_id(menus, supply)
+    for location in locations.values():
+        if location['shelterSupplies']:
+            for supply in location['shelterSupplies']:
+                color = generate_random_hex_color()
+                parent_menu_id = get_parent_menu_id(menus, supply['supply'])
+                
+                if parent_menu_id is not None:
+                    tags[supply['supply']['id']] = {
+                        'tag_id': tag_id,
+                        'name': escape_sql_string(supply['supply']['name']),
+                        'description': description,
+                        'color': color,
+                        'active': active,
+                        'parent_menu_id': parent_menu_id
+                    }
+                    tag_id += 1
+                else:
+                    create_log("error", f"Não foi possível encontrar o menu da tag '{supply['supply']['name']}' ({supply['supply']['id']})")
         
-        if parent_menu_id:
-            tags[supply['id']] = {
-                'tag_id': tag_id,
-                'name': supply['name'],
-                'description': description,
-                'color': color,
-                'active': active,
-                'parent_menu_id': parent_menu_id
-            }
-            tag_id += 1
         else:
-            create_log("info", f"Não foi possível encontrar o menu da tag {supply['name']}")
+            create_log("info", f"O abrigo '{location['name']}' ({location['location_id']}) não possui suprimentos cadastrados.")
+
+
+    # supplies = fetch_supplies_data()
+
+    # tag_id = 0
+    # for supply in supplies:
+    #     color = generate_random_hex_color()
+    #     parent_menu_id = get_parent_menu_id(menus, supply)
+        
+    #     if parent_menu_id is not None:
+    #         tags[supply['id']] = {
+    #             'tag_id': tag_id,
+    #             'name': escape_sql_string(supply['name']),
+    #             'description': description,
+    #             'color': color,
+    #             'active': active,
+    #             'parent_menu_id': parent_menu_id
+    #         }
+    #         tag_id += 1
+    #     else:
+    #         create_log("error", f"Não foi possível encontrar o menu da tag '{supply['name']}' ({supply['id']})")
 
     return tags
 
@@ -182,12 +218,9 @@ def create_tag_related_location_obj(tags, locations):
 
                         tags_related_locations_id += 1
                     else:
-                        create_log("error", f"Não foi encontrada a relação entre o abrigo '{location['name']}' e o suprimento '{tag['name']}'.")
+                        create_log("error", f"Não foi encontrada a relação entre o abrigo '{location['name']}' ({location['location_id']}) e o suprimento '{tag['name']}' ({tag['tag_id']}).")
                 else:
                     create_log("error", f"Não foi encontrado suprimento com id {supply_key}")
-
-        else:
-            create_log("info", f"O abrigo '{location['name']}' não tem suprimentos cadastrados.")
 
     return tags_related_locations
 
@@ -271,8 +304,8 @@ def create_sql_commands():
     sql_commands = []
 
     menus = create_menus_obj()
-    tags = create_tags_obj(menus)
-    locations = create_locations_obj()    
+    locations = create_locations_obj()
+    tags = create_tags_obj(menus, locations)   
     tags_related_locations = create_tag_related_location_obj(tags, locations)
 
     
@@ -284,6 +317,9 @@ def create_sql_commands():
     sql_commands.extend(create_locations_sql(locations))
     sql_commands.extend(create_tags_sql(tags))
     sql_commands.extend(create_tags_related_locations_sql(tags_related_locations))
+
+
+    get_logs('all')
     
     return sql_commands
 
