@@ -1,0 +1,882 @@
+{
+    "GinasioDaParoquiaImaculadaConceicao": {
+        "lat": -29.5742629,
+        "lng": -50.79112019999999
+    },
+    "ParoquiaSantaIsabelViamao": {
+        "lat": -30.0656309,
+        "lng": -51.1068945
+    },
+    "Modular": {
+        "lat": -29.9245292,
+        "lng": -51.14482100000001
+    },
+    "CentroDesportivoMunicipalCdmSantaMaria": {
+        "lat": -29.6951653,
+        "lng": -53.81696359999999
+    },
+    "ParoquiaSaoVicenteDePaulo": {
+        "lat": -29.9527481,
+        "lng": -51.0942474
+    },
+    "EscolaGomesJardim": {
+        "lat": -29.9291766,
+        "lng": -51.151899
+    },
+    "IgrejaRessurreicao": {
+        "lat": -29.9367563,
+        "lng": -51.0882675
+    },
+    "AbrigoSalaoParoquialDaCidadeAlta": {
+        "lat": -29.8211778,
+        "lng": -50.51750089999999
+    },
+    "IgrejaEncontrosDeVidaCanoas": {
+        "lat": -29.9084413,
+        "lng": -51.1418271
+    },
+    "IgrejaHebromCanoas": {
+        "lat": -23.4566968,
+        "lng": -46.5356792
+    },
+    "CepePetrobrasCanoas": {
+        "lat": -29.87016029999999,
+        "lng": -51.166382
+    },
+    "AmorjiassociacaoIgaraCanoas": {
+        "lat": -29.9001427,
+        "lng": -51.1556636
+    },
+    "AabbCanoas": {
+        "lat": -29.9305176,
+        "lng": -51.1628284
+    },
+    "SantuarioSaoCristovaoCanoas": {
+        "lat": -29.8973389,
+        "lng": -51.1734922
+    },
+    "ParoquiaSantaLuziaCanoas": {
+        "lat": -29.9242876,
+        "lng": -51.1414281
+    },
+    "IgrejaRhemaInChurchCanoas": {
+        "lat": -29.9083793,
+        "lng": -51.1761685
+    },
+    "ColaziolScottaCanoas": {
+        "lat": -29.9056903,
+        "lng": -51.1464413
+    },
+    "EscolaDrummondCanoas": {
+        "lat": -29.9089819,
+        "lng": -51.1365619
+    },
+    "IgrejaMoverCanoas": {
+        "lat": -29.9022534,
+        "lng": -51.17796320000001
+    },
+    "AbrigoBuritisCanoas": {
+        "lat": -23.6466721,
+        "lng": -46.6437973
+    },
+    "ColegioGomesJardimCanoas": {
+        "lat": -29.928353,
+        "lng": -51.1517433
+    },
+    "EscolaEducoCanoas": {
+        "lat": -29.9245355,
+        "lng": -51.1757368
+    },
+    "ColegioLeonardoDaVinciCanoas": {
+        "lat": -29.9103979,
+        "lng": -51.1738952
+    },
+    "SesiCanoas": {
+        "lat": -29.9102353,
+        "lng": -51.1694962
+    },
+    "UnilasalleCentroCanoas": {
+        "lat": -29.9174051,
+        "lng": -51.1802408
+    },
+    "EscolaDrumondGuajuvirasCanoas": {
+        "lat": -29.8914008,
+        "lng": -51.1219552
+    },
+    "ColegioRondoniaCanoas": {
+        "lat": -29.6537221,
+        "lng": -51.1737738
+    },
+    "EscolaAndrePuenteCanoas": {
+        "lat": -29.9159885,
+        "lng": -51.1857686
+    },
+    "ComplexoLibertadCanoas": {
+        "lat": -29.9018183,
+        "lng": -51.1737975
+    },
+    "OrbitaCanoas": {
+        "lat": -29.9085374,
+        "lng": -51.1729768
+    },
+    "EeemProfaMargotTnGiacomazzi": {
+        "lat": -29.90791,
+        "lng": -51.147272
+    },
+    "EscolaSantosDumont": {
+        "lat": -30.1026238,
+        "lng": -51.260195
+    },
+    "IfrsDeCanoas": {
+        "lat": -29.8992429,
+        "lng": -51.1513927
+    },
+    "AssociacaoDosAuditoresFiscaisDaReceitaEstadualDoRsafisvec": {
+        "lat": -30.09702829999999,
+        "lng": -51.2269952
+    },
+    "ParoquiaNossaSenhoraAuxiliadora": {
+        "lat": -30.0221588,
+        "lng": -51.1914053
+    },
+    "AbrigoExtremoSul": {
+        "lat": -30.2108074,
+        "lng": -51.182621
+    },
+    "BomJesus": {
+        "lat": -30.049025,
+        "lng": -51.1661283
+    },
+    "GeraldoSantana": {
+        "lat": -30.0551779,
+        "lng": -51.2009834
+    },
+    "EeemProfHaydeeMelloRostirollaSaoLeopoldo": {
+        "lat": -29.7623378,
+        "lng": -51.0901607
+    },
+    "EscolaIrmaoWeibertSaoLeopoldo": {
+        "lat": -29.771974,
+        "lng": -51.1515106
+    },
+    "OcupacaoMoradaDoSolSaoLeopoldo": {
+        "lat": -29.7909049,
+        "lng": -51.0971311
+    },
+    "AssociacaoDeMoradoresDoJardimAmericaSaoLeopoldo": {
+        "lat": -29.761351,
+        "lng": -51.1476229
+    },
+    "AbsterSaoLeopoldo": {
+        "lat": -19.7557778,
+        "lng": -43.9917851
+    },
+    "IgrejaEvangelicaAssembleiaDeDeusCongregacaoVilaTerezaSaoLeopoldo": {
+        "lat": 48.9137455,
+        "lng": 2.4845729
+    },
+    "StihlSaoLeopoldo": {
+        "lat": -29.788062,
+        "lng": -51.11507899999999
+    },
+    "SociedadeUniaoSaoLeopoldo": {
+        "lat": -29.7310037,
+        "lng": -51.1522095
+    },
+    "SociedadeRecreativaBanguSaoLeopoldo": {
+        "lat": -29.7897144,
+        "lng": -51.1665863
+    },
+    "SociedadeMauaSaoLeopoldo": {
+        "lat": -29.759014,
+        "lng": -51.1080984
+    },
+    "SindicatoDosMetalurgicosBigornaoSaoLeopoldo": {
+        "lat": -29.7801154,
+        "lng": -51.1393731
+    },
+    "SesiSaoLeopoldo": {
+        "lat": -29.7755717,
+        "lng": -51.13120139999999
+    },
+    "PiqueteAcampamentoAtgfSaoLeopoldo": {
+        "lat": -29.7476594,
+        "lng": -51.0991697
+    },
+    "ParoquiaSaoRoqueSaoLeopoldo": {
+        "lat": -29.727583,
+        "lng": -51.1521124
+    },
+    "ParoquiaNossaSenhoraAparecidaSaoLeopoldo": {
+        "lat": -29.7266851,
+        "lng": -51.1596456
+    },
+    "ParoquiaDaVilaElzaSaoLeopoldo": {
+        "lat": -29.7314729,
+        "lng": -51.1703392
+    },
+    "ParoquiaDaDuqueSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "LarSantaElisabeteColegioSaoJoseSaoLeopoldo": {
+        "lat": -23.5366676,
+        "lng": -46.6306279
+    },
+    "IgrejaKennedSaoLeopoldo": {
+        "lat": -29.7860886,
+        "lng": -51.1304107
+    },
+    "IgrejaBatistaSaoLeopoldo": {
+        "lat": -29.7522169,
+        "lng": -51.09474909999999
+    },
+    "IgrejaSaoLeopoldo": {
+        "lat": -23.6788863,
+        "lng": -46.536706
+    },
+    "GinasioUnisinosSaoLeopoldo": {
+        "lat": -29.797471,
+        "lng": -51.15671210000001
+    },
+    "GinasioPadreReusSaoLeopoldo": {
+        "lat": -29.7804647,
+        "lng": -51.1434706
+    },
+    "GinasioAliancaEsportivaBotafogoSaoLeopoldo": {
+        "lat": -29.7900767,
+        "lng": -51.1281113
+    },
+    "EscolaEstadualPolisinosSaoLeopoldo": {
+        "lat": -9.9872377,
+        "lng": -67.83344199999999
+    },
+    "EscolaEstadualJoaoHillebrandSaoLeopoldo": {
+        "lat": -29.7536013,
+        "lng": -51.1080293
+    },
+    "EscolaEstadualCristoReiSaoLeopoldo": {
+        "lat": -29.7796839,
+        "lng": -51.15034319999999
+    },
+    "EscolaEstadualAmadeoRossiSaoLeopoldo": {
+        "lat": -30.0827721,
+        "lng": -51.0340956
+    },
+    "EmeiCarlosMoraesSaoLeopoldo": {
+        "lat": -29.7612655,
+        "lng": -51.0992839
+    },
+    "EmefTancredoNevesSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "EmefSantaMartaSaoLeopoldo": {
+        "lat": -29.7257651,
+        "lng": -51.1891166
+    },
+    "EmefPaulHarrisSaoLeopoldo": {
+        "lat": -29.1702208,
+        "lng": -51.7358184
+    },
+    "EmefMarioFonsecaSaoLeopoldo": {
+        "lat": -29.7216634,
+        "lng": -51.1875166
+    },
+    "EmefMariaEmiliaDePaulaSaoLeopoldo": {
+        "lat": -29.7089291,
+        "lng": -51.1905586
+    },
+    "EmefJoseGrimbergSaoLeopoldo": {
+        "lat": -29.7018771,
+        "lng": -51.19440530000001
+    },
+    "EmefHohendorffSaoLeopoldo": {
+        "lat": -29.725776,
+        "lng": -51.1606897
+    },
+    "EmefGusmaoSaoLeopoldo": {
+        "lat": -29.76949,
+        "lng": -51.138
+    },
+    "EmefDrPauloCoutoSaoLeopoldo": {
+        "lat": -29.7301061,
+        "lng": -51.1788213
+    },
+    "EmefClodomirViannaMoogSaoLeopoldo": {
+        "lat": -29.7279003,
+        "lng": -51.155395
+    },
+    "EeefHaydeeSaoLeopoldo": {
+        "lat": -29.7623378,
+        "lng": -51.0901607
+    },
+    "EeipUniversoDaCriancaSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "EeipPequenaSementeSaoLeopoldo": {
+        "lat": -29.71636,
+        "lng": -51.1871269
+    },
+    "EeipNovaGeracaoSaoLeopoldo": {
+        "lat": -29.759214,
+        "lng": -51.103283
+    },
+    "EeipMaiorPintorDoMundoSaoLeopoldo": {
+        "lat": -29.7611148,
+        "lng": -51.1112818
+    },
+    "EeipCriancaFelizSaoLeopoldo": {
+        "lat": -29.7288387,
+        "lng": -51.1817728
+    },
+    "EeipAquarelaKidsSaoLeopoldo": {
+        "lat": -29.7789096,
+        "lng": -51.12858869999999
+    },
+    "CtgTropeiroDaCoxilhaSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "CtgTioLauterioSaoLeopoldo": {
+        "lat": -29.7724075,
+        "lng": -51.1158464
+    },
+    "CtgSepeTiarajuSaoLeopoldo": {
+        "lat": -29.7284791,
+        "lng": -51.1827903
+    },
+    "ColegioConcordiaSaoLeopoldo": {
+        "lat": -29.79616,
+        "lng": -51.16464999999999
+    },
+    "IgrejaMaftSaoLeopoldo": {
+        "lat": -29.7599922,
+        "lng": -51.1098125
+    },
+    "IgrejaAncoraSaoLeopoldo": {
+        "lat": -29.7954384,
+        "lng": -51.1073537
+    },
+    "CepaSaoLeopoldo": {
+        "lat": -29.7232303,
+        "lng": -51.1856036
+    },
+    "CentroDeEventosSaoLeopoldo": {
+        "lat": -29.7813945,
+        "lng": -51.1220368
+    },
+    "CceiRecantoDaCriancaSaoLeopoldo": {
+        "lat": -29.7601014,
+        "lng": -51.11001659999999
+    },
+    "CceiCriancaJedidiasSaoLeopoldo": {
+        "lat": -29.7542768,
+        "lng": -51.10173229999999
+    },
+    "CapelaSantaRitaSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "CaicMadezzattiSaoLeopoldo": {
+        "lat": -29.7486023,
+        "lng": -51.0973457
+    },
+    "AssociacaoParqueItapemaSaoLeopoldo": {
+        "lat": -27.0965505,
+        "lng": -48.6164234
+    },
+    "AssociacaoMoradoresJardimLucianaSaoLeopoldo": {
+        "lat": -29.7088735,
+        "lng": -51.1938466
+    },
+    "AssociacaoMoradoresSaoLeopoldo": {
+        "lat": -29.76074169999999,
+        "lng": -51.1480174
+    },
+    "AssociacaoCampoPenharolSaoLeopoldo": {
+        "lat": -29.7167589,
+        "lng": -51.1620275
+    },
+    "AmocefSaoLeopoldo": {
+        "lat": -26.9024671,
+        "lng": -48.98363
+    },
+    "AlojamentoIgrejaSaoLeopoldo": {
+        "lat": -29.7782048,
+        "lng": -51.1547007
+    },
+    "AabbSaoLeopoldo": {
+        "lat": -29.7994986,
+        "lng": -51.1058662
+    },
+    "Nilo2400": {
+        "lat": -30.027971,
+        "lng": -51.1683017
+    },
+    "CfVikings": {
+        "lat": -29.1655266,
+        "lng": -51.181651
+    },
+    "WebmaxstudioKangoo": {
+        "lat": -29.9053871,
+        "lng": -51.157363
+    },
+    "SociedadeHipica": {
+        "lat": -30.16292259999999,
+        "lng": -51.1855185
+    },
+    "Simers": {
+        "lat": -30.049224,
+        "lng": -51.195563
+    },
+    "ProjetoSurfar": {
+        "lat": -30.0674814,
+        "lng": -51.17660799999999
+    },
+    "ParoquiaSantaClara": {
+        "lat": -30.1081531,
+        "lng": -51.112884
+    },
+    "ParoquiaSagradaFamilia": {
+        "lat": -30.0424264,
+        "lng": -51.22011879999999
+    },
+    "ParoquiaNossaSenhoraDeMontSerrat": {
+        "lat": -30.02647259999999,
+        "lng": -51.1845515
+    },
+    "Opiniao": {
+        "lat": -30.0417573,
+        "lng": -51.220909
+    },
+    "Oab": {
+        "lat": -30.0430294,
+        "lng": -51.224944
+    },
+    "MulheresEmRedeConsepro": {
+        "lat": -30.1144612,
+        "lng": -51.2156123
+    },
+    "MorroDoSabia": {
+        "lat": -30.129124,
+        "lng": -51.243047
+    },
+    "CasaMaristaDaJuventudeCaju": {
+        "lat": -30.103381,
+        "lng": -51.21671550000001
+    },
+    "IgrejaRosaDeSarom": {
+        "lat": -30.0445068,
+        "lng": -51.136276
+    },
+    "IgrejaCasaChurchRerstinga": {
+        "lat": -30.1463435,
+        "lng": -51.1449655
+    },
+    "IgrejaAssembleiaDeDeus": {
+        "lat": -20.1195069,
+        "lng": -40.197253
+    },
+    "GinasioRedeCalabria": {
+        "lat": -30.101955,
+        "lng": -51.2172951
+    },
+    "EstacionamentoBourbonAssisBrasil": {
+        "lat": -30.0063911,
+        "lng": -51.1843574
+    },
+    "EspacoComunitarioMultiplicidadePoa": {
+        "lat": -30.0331154,
+        "lng": -51.1176897
+    },
+    "EscolaVictorIsler": {
+        "lat": -30.0353353,
+        "lng": -51.1167334
+    },
+    "EscolaEspiritoSantocanoas": {
+        "lat": -29.9304772,
+        "lng": -51.1679788
+    },
+    "EscolaCustodio": {
+        "lat": -30.1645397,
+        "lng": -51.2281356
+    },
+    "EscolaAramySilvaemef": {
+        "lat": -30.0978373,
+        "lng": -51.2416315
+    },
+    "EmefMartimAranha": {
+        "lat": -30.0846066,
+        "lng": -51.2289312
+    },
+    "Cremers": {
+        "lat": -30.0466914,
+        "lng": -51.2043267
+    },
+    "CreBrasil": {
+        "lat": -29.9161709,
+        "lng": -51.1459663
+    },
+    "CozinhaSolidariaMaosQueAcolhem": {
+        "lat": -30.0946078,
+        "lng": -51.1783381
+    },
+    "CozinhaComunitariaVidasDeLuz": {
+        "lat": -30.0776645,
+        "lng": -51.1703023
+    },
+    "ColegioRainhaDoBrasil": {
+        "lat": -30.05825119999999,
+        "lng": -51.2008257
+    },
+    "ClinicaVetHug": {
+        "lat": -30.0458351,
+        "lng": -51.2053828
+    },
+    "CasaDaJuventudeMarista": {
+        "lat": -30.103381,
+        "lng": -51.21671550000001
+    },
+    "CaixeirosViajantes": {
+        "lat": -30.0292037,
+        "lng": -51.19914989999999
+    },
+    "BnbChurch": {
+        "lat": -30.0579891,
+        "lng": -51.1547882
+    },
+    "AssociacaoDeMoradoresDaVilaDasLaranjeirasmorroSantana": {
+        "lat": -30.0468476,
+        "lng": -51.1293184
+    },
+    "AssociacaoBibliotecaBororo": {
+        "lat": -30.097072,
+        "lng": -51.2524539
+    },
+    "AspirantesDeCristo": {
+        "lat": -30.0397657,
+        "lng": -51.120779
+    },
+    "ApamecoritemDuplicadoColMaristaRosario": {
+        "lat": -30.092865,
+        "lng": -51.20581689999999
+    },
+    "AbrigoNaWalirZottis380JdItuSabara": {
+        "lat": -30.0147679,
+        "lng": -51.1374376
+    },
+    "AbbaIgreja": {
+        "lat": -30.0063804,
+        "lng": -51.1384687
+    },
+    "ParoquiaSaoVicenteMartir": {
+        "lat": -30.1078132,
+        "lng": -51.2412989
+    },
+    "UniritterCampusFapa": {
+        "lat": -30.0330961,
+        "lng": -51.121655
+    },
+    "ParoquiaDivinoEspiritoSanto": {
+        "lat": -30.0049773,
+        "lng": -51.1652791
+    },
+    "CasaDaCriancaNSraAuxiliadora": {
+        "lat": -30.0231652,
+        "lng": -51.1949675
+    },
+    "EnjoySushi": {
+        "lat": -30.12439,
+        "lng": -51.24562
+    },
+    "ColegioMaeDeDeus": {
+        "lat": -30.1120498,
+        "lng": -51.24841499999999
+    },
+    "Astti": {
+        "lat": -30.0486838,
+        "lng": -51.1390812
+    },
+    "IpaCentroUniversitarioMetodista": {
+        "lat": -30.03396669999999,
+        "lng": -51.1971475
+    },
+    "ColegioJulioDeCastilhos": {
+        "lat": -30.0441372,
+        "lng": -51.2127628
+    },
+    "35Ctg": {
+        "lat": -30.0549881,
+        "lng": -51.1869725
+    },
+    "CasaDeAbrigoDeAnimais": {
+        "lat": -30.0350946,
+        "lng": -51.1617453
+    },
+    "IgrejaCristaFiladelfia": {
+        "lat": 38.7829577,
+        "lng": -9.1419351
+    },
+    "IgrejaQuadrangularPartenon": {
+        "lat": -30.0627072,
+        "lng": -51.1767702
+    },
+    "PastorRodrigoTavaresAgronomia": {
+        "lat": -30.0669926,
+        "lng": -51.1502728
+    },
+    "IgrejaLugarDeAdoracao": {
+        "lat": -30.0687806,
+        "lng": -51.1438099
+    },
+    "IgrejaBetel": {
+        "lat": -29.991051,
+        "lng": -51.1022603
+    },
+    "IgrejaQuadrangularCostaeSilva": {
+        "lat": -30.0125509,
+        "lng": -51.1184693
+    },
+    "AliancaCristaDePortoAlegre": {
+        "lat": -30.0156007,
+        "lng": -51.1096686
+    },
+    "IgrejaImpactandoGeracoes": {
+        "lat": -29.9935653,
+        "lng": -51.1088098
+    },
+    "Mevam": {
+        "lat": -29.9907255,
+        "lng": -51.0995657
+    },
+    "IgrejaReviver": {
+        "lat": -30.1566507,
+        "lng": -51.1838467
+    },
+    "IgrejaMaanaim": {
+        "lat": -30.0342243,
+        "lng": -51.1183503
+    },
+    "IgrejaDaPaz": {
+        "lat": -30.0104041,
+        "lng": -51.1565162
+    },
+    "AbrigoCristoRedentor": {
+        "lat": -30.0026262,
+        "lng": -51.155601
+    },
+    "ShoppingPontal": {
+        "lat": -30.0792726,
+        "lng": -51.24735159999999
+    },
+    "InstitutoSaoFranciscoPallotti": {
+        "lat": -30.0101547,
+        "lng": -51.1696091
+    },
+    "Probicho": {
+        "lat": -30.2024816,
+        "lng": -51.1198484
+    },
+    "EscolaOdeteBarcelosBernardes": {
+        "lat": -30.2799293,
+        "lng": -51.0147725
+    },
+    "EscolaPauloFreire": {
+        "lat": -29.8904101,
+        "lng": -51.1292424
+    },
+    "IgrejaDaLagoinha": {
+        "lat": -30.0585149,
+        "lng": -51.1544922
+    },
+    "IgrejaDeusEAmor": {
+        "lat": -30.0669109,
+        "lng": -51.169641
+    },
+    "ColegioKennedy": {
+        "lat": -29.9948945,
+        "lng": -51.1264353
+    },
+    "ColegioCristoRedentor": {
+        "lat": -29.9216539,
+        "lng": -51.1693231
+    },
+    "EdgarFontoura": {
+        "lat": -29.9181301,
+        "lng": -51.1691393
+    },
+    "21Bpm": {
+        "lat": -30.1525394,
+        "lng": -51.1521074
+    },
+    "101ViraLatasong": {
+        "lat": -29.2366074,
+        "lng": -51.8657467
+    },
+    "ColegioMariaAuxiliadora": {
+        "lat": -29.9174107,
+        "lng": -51.1831725
+    },
+    "UlbraPredio55Canoas": {
+        "lat": -29.8862227,
+        "lng": -51.166325
+    },
+    "CentroHumanista": {
+        "lat": -30.0106249,
+        "lng": -51.1227617
+    },
+    "AFISVEC": {
+        "lat": -30.09702829999999,
+        "lng": -51.2269952
+    },
+    "ColegioSantaDoroteia": {
+        "lat": -30.0145034,
+        "lng": -51.1494325
+    },
+    "IgrejaLuteranaCongregacaoSaoPaulo": {
+        "lat": -30.0199672,
+        "lng": -51.1587408
+    },
+    "Volpe": {
+        "lat": -30.0396752,
+        "lng": -51.2133431
+    },
+    "UsinadoGasometro": {
+        "lat": -30.0815913,
+        "lng": -51.2022761
+    },
+    "TesourinhaGinasioMunicipalOsmarFortesBarcellos": {
+        "lat": -30.0514981,
+        "lng": -51.2182643
+    },
+    "TeatroRenascencaEVACUADO": {
+        "lat": -30.0474023,
+        "lng": -51.2189333
+    },
+    "Sogipa": {
+        "lat": -30.0097359,
+        "lng": -51.1880348
+    },
+    "SESCRS": {
+        "lat": -30.0414975,
+        "lng": -51.1491262
+    },
+    "RUsUFRGS": {
+        "lat": -30.0422139,
+        "lng": -51.2077125
+    },
+    "PUCRSParqueEsportivo": {
+        "lat": -30.0553383,
+        "lng": -51.1736419
+    },
+    "PetMedicPoa": {
+        "lat": -30.0403943,
+        "lng": -51.1835181
+    },
+    "LindoiaTenisClube": {
+        "lat": -30.0028995,
+        "lng": -51.1517602
+    },
+    "IgrejaBatistadoPassodaAreia": {
+        "lat": -29.9933507,
+        "lng": -51.1188121
+    },
+    "IgrejaBatistaBrazaZN": {
+        "lat": -30.0076442,
+        "lng": -51.1379387
+    },
+    "GNUGremioNauticoUniaoSedeMoinhosdeVento": {
+        "lat": -30.0219344,
+        "lng": -51.1980351
+    },
+    "GinasioBrigada": {
+        "lat": -30.0707825,
+        "lng": -51.1870114
+    },
+    "Gigantinho": {
+        "lat": -30.065066,
+        "lng": -51.2365144
+    },
+    "EstadioOlimpicoMonumental": {
+        "lat": -30.0690898,
+        "lng": -51.21114499999999
+    },
+    "ESEFID": {
+        "lat": -30.0509364,
+        "lng": -51.1825257
+    },
+    "EscolaSaoFrancisco": {
+        "lat": -30.1078132,
+        "lng": -51.2412989
+    },
+    "EscolaGrandeOriente": {
+        "lat": -30.024511,
+        "lng": -51.1062047
+    },
+    "EEEMAlcidesCunha": {
+        "lat": -30.0394275,
+        "lng": -51.1230777
+    },
+    "EEEFGoncalvesDiasIAPIEVACUADO": {
+        "lat": -30.0105687,
+        "lng": -51.1738554
+    },
+    "DropbarEVACUADO": {
+        "lat": -30.0465376,
+        "lng": -51.2152249
+    },
+    "CTGSentineladosPampas": {
+        "lat": -30.05773319999999,
+        "lng": -51.15952009999999
+    },
+    "ColegioRosario": {
+        "lat": -30.0302541,
+        "lng": -51.2184298
+    },
+    "ColegioMesquita": {
+        "lat": -30.0115673,
+        "lng": -51.1559235
+    },
+    "ColegioMaristaAssuncao": {
+        "lat": -30.0754208,
+        "lng": -51.2029509
+    },
+    "ColegioLuteranodaPaz": {
+        "lat": -29.9960749,
+        "lng": -51.1256287
+    },
+    "ColegioAnchieta": {
+        "lat": -30.0295382,
+        "lng": -51.175124
+    },
+    "ClinicaAmetista": {
+        "lat": -30.0134283,
+        "lng": -51.1831512
+    },
+    "CETEMeninoDeus": {
+        "lat": -30.0566012,
+        "lng": -51.2196691
+    },
+    "CEEEVilaNova": {
+        "lat": -29.9767425,
+        "lng": -51.1829051
+    },
+    "CEEEIpiranga": {
+        "lat": -23.5468139,
+        "lng": -46.6455284
+    },
+    "AMVEPEVACUADO": {
+        "lat": -29.9857901,
+        "lng": -51.1298725
+    },
+    "AMRIGS": {
+        "lat": -30.057263,
+        "lng": -51.186334
+    },
+    "AABB": {
+        "lat": -30.1240686,
+        "lng": -51.2457055
+    }
+}
