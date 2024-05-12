@@ -62,7 +62,7 @@ def fetch_supplies_data():
 
 
 def get_parent_menu_id(menus, supply):
-    parent_menu = menus.get(supply['supplyCategory']['id'])
+    parent_menu = menus.get(supply['supplyCategoryId'])
     if(parent_menu is not None):
         return parent_menu['menu_id']
     else:
@@ -178,7 +178,7 @@ def create_tags_obj(menus, locations):
                 parent_menu_id = get_parent_menu_id(menus, supply['supply'])
                 
                 if parent_menu_id is not None:
-                    tags[supply['supply']['id']] = {
+                    tags[sanitize_key(supply['supply']['name'])] = {
                         'tag_id': tag_id,
                         'name': escape_sql_string(supply['supply']['name']),
                         'description': description,
@@ -224,7 +224,7 @@ def create_tag_related_location_obj(tags, locations):
         # Se tiver suprimetos
         if len(location['shelterSupplies']):
             for supply in location['shelterSupplies']:
-                supply_key = supply['supply']['id']
+                supply_key = sanitize_key(supply['supply']['name'])
                 tag = tags.get(supply_key)
 
                 if tag:
