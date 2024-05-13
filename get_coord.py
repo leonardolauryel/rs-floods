@@ -95,7 +95,7 @@ def buscar_coordenadas(api_key, endereco):
 
 loc_coord = {}
 errors = []
-chave_api = 'AIzaSyCm_b7cjWihZXG2MCyK5Hu5U6ZtHCD30T0'  # Substitua por sua chave de API real
+chave_api = 'TOKEN'  # Substitua por sua chave de API real
 
 filename = "coordinates_data.json"
 
