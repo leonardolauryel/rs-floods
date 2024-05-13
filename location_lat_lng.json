@@ -615,10 +615,6 @@
         "lat": -30.0350946,
         "lng": -51.1617453
     },
-    "IgrejaCristaFiladelfia": {
-        "lat": 38.7829577,
-        "lng": -9.1419351
-    },
     "IgrejaQuadrangularPartenon": {
         "lat": -30.0627072,
         "lng": -51.1767702
@@ -980,8 +976,8 @@
         "lng": -51.07848749999999
     },
     "AssociacaoDeMoradoresDaVilaTijucaCentroDeDistribuicao": {
-        "lat": -22.9324433,
-        "lng": -43.2411073
+        "lat": -30.0428251,
+        "lng": -51.1289022
     },
     "BcAbrigoCipobrasaChurchVilaIpiranga": {
         "lat": -30.0216344,
@@ -1146,5 +1142,676 @@
     "EscolaEstadualJeronimoDeAlbuquerque": {
         "lat": -30.0670564,
         "lng": -51.1764078
+    },
+    "IFRSInstitutoFederaldoRioGrandedoSul": {
+        "lat": -30.0418729,
+        "lng": -51.1932449
+    },
+    "CapelaSaoJoseOperariopertenceAParoquiaNossaSenhoraDaGloria": {
+        "lat": -10.2156554,
+        "lng": -37.4212807
+    },
+    "AbrigoexclusivoLgbtqiapnTristeza": {
+        "lat": -30.107444,
+        "lng": -51.24586439999999
+    },
+    "AbrigoParaPessoasLgbtIpiranga": {
+        "lat": -30.0151569,
+        "lng": -51.1485137
+    },
+    "ColegioFarroupilhaSedeCampestresomenteMulheresECriancas": {
+        "lat": -30.1400621,
+        "lng": -50.9810377
+    },
+    "KarlaEJp": {
+        "lat": -30.0672657,
+        "lng": -51.2038603
+    },
+    "ParoquiaDivinoEspiritoSantoCachoeirinha": {
+        "lat": -29.9002826,
+        "lng": -51.0683613
+    },
+    "CtgCarreteirosDaSaudade": {
+        "lat": -29.9261396,
+        "lng": -51.0390227
+    },
+    "AbrigoChacrinha": {
+        "lat": -29.9213494,
+        "lng": -51.000479
+    },
+    "PetAlziraOficinaDhlsomentePet": {
+        "lat": -30.0064392,
+        "lng": -51.1376521
+    },
+    "IntercapPoaExclusivoParaCaesEGatos": {
+        "lat": -30.0630323,
+        "lng": -51.1595519
+    },
+    "EspartanoSkatepark": {
+        "lat": -30.0397543,
+        "lng": -51.1727071
+    },
+    "CtgEstanciaDoRubemBerta": {
+        "lat": -30.0226947,
+        "lng": -51.1017372
+    },
+    "CentroParoquialSaoJoseDaVilaNovaparoquia": {
+        "lat": -30.1159361,
+        "lng": -51.2124336
+    },
+    "ColegioUlbraCristoRedentorCanoas": {
+        "lat": -29.9216539,
+        "lng": -51.1693231
+    },
+    "EscolaEstadualIndigenaDeEnsinoMedioAnhetengua": {
+        "lat": -30.1425649,
+        "lng": -51.0931147
+    },
+    "Abrigogomescarneiro": {
+        "lat": -30.0222663,
+        "lng": -51.153218
+    },
+    "Aesppom": {
+        "lat": -30.0685587,
+        "lng": -51.1834381
+    },
+    "CharruaBarbellFitnessMatrizCanoas": {
+        "lat": -29.90566279999999,
+        "lng": -51.1566008
+    },
+    "IgrejaLagoinhaIpiranga": {
+        "lat": -30.0585149,
+        "lng": -51.1544922
+    },
+    "Ctg35": {
+        "lat": -30.0549881,
+        "lng": -51.1869725
+    },
+    "AssociacaodosmoradoresdavilaVarig": {
+        "lat": -30.0187845,
+        "lng": -51.1018114
+    },
+    "EscolaAdventistaCanoas": {
+        "lat": -29.9068278,
+        "lng": -51.1652791
+    },
+    "APMAnchieta": {
+        "lat": -30.0295382,
+        "lng": -51.175124
+    },
+    "Apromosc": {
+        "lat": -28.9317547,
+        "lng": -51.5516263
+    },
+    "MisterioPublicodoRioGrandedoSul": {
+        "lat": -30.0421746,
+        "lng": -51.2117051
+    },
+    "EsporteClubeCampoBranco": {
+        "lat": -30.0479115,
+        "lng": -51.051315
+    },
+    "IgrejadoEvangelhoQuadrangular09Canoas": {
+        "lat": -29.9066239,
+        "lng": -51.1322029
+    },
+    "AldeiaIndigenaMbyaGuarani": {
+        "lat": -30.2075144,
+        "lng": -51.0283191
+    },
+    "AldeiaIndigenaVanKa": {
+        "lat": -30.2304286,
+        "lng": -51.0585733
+    },
+    "AlojamentoThaise": {
+        "lat": -30.0086834,
+        "lng": -51.1647583
+    },
+    "AcmCruzeiroDoSulexclusivoParaMulheres": {
+        "lat": -30.0845195,
+        "lng": -51.23031959999999
+    },
+    "AssociacaoCulturalESocialVilaNova": {
+        "lat": -30.1144574,
+        "lng": -51.21557439999999
+    },
+    "EMEFProfessoraNancyFerreiraPanseraCanoas": {
+        "lat": -29.8914008,
+        "lng": -51.1219552
+    },
+    "SOCIEDADERECREATIVABENEFICENTECULTURALFIDALGOSEARISTOCRATAS": {
+        "lat": -30.0436814,
+        "lng": -51.2029305
+    },
+    "ColoDeMaeexclusivoParaPessoasAutistas": {
+        "lat": -30.034529,
+        "lng": -51.2085409
+    },
+    "Associacaodeltadojacui": {
+        "lat": -30.0373051,
+        "lng": -51.3060203
+    },
+    "IGREJAADVENTISTADOSETIMODIACOMUNIDADEMOINHOS": {
+        "lat": -30.0229416,
+        "lng": -51.20920659999999
+    },
+    "CTGRODADECHIMARRAO": {
+        "lat": -30.1597304,
+        "lng": -51.220478
+    },
+    "AssembleiadeDeus": {
+        "lat": -30.0609226,
+        "lng": -51.19144679999999
+    },
+    "AssociacaoBrasileiradaIgrejadeJesusCristodosSantosDosultimosdias": {
+        "lat": -29.9201058,
+        "lng": -51.1476357
+    },
+    "CentroderecuperacaonovaJerusalem": {
+        "lat": -29.8443187,
+        "lng": -51.01931829999999
+    },
+    "ComunidadeTerapeuticaCasaMartaeMaria": {
+        "lat": -29.9954992,
+        "lng": -51.19054690000001
+    },
+    "AssociacaoMissionariaSOSResgatandovidas": {
+        "lat": -30.0465096,
+        "lng": -51.1283298
+    },
+    "CARACOLESCOLINHA": {
+        "lat": -30.0350323,
+        "lng": -51.1914379
+    },
+    "AmigospeloRs": {
+        "lat": -26.9263884,
+        "lng": -48.937119
+    },
+    "Ministeriopublicoestadual": {
+        "lat": -30.0421746,
+        "lng": -51.2117051
+    },
+    "IgrejaFontedaAguaviva": {
+        "lat": -30.0465185,
+        "lng": -51.1270068
+    },
+    "AssociacaoComercial": {
+        "lat": -30.0479115,
+        "lng": -51.051315
+    },
+    "SindicatodosservidorespublicosmunicipaisdeAlvorada": {
+        "lat": -29.9946906,
+        "lng": -51.0666427
+    },
+    "ParoquiaMeninoJesusdePraga": {
+        "lat": -30.1455827,
+        "lng": -51.2112738
+    },
+    "CentroAfricano": {
+        "lat": -30.0797587,
+        "lng": -51.224524
+    },
+    "InstitutoEsperanza": {
+        "lat": -29.9916846,
+        "lng": -51.0671556
+    },
+    "IgrejaBatistaCristal": {
+        "lat": -22.9175933,
+        "lng": -43.2366083
+    },
+    "LARMARIAROSA": {
+        "lat": -30.0380956,
+        "lng": -51.1127102
+    },
+    "Sociedadeespiritacasadoevangelho87380838000136": {
+        "lat": -29.9886272,
+        "lng": -51.2231979
+    },
+    "IGREJAEVANGELICAASSEMBLEIADEDEUSDALOMBADOPINHEIRO": {
+        "lat": -30.1060606,
+        "lng": -51.14014280000001
+    },
+    "CentroSocialMurialdo": {
+        "lat": -30.0663494,
+        "lng": -51.1681026
+    },
+    "Ascat": {
+        "lat": -30.11730319999999,
+        "lng": -51.23071059999999
+    },
+    "SindicatodosEngenheirosnoEstadodoRS": {
+        "lat": -30.0727299,
+        "lng": -51.1920291
+    },
+    "CEAD": {
+        "lat": -30.0629535,
+        "lng": -51.1608947
+    },
+    "Ginasiodaigrejasaomiguel": {
+        "lat": -29.873351,
+        "lng": -50.9813228
+    },
+    "JoGengenhariadeandaimes": {
+        "lat": -30.1065385,
+        "lng": -51.2433437
+    },
+    "SindicatodosMunicipariosdeViamao": {
+        "lat": -30.084097,
+        "lng": -51.0287484
+    },
+    "SociedadeEspiritaMariadeNazare": {
+        "lat": -30.047052,
+        "lng": -51.195891
+    },
+    "IgrejadeJesusCristodosSantosdosUltimosDias": {
+        "lat": -29.9197942,
+        "lng": -51.1475513
+    },
+    "IGREJABATISTAFILADELFIADECANOAS": {
+        "lat": -29.8842499,
+        "lng": -51.1740237
+    },
+    "IGREJASAOBORJA": {
+        "lat": -29.991446,
+        "lng": -51.1201126
+    },
+    "CasadeAbraao": {
+        "lat": -30.1786416,
+        "lng": -51.1782289
+    },
+    "IgrejaADMA": {
+        "lat": -30.1410423,
+        "lng": -51.1032422
+    },
+    "InstitutoEcoVida": {
+        "lat": -30.0419234,
+        "lng": -51.2008461
+    },
+    "IgrejaPadrePedroLeonardi": {
+        "lat": -30.1639809,
+        "lng": -51.145594
+    },
+    "FILHOSDEMARIA": {
+        "lat": -30.1134926,
+        "lng": -51.1036406
+    },
+    "ImperatrizDonaLeopoldina": {
+        "lat": -30.01711229999999,
+        "lng": -51.1067797
+    },
+    "InstitutoLeonardoMurialdo": {
+        "lat": -30.0650427,
+        "lng": -51.1680017
+    },
+    "SolariumResidencialGeriatria": {
+        "lat": -29.9131672,
+        "lng": -51.1807007
+    },
+    "IgrejaAncora": {
+        "lat": -29.9077898,
+        "lng": -51.1847036
+    },
+    "ASSOCIACAOBENEFICIENTECASADEABRAAO": {
+        "lat": -30.1786416,
+        "lng": -51.1782289
+    },
+    "Igrejadoevangelhoquadrangular": {
+        "lat": -30.0774013,
+        "lng": -51.223602
+    },
+    "EMEFPortoNovo": {
+        "lat": -30.0008379,
+        "lng": -51.1065681
+    },
+    "ClinicaEsperancadeAmparoaCrianca": {
+        "lat": -30.0364933,
+        "lng": -51.1178499
+    },
+    "EMEFArthurOscarJochims": {
+        "lat": -29.91164169999999,
+        "lng": -51.1432433
+    },
+    "ESCOLACARLOSDRUMMONDDEANDRADE": {
+        "lat": -29.8914008,
+        "lng": -51.1219552
+    },
+    "IgrejaEvangelicaVitoriaemJesus": {
+        "lat": -30.21,
+        "lng": -51.1307626
+    },
+    "AssociacaodemoradoresforcamaiordapedreiraAMFOMAP": {
+        "lat": -26.9073797,
+        "lng": -49.1026032
+    },
+    "APAAAssociacaodePaiseAmigosAnchietanos": {
+        "lat": -30.02192,
+        "lng": -51.1917345
+    },
+    "CODENERSSbrcMocidadeIndependentedaLombadoPinheiro": {
+        "lat": -30.1141905,
+        "lng": -51.109486
+    },
+    "EMEFJeanPiaget": {
+        "lat": -30.004834,
+        "lng": -51.0949995
+    },
+    "Escolaadventistapartnom": {
+        "lat": -30.06641949999999,
+        "lng": -51.1765947
+    },
+    "EscoladedancaKitty": {
+        "lat": -30.0138908,
+        "lng": -51.1617784
+    },
+    "Davovoesportesbar": {
+        "lat": -30.0278219,
+        "lng": -51.10766770000001
+    },
+    "AssociacaoCaodaGuarda": {
+        "lat": -30.00951109999999,
+        "lng": -51.1675058
+    },
+    "CTGRubemBerta": {
+        "lat": -30.0226947,
+        "lng": -51.1017372
+    },
+    "GrupodeEscoteirosMurialdo": {
+        "lat": -29.9474731,
+        "lng": -50.9926155
+    },
+    "BlocoChiquinhodosAnjos": {
+        "lat": -20.440315,
+        "lng": -54.62295
+    },
+    "ConselhoEstadualDosPovosIndigenasDoRs": {
+        "lat": -30.1455827,
+        "lng": -51.2112738
+    },
+    "CTGvalentesdatradicao": {
+        "lat": -29.992296,
+        "lng": -51.1330975
+    },
+    "IgrejasantaRosa": {
+        "lat": -29.9948383,
+        "lng": -51.1009571
+    },
+    "ASSOCIACAOSANTAMONICA": {
+        "lat": -30.1731686,
+        "lng": -51.1805392
+    },
+    "CTGSeivaNativaCanoas": {
+        "lat": -29.8832054,
+        "lng": -51.1747563
+    },
+    "BYLVEREADOR": {
+        "lat": -30.0278726,
+        "lng": -51.1018589
+    },
+    "CESMARMARIOQUINTANA": {
+        "lat": -30.0237515,
+        "lng": -51.096142
+    },
+    "CASADEPASSAGEMSAOLUCAS": {
+        "lat": -30.0371227,
+        "lng": -51.1711506
+    },
+    "CasadeNazare": {
+        "lat": -30.0958682,
+        "lng": -51.2374502
+    },
+    "CTGRaizesdoSul": {
+        "lat": -30.0427239,
+        "lng": -51.1531132
+    },
+    "ForumSocialdasPeriferiasdePortoAlegre": {
+        "lat": -30.0419234,
+        "lng": -51.2008461
+    },
+    "ICI": {
+        "lat": -30.0415349,
+        "lng": -51.204831
+    },
+    "InstitutoCuricaca": {
+        "lat": -30.0515709,
+        "lng": -51.1771444
+    },
+    "EMEFDavidRiegelNeto": {
+        "lat": -29.9998606,
+        "lng": -51.158455
+    },
+    "ColegioJussaraMariaPolidoroCanoas": {
+        "lat": -29.8975575,
+        "lng": -51.1353528
+    },
+    "EmefProfElyseuPaglioli": {
+        "lat": -30.0868721,
+        "lng": -51.2380291
+    },
+    "GinasioAlianca": {
+        "lat": -30.1373164,
+        "lng": -51.0986515
+    },
+    "ComunidadeGuaraniIjerePontadoarado": {
+        "lat": -30.0402055,
+        "lng": -51.218418
+    },
+    "ParoquiaNossaSenhoraDoRosario": {
+        "lat": -22.7868557,
+        "lng": -43.3130887
+    },
+    "Recomecar": {
+        "lat": -30.0861637,
+        "lng": -51.18244610000001
+    },
+    "SindicatosDosGraficosDePortoAlegreGinasio": {
+        "lat": -30.0517549,
+        "lng": -51.2022001
+    },
+    "SesiRubemBertaSesiPoaCentroEsportivo": {
+        "lat": -30.00608819999999,
+        "lng": -51.0952109
+    },
+    "MovimentoFemininoAlvorada": {
+        "lat": -30.0068129,
+        "lng": -51.047375
+    },
+    "SociedadedosSurdosdoRioGrandedoSulSSRS": {
+        "lat": -30.0478283,
+        "lng": -51.1789135
+    },
+    "MITRADAARQUIDIOCESEDEPOAPAROQUIASAOJORGE": {
+        "lat": -30.0628843,
+        "lng": -51.1856241
+    },
+    "NexosIBNChurch": {
+        "lat": -29.9994723,
+        "lng": -51.1547427
+    },
+    "Olhosdequemve": {
+        "lat": -29.8946967,
+        "lng": -51.13462819999999
+    },
+    "ONGEsterMulher": {
+        "lat": -30.2328228,
+        "lng": -51.09253709999999
+    },
+    "ONGMAYDAY": {
+        "lat": -30.0173776,
+        "lng": -51.1219539
+    },
+    "ONGMisturai": {
+        "lat": -30.0444277,
+        "lng": -51.2098944
+    },
+    "ONGVIDAVIVA": {
+        "lat": -29.9296403,
+        "lng": -51.0783339
+    },
+    "Osguardioesdaalegriazonanorte": {
+        "lat": -30.00149729999999,
+        "lng": -51.1023426
+    },
+    "PACTOPOAProgramadeAuxilioComunitarioaoTerapeuticodePortoAlegre": {
+        "lat": -30.0603877,
+        "lng": -51.1564695
+    },
+    "PAROQUIACRISTOBOMPASTOR": {
+        "lat": -30.0199672,
+        "lng": -51.1587408
+    },
+    "ParoquiaNossaSenhoradaGloria": {
+        "lat": -30.0946078,
+        "lng": -51.1783381
+    },
+    "ParoquiaSaoJose": {
+        "lat": -30.1159361,
+        "lng": -51.2124336
+    },
+    "PeriferiaFeminista": {
+        "lat": -30.0790075,
+        "lng": -51.1598565
+    },
+    "Pontoderesgatepontaldoestaleiro": {
+        "lat": -30.0889556,
+        "lng": -51.248141
+    },
+    "QUINTALDOCOOLER": {
+        "lat": -30.0158466,
+        "lng": -51.1065987
+    },
+    "SBRCMocidadeIndependentedaLombadoPinheiro": {
+        "lat": -30.1141905,
+        "lng": -51.109486
+    },
+    "SededeTriagemPrefeituradePOA": {
+        "lat": -30.055224,
+        "lng": -51.2009389
+    },
+    "SESCCanoas": {
+        "lat": -29.9218958,
+        "lng": -51.1813628
+    },
+    "SOSCASADAACOLHIDA": {
+        "lat": -30.0061439,
+        "lng": -51.16066319999999
+    },
+    "Turbulentoexpress": {
+        "lat": -29.9898614,
+        "lng": -51.1061396
+    },
+    "UPAMoacyrScliar": {
+        "lat": -30.0097609,
+        "lng": -51.14604139999999
+    },
+    "ViralataviraamorKennelClube": {
+        "lat": -30.0583591,
+        "lng": -51.0794081
+    },
+    "UniaodeCegosdoRioGrandedoSul": {
+        "lat": -30.0221174,
+        "lng": -51.1769624
+    },
+    "CbecCentroBelgaDeEducacaoCanina": {
+        "name": "Cbec - Centro Belga De Educação Canina",
+        "address": "Centro, Santa Maria - RS, Brazil",
+        "lat": -29.6882192,
+        "lng": -53.8047376
+    },
+    "Anchieta": {
+        "name": "Anchieta",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "AltosdoBelavista": {
+        "name": "Altos do Bela vista",
+        "address": "R. Quintino Bocaiúva, 1540 - Rio Branco, Porto Alegre - RS, 90440-050, Brazil",
+        "lat": -30.03184,
+        "lng": -51.1967145
+    },
+    "Institutoespalhadoamoreconhecimento": {
+        "name": "Instituto espalha do amor e conhecimento",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "BRIGADAMILITAR": {
+        "name": "BRIGADA MILITAR",
+        "address": "R. Cel. Aparício Borges, 2263 - Partenon, Porto Alegre - RS, 90680-570, Brazil",
+        "lat": -30.0678552,
+        "lng": -51.18680209999999
+    },
+    "IgrejaSantosMartires": {
+        "name": "Igreja Santos Mártires",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "GinasioNossasenhoraAparecida": {
+        "name": "Ginásio Nossa senhora Aparecida",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "AssociacaodosmoradoresdobairroGermania": {
+        "name": "Associação dos moradores do bairro Germânia",
+        "address": "Alvorada - RS, Brazil",
+        "lat": -29.9999068,
+        "lng": -51.07848749999999
+    },
+    "ParoquiaNossaSenhoraDeFatima": {
+        "name": "Paróquia Nossa Senhora De Fátima",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "ParoquiaNossaSenhoraAparecida": {
+        "name": "Paróquia Nossa Senhora Aparecida",
+        "address": "Aparecida, State of São Paulo, 12570-000, Brazil",
+        "lat": -22.8469289,
+        "lng": -45.2316803
+    },
+    "ParoquiaSantaIsabel": {
+        "name": "Paróquia Santa Isabel",
+        "address": "Av. Liberdade, 1826 - Santa Isabel, Viamão - RS, 94480-500, Brazil",
+        "lat": -30.065606,
+        "lng": -51.1070961
+    },
+    "RCATRANSPORTES": {
+        "name": "RCA TRANSPORTES",
+        "address": "R. Marcelo Gama, 1537 - Goncalves, Cachoeira do Sul - RS, 96506-000, Brazil",
+        "lat": -30.041444,
+        "lng": -52.91286789999999
+    },
+    "MinisterioResgatadosdoLodebar": {
+        "name": "Ministério Resgatados do Lodebar",
+        "address": "Rua T n 35 - Estr. do Rincão - Belém Velho, Porto Alegre - RS, 91787-260, Brazil",
+        "lat": -30.1140577,
+        "lng": -51.1660054
+    },
+    "EspacoClinicoEspecialUnidadeSantoAntonio": {
+        "name": "Espaço Clínico Especial - Unidade Santo Antônio",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+
+    "PequenaCasadaCrianca": {
+        "name": "Pequena Casa da Criança",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "PROJETOSOCIALANGELINALUZ": {
+        "name": "PROJETO SOCIAL ANGELINA LUZ",
+        "address": "R. Dr. Salvador França, 300 - CASA 13 - Jardim Botânico, Porto Alegre - RS, 90690-000, Brazil",
+        "lat": -30.0604466,
+        "lng": -51.1849601
+    },
+    "EspacoPetIgrejaAuxiliadora": {
+        "name": "Espaço Pet Igreja Auxiliadora",
+        "address": "R. 24 de Outubro, 1751 - Auxiliadora, Porto Alegre - RS, 90510-003, Brazil",
+        "lat": -30.0221588,
+        "lng": -51.1914053
     }
 }

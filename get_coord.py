@@ -54,7 +54,7 @@ def save_json(data, filename):
     except Exception as e:
         print(f"\n\nErro ao salvar os dados: {e}")
 
-def buscar_coordenadas(api_key, endereco):
+def get_location_google_api(api_key, endereco):
     """
     Busca as coordenadas geográficas de um endereço usando a Google Geocoding API com a biblioteca requests.
 
@@ -83,9 +83,8 @@ def buscar_coordenadas(api_key, endereco):
     if resposta.status_code == 200:
         resultado = resposta.json()
         if resultado['results']:
-            latitude = resultado['results'][0]['geometry']['location']['lat']
-            longitude = resultado['results'][0]['geometry']['location']['lng']
-            return (latitude, longitude)
+            results = resultado['results']
+            return results
         else:
             return None
     else:
@@ -99,8 +98,11 @@ chave_api = 'TOKEN'  # Substitua por sua chave de API real
 
 filename = "coordinates_data.json"
 
-locations = {
-}
+locations = {'EspacoPetIgrejaAuxiliadora': {'name': 'Espaço Pet Igreja Auxiliadora', 'address': 'Rua 24 de outubro 1751'}}
+
+
+
+
 
 
 
@@ -111,20 +113,46 @@ except Exception as e:
     print("Falha ao ler o arquivo JSON.\n")
 
 
+loc_many_coord = {}
+
 for location in locations.values():
     try:
-        coordenadas = buscar_coordenadas(chave_api, location['address'])
+        results = get_location_google_api(chave_api, f"{location['name']} - {location['address']} - RS")
 
-        loc_coord[sanitize_key(location['name'])] = {
-            'lat': coordenadas[0],
-            'lng': coordenadas[1]
-        }
+        if (len(results) == 1):
+            loc_coord[sanitize_key(location['name'])] = {
+                'name': location['name'],
+                'address': results[0]['formatted_address'],
+                'lat': results[0]['geometry']['location']['lat'],
+                'lng': results[0]['geometry']['location']['lng']
+            }
+        elif (len(results) == 0):
+            print(f"Nenhuma localização encontrada para o local: {location}")
+            errors.append(location)
+        else:
+            print(results)
+            loc_many_coord[sanitize_key(location['name'])] = []
+            for result in results:
+                loc_many_coord[sanitize_key(location['name'])].append(
+                    {
+                        'name': location['name'],
+                        'address': result['formatted_address'],
+                        'lat': result['geometry']['location']['lat'],
+                        'lng': result['geometry']['location']['lng']
+                    }
+                )
+            
+            print(f"Mais de uma localização encontrada para o local: {location}")
+
     except Exception as e:
         print(f"Erro {location}")
         print(e)
         errors.append(location)
 
-print("Falha ao obter as coordenadas de:")
+print("\n\nMuitas localizações encontradas:")
+print(loc_many_coord)
+
+print("\n\nFalha ao obter as coordenadas de:")
 print(errors)
 
 save_json(loc_coord, filename)
