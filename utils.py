@@ -106,3 +106,7 @@ def read_json(arquivo_json):
     except Exception as e:
         print(f"Ocorreu um erro inesperado: {e}")
         raise
+
+def create_link_google_maps(latitude, longitude):
+    base_url = "https://www.google.com/maps/?q="
+    return f"{base_url}{latitude},{longitude}"

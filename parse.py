@@ -127,10 +127,6 @@ def create_locations_obj():
 
     location_id = 0
     for shelter in shelters:
-        # TO-DO: Colocar um link para o google maps  
-        description = shelter['address']
-
-
         # TO-DO: Melhorar style
         url = f"src=\"https://sos-rs.com/abrigo/{shelter['id']}\""
         overlayed_popup_content = f"<p><iframe style=\"position: absolute;top: -62px;left: -42vw;width: 84vw;height: 69vh;border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
@@ -158,11 +154,12 @@ def create_locations_obj():
                         'address': shelter['address']
                     }
 
-                
+            description = create_location_description(shelter, latitude, longitude)
+
             location = {
                 'location_id': location_id,
                 'name': escape_sql_string(shelter['name']),
-                'description': escape_sql_string(description),
+                'description': description,
                 'overlayed_popup_content': overlayed_popup_content,
                 'latitude': latitude,
                 'longitude': longitude,
@@ -263,6 +260,11 @@ def remove_empty_menus(menus):
             del menus[menu_key]  # Remove o item do dicionário
 
 
+def create_location_description(shelter, lat, lng):
+    description = f"<p><strong>Endereço:</strong> {escape_sql_string(shelter['address'])}</p>" \
+        f"<p style=\"text-align: center;\"><a href=\"{create_link_google_maps(lat, lng)}\" target=\"_blank\">Abrir Localização no Maps</a></p>"
+    
+    return description
 
 # -------------- Cria os comandos sql --------------
 def create_settings_sql():
