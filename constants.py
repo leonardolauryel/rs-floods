@@ -12,3 +12,18 @@ API_URL = "https://api.sos-rs.com"
 URGENT_NEED = 100
 NEED = 10
 AVAILABLE = 1
+
+PRIORITIES = {
+    '100': {
+        'name': 'Precisa Urgente',
+        'priority': URGENT_NEED
+    },
+    '10': {
+        'name': 'Precisa',
+        'priority': NEED
+    },
+    '1': {
+        'name': 'Sobrando',
+        'priority': AVAILABLE
+    }
+}

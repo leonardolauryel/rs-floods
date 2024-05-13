@@ -61,16 +61,30 @@ def fetch_supplies_data():
         return None
 
 
-def get_parent_menu_id(menus, supply):
-    parent_menu = menus.get(supply['supplyCategoryId'])
+def get_parent_menu_by_key(menus, menu_key):
+    parent_menu = menus.get(menu_key)
     if(parent_menu is not None):
-        return parent_menu['menu_id']
+        return parent_menu
     else:
         return False
 
 
 # --------------  Criação de objetos Menus, Locations e Tags -------------- 
-def create_menus_obj():
+def create_menus_group_obj():
+    menus_group = {}
+
+    menu_group_id = 0
+    for priority_key, priority in PRIORITIES.items():
+        menus_group[priority_key] = {
+            'menu_group_id': menu_group_id,
+            'name': priority['name'],
+            'priority': priority['priority']
+        }
+        menu_group_id += 1
+
+    return menus_group
+
+def create_menus_obj(menus_group):
     menus = {}
     supply_categories = fetch_supply_categories_data()
 
@@ -78,15 +92,21 @@ def create_menus_obj():
     active = True
 
     menu_id = 0
-    for supply_category in supply_categories:
-        menus[supply_category['id']] = {
-            'menu_id': menu_id,
-            'name': escape_sql_string(supply_category['name']),
-            'hierarchy_level': hierarchy_level,
-            'active': active
-        }
 
-        menu_id += 1
+    for menu_group in menus_group.values():
+        for supply_category in supply_categories:
+            menu_key = f"{supply_category['id']}_{menu_group['priority']}"
+
+            menus[menu_key] = {
+                'menu_id': menu_id,
+                'name': escape_sql_string(supply_category['name']),
+                'menu_group_id': menu_group['menu_group_id'], 
+                'hierarchy_level': hierarchy_level,
+                'active': active,
+                'tags': []
+            }
+
+            menu_id += 1
     
     return menus
 
@@ -152,8 +172,8 @@ def create_locations_obj():
             }
 
             for supply in shelter['shelterSupplies']:
-                if supply['priority'] == URGENT_NEED:
-                    location['shelterSupplies'].append(supply)
+                #if supply['priority'] == PRIORITIES[f"{URGENT_NEED}"]['priority']:
+                location['shelterSupplies'].append(supply)
                     
             locations[shelter['id']] = location
             location_id += 1
@@ -175,10 +195,15 @@ def create_tags_obj(menus, locations):
         if location['shelterSupplies']:
             for supply in location['shelterSupplies']:
                 color = generate_random_hex_color()
-                parent_menu_id = get_parent_menu_id(menus, supply['supply'])
+
+                menu_key = f"{supply['supply']['supplyCategoryId']}_{supply['priority']}"
+                parent_menu = get_parent_menu_by_key(menus, menu_key)
+
+                parent_menu_id = parent_menu['menu_id']
                 
                 if parent_menu_id is not None:
-                    tags[sanitize_key(supply['supply']['name'])] = {
+                    tag_key = f"{sanitize_key(supply['supply']['name'])}_{supply['priority']}"
+                    tags[tag_key] = {
                         'tag_id': tag_id,
                         'name': escape_sql_string(supply['supply']['name']),
                         'description': description,
@@ -186,33 +211,15 @@ def create_tags_obj(menus, locations):
                         'active': active,
                         'parent_menu_id': parent_menu_id
                     }
+
+                    menus.get(menu_key)['tags'].append(tag_key)
+
                     tag_id += 1
                 else:
                     create_log("error", f"Não foi possível encontrar o menu da tag '{supply['supply']['name']}' ({supply['supply']['id']})")
         
         else:
             create_log("info", f"O abrigo '{location['name']}' ({location['location_id']}) não possui suprimentos cadastrados.")
-
-
-    # supplies = fetch_supplies_data()
-
-    # tag_id = 0
-    # for supply in supplies:
-    #     color = generate_random_hex_color()
-    #     parent_menu_id = get_parent_menu_id(menus, supply)
-        
-    #     if parent_menu_id is not None:
-    #         tags[supply['id']] = {
-    #             'tag_id': tag_id,
-    #             'name': escape_sql_string(supply['name']),
-    #             'description': description,
-    #             'color': color,
-    #             'active': active,
-    #             'parent_menu_id': parent_menu_id
-    #         }
-    #         tag_id += 1
-    #     else:
-    #         create_log("error", f"Não foi possível encontrar o menu da tag '{supply['name']}' ({supply['id']})")
 
     return tags
 
@@ -224,7 +231,7 @@ def create_tag_related_location_obj(tags, locations):
         # Se tiver suprimetos
         if len(location['shelterSupplies']):
             for supply in location['shelterSupplies']:
-                supply_key = sanitize_key(supply['supply']['name'])
+                supply_key = f"{sanitize_key(supply['supply']['name'])}_{supply['priority']}"
                 tag = tags.get(supply_key)
 
                 if tag:
@@ -248,15 +255,22 @@ def create_tag_related_location_obj(tags, locations):
     return tags_related_locations
 
 
+def remove_empty_menus(menus):
+    menu_keys = list(menus.keys())
+
+    for menu_key in menu_keys:
+        if not menus[menu_key]['tags']:  # Checa se a lista de tags está vazia
+            del menus[menu_key]  # Remove o item do dicionário
 
 
 
 # -------------- Cria os comandos sql --------------
 def create_settings_sql():
     settings_sql = ["-- Use this SQL to completely cleanse the map database. The result will be as if the database had been created again"\
-    "\nTRUNCATE TABLE Location, Menu, Tag, Link, Links_group, Tag_related_locations, Tag_relationship;"\
+    "\nTRUNCATE TABLE Location, Menu, Menugroup, Tag, Link, Links_group, Tag_related_locations, Tag_relationship;"\
     "\n\nalter sequence administration_location_id_seq restart with 1;"\
     "\nalter sequence administration_menu_id_seq restart with 1;"\
+    "\nalter sequence menugroup_id_seq restart with 1;"
     "\nalter sequence administration_tag_id_seq restart with 1;"\
     "\nalter sequence administration_tag_related_locations_id_seq restart with 1;"\
     "\nalter sequence administration_tag_relationship_id_seq restart with 1;"\
@@ -269,14 +283,27 @@ def create_settings_sql():
     return settings_sql
 
 
+def create_menus_group_sql(menus_group):
+    menus_group_sql = []
+    menus_group_sql.append("-- Inserting Menus Group")
+
+    for menu_group in menus_group.values():
+        menus_group_sql.append(f"INSERT INTO MenuGroup (id,name) VALUES" \
+                                f"('{menu_group['menu_group_id']}','{menu_group['name']}');")
+    
+    menus_group_sql.append(f"\nalter sequence menugroup_id_seq restart with {len(menus_group)};\n\n")
+
+    return menus_group_sql
+
+
 def create_menus_sql(menus):
     menus_sql = []
     menus_sql.append("-- Inserting Menus")
 
     for menu in menus.values():
         
-        menus_sql.append(f"INSERT INTO Menu (id,name,hierarchy_level,active) VALUES" \
-                            f"('{menu['menu_id']}','{menu['name']}', '{menu['hierarchy_level']}', {menu['active']});")
+        menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
+                            f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
 
     menus_sql.append(f"\nalter sequence administration_menu_id_seq restart with {len(menus)};\n\n")
     return menus_sql
@@ -326,16 +353,18 @@ def create_tags_related_locations_sql(tags_related_locations):
 def create_sql_commands():
     sql_commands = []
 
-    menus = create_menus_obj()
+    menus_group = create_menus_group_obj()
+    menus = create_menus_obj(menus_group)
     locations = create_locations_obj()
     tags = create_tags_obj(menus, locations)   
     tags_related_locations = create_tag_related_location_obj(tags, locations)
 
-    
+    remove_empty_menus(menus)
 
     # #Configurações iniciais do mapa
     sql_commands.extend(create_settings_sql())
 
+    sql_commands.extend(create_menus_group_sql(menus_group))
     sql_commands.extend(create_menus_sql(menus))
     sql_commands.extend(create_locations_sql(locations))
     sql_commands.extend(create_tags_sql(tags))
