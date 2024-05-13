@@ -127,6 +127,9 @@ def create_locations_obj():
 
     location_id = 0
     for shelter in shelters:
+        if 'DESATIVADO' in shelter['name']:
+            create_log("info", f"O abrigo '{shelter['name']}' está desativado")
+            continue
         # TO-DO: Melhorar style
         url = f"src=\"https://sos-rs.com/abrigo/{shelter['id']}\""
         overlayed_popup_content = f"<p><iframe style=\"position: absolute;top: -62px;left: -42vw;width: 84vw;height: 69vh;border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
@@ -177,6 +180,30 @@ def create_locations_obj():
         else:
             pass
             #create_log("error", f"O id do abrigo '{shelter['name']}' termina com /r")
+
+
+
+    # Add como posso ajudar
+
+    overlayed_popup_content = """<div>
+        <h1 style="color: #444444; font-size: 24px; text-align: center;">Ajude as v&iacute;timas das enchentes no RS</h1>
+        <p style="font-size: 14px; margin-bottom: 20px; text-align: center;">Neste momento de crise sem precedentes, as enchentes devastadoras no Rio Grande do Sul deixaram um rastro de destrui&ccedil;&atilde;o e desespero. Fam&iacute;lias inteiras perderam tudo: lares, mem&oacute;rias e a seguran&ccedil;a de um cotidiano que, at&eacute; ent&atilde;o, parecia garantido. Diante dessa calamidade, a solidariedade se torna nossa maior for&ccedil;a. Contribua para a campanha de doa&ccedil;&atilde;o e ajude a reconstruir vidas, restaurar lares e trazer esperan&ccedil;a para aqueles que agora enfrentam os dias mais desafiadores de suas vidas. Cada doa&ccedil;&atilde;o, por menor que seja, pode trazer um grande impacto. Junte-se a n&oacute;s nesse movimento de apoio e compaix&atilde;o.</p>
+        <p style="text-align: center;"><a style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 0px;" href="https://www.vakinha.com.br/vaquinha/a-maior-campanha-solidaria-do-rs" target="_blank" rel="noopener">Clique aqui para doar</a></p>
+        <p><img style="width: 30vw; height: auto; margin-top: 5px; display: block; margin-left: auto; margin-right: auto;" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/WhatsApp-Image-2024-05-08-at-10.27.57.jpeg?w=732&amp;h=412&amp;crop=1" alt="Enchente no RS 2024" /></p>
+        <p style="font-size: small; margin-top: 5px; text-align: center;">Fonte: <a style="color: #007bff;" href="https://www.cnnbrasil.com.br/nacional/chuvas-no-rs-sem-agua-luz-e-comida-prefeito-decide-evacuar-municipio-inteiro/">CNN Brasil</a></p>
+        <p style="text-align: center; font-size: medium;">Agradecemos &agrave; DOC9 pelo desenvolvimento da plataforma <a href="https://sos-rs.com/" target="_blank" rel="noopener">SOS-RS</a> e pela disponibiliza&ccedil;&atilde;o dos dados para esta aplica&ccedil;&atilde;o.</p>
+        </div>"""
+    locations['ComoPossoAjudar'] = {
+        'location_id': location_id,
+        'name': 'Como posso ajudar?',
+        'description': '',
+        'overlayed_popup_content': overlayed_popup_content,
+        'latitude': 0,
+        'longitude': 0,
+        'active': active,
+        'shelterSupplies': [],
+        'address': ''
+    }
 
     create_log("error", f"Os abrigos '{shelters_without_coordinates}' não possuem coordenadas.")
 
@@ -261,8 +288,78 @@ def remove_empty_menus(menus):
 
 
 def create_location_description(shelter, lat, lng):
-    description = f"<p><strong>Endereço:</strong> {escape_sql_string(shelter['address'])}</p>" \
+    location_updatedAt = shelter['updatedAt']
+    if location_updatedAt is not None:
+        update_text = f"{converter_utc_para_brasilia(location_updatedAt)}"
+    else:
+        update_text = f"Sem Atualização"
+    
+    description = f"<h3>Última Atualização: {update_text}</h3> "\
+        f"<p><strong>Endereço:</strong> {escape_sql_string(shelter['address'])}</p>" \
         f"<p style=\"text-align: center;\"><a href=\"{create_link_google_maps(lat, lng)}\" target=\"_blank\">Abrir Localização no Maps</a></p>"
+
+    supply_urgent_need = []
+    supply_need = []
+    supply_available = []
+
+    for supply in shelter['shelterSupplies']:
+        if supply['priority'] == PRIORITIES[f"{URGENT_NEED}"]['priority']:
+            supply_urgent_need.append(supply)
+        if supply['priority'] == PRIORITIES[f"{NEED}"]['priority']:
+            supply_need.append(supply)
+        if supply['priority'] == PRIORITIES[f"{AVAILABLE}"]['priority']:
+            supply_available.append(supply)
+    
+    
+    description += \
+    "<p style=\"font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; color: #333;\">"
+    
+    # Add lista de "Precisa urgente de:"
+    if len(supply_urgent_need) > 0:
+        description += "<h2 style=\"color: #444;\">Precisa urgente de:</h2>" \
+        "<ul style=\"list-style-type: none; padding: 0;\">"
+        
+        for supply in supply_urgent_need:
+            # updatedAt = supply['supply']['updatedAt']
+            # if updatedAt is not None:
+            #     update_text = f"(Atualizado em: {converter_utc_para_brasilia(supply['supply']['updatedAt'])})"
+            # else:
+            #     update_text = f"(Sem Atualização)"
+            description += f"<li style=\"padding: 10px 20px; margin: 5px 0; border-radius: 20px; background-color: #f69f9d; color: black; display: flex; justify-content: center; align-items: center;\">{supply['supply']['name']}</li>"
+        
+        description += "</ul>"
+    
+    # Add lista de "Precisa de:"
+    if len(supply_need) > 0:
+        description += "<h2 style=\"color: #444;\">Precisa de:</h2>" \
+        "<ul style=\"list-style-type: none; padding: 0;\">"
+
+        for supply in supply_need:
+            # updatedAt = supply['supply']['updatedAt']
+            # if updatedAt is not None:
+            #     update_text = f"(Atualizado em: {converter_utc_para_brasilia(supply['supply']['updatedAt'])})"
+            # else:
+            #     update_text = f"(Sem Atualização)"
+            description += f"<li style=\"padding: 10px 20px; margin: 5px 0; border-radius: 20px; background-color: #f8b993; color: black; display: flex; justify-content: center; align-items: center;\">{supply['supply']['name']}</li>"
+        
+        description += "</ul>"
+
+    # Add lista de "Disponível para doação:"
+    if len(supply_available) > 0:
+        description += "<h2 style=\"color: #444;\">Disponível para doação:</h2>" \
+        "<ul style=\"list-style-type: none; padding: 0;\">"
+
+        for supply in supply_available:
+            # updatedAt = supply['supply']['updatedAt']
+            # if updatedAt is not None:
+            #     update_text = f"(Atualizado em: {converter_utc_para_brasilia(supply['supply']['updatedAt'])})"
+            # else:
+            #     update_text = f"(Sem Atualização)"
+            description += f"<li style=\"padding: 10px 20px; margin: 5px 0; border-radius: 20px; background-color: #9cd487; color: black; display: flex; justify-content: center; align-items: center;\">{supply['supply']['name']}</li>"
+        
+        description +="</ul>" 
+    
+    description += "</p>"
     
     return description
 

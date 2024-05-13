@@ -2,6 +2,8 @@ import random
 import unicodedata
 import re
 import json
+from datetime import datetime
+import pytz
 
 
 def is_valid_coordinates(latitude, longitude):
@@ -110,3 +112,27 @@ def read_json(arquivo_json):
 def create_link_google_maps(latitude, longitude):
     base_url = "https://www.google.com/maps/?q="
     return f"{base_url}{latitude},{longitude}"
+
+def converter_utc_para_brasilia(utc_time_str):
+    """
+    Converte uma data e hora em formato UTC para o horário de Brasília e retorna em formato legível.
+
+    Args:
+    utc_time_str (str): Data e hora em formato UTC (ex: "2024-05-07T17:32:49.810Z").
+
+    Returns:
+    str: Data e hora no formato DD/MM/YYYY HH:MM:SS no horário de Brasília.
+    """
+    # Converter a string para um objeto datetime em UTC
+    utc_time = datetime.strptime(utc_time_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+
+    # Definir o fuso horário de Brasília
+    brasilia_tz = pytz.timezone("America/Sao_Paulo")
+
+    # Converter a hora UTC para hora de Brasília
+    brasilia_time = utc_time.replace(tzinfo=pytz.utc).astimezone(brasilia_tz)
+
+    # Formatar a data e hora de forma mais legível
+    legible_time_str = brasilia_time.strftime("%d/%m/%Y %H:%M:%S")
+    
+    return legible_time_str

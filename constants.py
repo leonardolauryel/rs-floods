@@ -1,5 +1,5 @@
 # CONFIGURAÇÕES DO MAPA
-MAP_NAME = "Abrigos"
+MAP_NAME = "Locais para doação - RS"
 INITIAL_ZOOM_LEVEL = 8
 INITIAL_LATITUDE = -29.8739445
 INITIAL_LONGITUDE = -51.1227169
@@ -23,7 +23,7 @@ PRIORITIES = {
         'priority': NEED
     },
     '1': {
-        'name': 'Sobrando',
+        'name': 'Disponível p/ doação',
         'priority': AVAILABLE
     }
 }
