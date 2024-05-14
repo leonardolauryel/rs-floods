@@ -50,6 +50,13 @@ def sanitize_key(s):
     # Substitui qualquer coisa que não seja letra, número ou sublinhado por uma string vazia
     return re.sub(r'[^\w]+', '', s)
 
+def remove_accents(text):
+    # Normalize the string to the NFD form (where accents are separated from letters)
+    normalized_text = unicodedata.normalize('NFD', text)
+    # Filter out all characters that are combining marks (accents)
+    text_without_accents = ''.join(char for char in normalized_text if not unicodedata.combining(char))
+    return text_without_accents
+
 def generate_random_hex_color():
     """
     Gera uma cor hexadecimal aleatória.

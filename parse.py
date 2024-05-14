@@ -69,6 +69,115 @@ def get_parent_menu_by_key(menus, menu_key):
         return False
 
 
+def correct_supply_assignments(supply):
+    supply_name = remove_accents(supply['supply']['name'].lower())
+    menu_key = None
+
+    match supply_name:
+        # Alimentos e Água
+        case 'cebola':
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+        case 'tomate':
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+        case 'fibra alimentar em po':
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+        case 'polenta':
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+        case 'saladas':
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+        case _ if 'oleo' in supply_name:
+            menu_key = f"a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_{supply['priority']}"
+
+        # Material de Limpeza
+        case 'sacos de lixo':
+            menu_key = f"5d50d3cf-4e36-4639-813d-d43de8886ac8_{supply['priority']}"
+        case 'itens de limpeza':
+            menu_key = f"5d50d3cf-4e36-4639-813d-d43de8886ac8_{supply['priority']}"
+        case 'luvas para limpeza':
+            menu_key = f"5d50d3cf-4e36-4639-813d-d43de8886ac8_{supply['priority']}"
+
+        # Higiene Pessoal
+        case 'higiene pessoal':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case 'banheira':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case 'bico':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case 'shampoo para piolho':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case 'repelente':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case 'alcool em gel potes medios para espalha':
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        case _ if 'fralda' in supply_name:
+            menu_key = f"718d5be3-69c3-4216-97f1-12b690d0eb97_{supply['priority']}"
+        
+            
+        # Cuidados com Animais
+        case _ if 'coleira' in supply_name:
+            menu_key = f"03fdb0f2-6b50-4895-b970-5793cad80c86_{supply['priority']}"
+        
+
+        # Itens Descartáveis
+        case _ if 'luva' in supply_name:
+            menu_key = f"037ac262-4f35-42e0-83e1-4cdcceedb39c_{supply['priority']}"
+
+
+        # Vestuário
+        case _ if 'calca' in supply_name:
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+        case _ if 'casaco' in supply_name:
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+        case _ if 'roupa' in supply_name:
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+        case _ if 'meia' in supply_name:
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+        case _ if 'tenis' in supply_name:
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+        case 'capa de chuva g':
+            menu_key = f"bf8b5e09-544f-4eff-9bb7-6220aaa34a85_{supply['priority']}"
+
+        # Acomodações e Descanso
+        case _ if 'cobertor - estou levando' in supply_name:
+            menu_key = f"60d6808e-9d13-484d-84a4-2ca35d42b3a6_{supply['priority']}"
+        case 'colchao piramidal':
+            menu_key = f"60d6808e-9d13-484d-84a4-2ca35d42b3a6_{supply['priority']}"
+        case 'cama de hospital':
+            menu_key = f"60d6808e-9d13-484d-84a4-2ca35d42b3a6_{supply['priority']}"
+        
+        
+        # Outros
+        case 'protetor auricular para ruidos':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case 'colher para refeicao':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case 'ventilador':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case 'tatame':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case 'coletes reflexivos ou tnt':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case 'espacador infantil para bombinha':
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case _ if 'fita' in supply_name:
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case _ if 'gas' in supply_name:
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        case _ if 'potes' in supply_name:
+            menu_key = f"ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_{supply['priority']}"
+        
+
+        # Equipamentos de Emergência
+        case 'termometro':
+            menu_key = f"fd1f74c4-6723-4ffe-8657-773a943e65c4_{supply['priority']}"
+        case 'kits de primeiros socorros':
+            menu_key = f"fd1f74c4-6723-4ffe-8657-773a943e65c4_{supply['priority']}"
+        case 'gaze':
+            menu_key = f"fd1f74c4-6723-4ffe-8657-773a943e65c4_{supply['priority']}"
+
+    return menu_key
+
+
 # --------------  Criação de objetos Menus, Locations e Tags -------------- 
 def create_menus_group_obj():
     menus_group = {}
@@ -220,7 +329,13 @@ def create_tags_obj(menus, locations):
             for supply in location['shelterSupplies']:
                 color = generate_random_hex_color()
 
-                menu_key = f"{supply['supply']['supplyCategoryId']}_{supply['priority']}"
+                # Faz a correção da atribuição de alguns suprimentos com categorias
+                menu_key = correct_supply_assignments(supply)
+
+                # Caso nenhuma correção foi feita
+                if menu_key is None:
+                    menu_key = f"{supply['supply']['supplyCategoryId']}_{supply['priority']}"
+
                 parent_menu = get_parent_menu_by_key(menus, menu_key)
 
                 parent_menu_id = parent_menu['menu_id']
