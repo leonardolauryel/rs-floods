@@ -151,8 +151,8 @@ def create_locations_obj():
             create_log("info", f"O abrigo '{shelter['name']}' está desativado")
             continue
         # TO-DO: Melhorar style
-        url = f"src=\"https://sos-rs.com/abrigo/{shelter['id']}\""
-        overlayed_popup_content = f"<p><iframe style=\"position: absolute;top: -62px;left: -42vw;width: 84vw;height: 69vh;border: none;\" title=\"P&aacute;gina Incorporada\" {url}></iframe></p>"
+        url = f"https://sos-rs.com/abrigo/{shelter['id']}\""
+        overlayed_popup_content =  f"<div style=\"width: 100%; height: 100vh; margin-top: -104px; border: none; position: relative;\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;\" title=\"P&aacute;gina Incorporada\" src=\"{url}\"></iframe></div>"
 
         latitude = shelter['latitude']
         longitude = shelter['longitude']
