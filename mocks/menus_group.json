@@ -1,0 +1,17 @@
+{
+    "100": {
+        "menu_group_id": 0,
+        "name": "Precisa Urgente",
+        "priority": 100
+    },
+    "10": {
+        "menu_group_id": 1,
+        "name": "Precisa",
+        "priority": 10
+    },
+    "1": {
+        "menu_group_id": 2,
+        "name": "Disponível p/ doação",
+        "priority": 1
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "Medicamentos": {
+        "id": "5c9b6767-5310-461b-977b-906fe16370ae",
+        "name": "Medicamentos",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Cuidados com Animais": {
+        "id": "03fdb0f2-6b50-4895-b970-5793cad80c86",
+        "name": "Cuidados com Animais",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Especialistas e Profissionais": {
+        "id": "b3a81a9d-a964-4413-9a33-974a3b4673d1",
+        "name": "Especialistas e Profissionais",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Acomodações e Descanso": {
+        "id": "60d6808e-9d13-484d-84a4-2ca35d42b3a6",
+        "name": "Acomodações e Descanso",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Equipamentos de Emergência": {
+        "id": "fd1f74c4-6723-4ffe-8657-773a943e65c4",
+        "name": "Equipamentos de Emergência",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Voluntariado": {
+        "id": "6e6aaf88-b9fb-4a38-ab92-0db63c30e3f8",
+        "name": "Voluntariado",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Itens Descartáveis": {
+        "id": "037ac262-4f35-42e0-83e1-4cdcceedb39c",
+        "name": "Itens Descartáveis",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Higiene Pessoal": {
+        "id": "718d5be3-69c3-4216-97f1-12b690d0eb97",
+        "name": "Higiene Pessoal",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Alimentos e Água": {
+        "id": "a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f",
+        "name": "Alimentos e Água",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Material de Limpeza": {
+        "id": "5d50d3cf-4e36-4639-813d-d43de8886ac8",
+        "name": "Material de Limpeza",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Vestuário": {
+        "id": "bf8b5e09-544f-4eff-9bb7-6220aaa34a85",
+        "name": "Vestuário",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Veículos de Resgate e Transporte": {
+        "id": "05583098-5f2e-44e2-b874-452ec86d9d3e",
+        "name": "Veículos de Resgate e Transporte",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Cosméticos": {
+        "id": "8200759f-067f-4fda-8947-ff5896929fcd",
+        "name": "Cosméticos",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Serviços": {
+        "id": "80111414-1c1d-4566-ba6f-1373a53997ac",
+        "name": "Serviços",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Proteção para crianças": {
+        "id": "d7627977-1c42-48a8-abe5-45422ddc97df",
+        "name": "Proteção para crianças",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Outros": {
+        "id": "ad0b5516-3eba-4368-8724-5cfb6a3ea2d3",
+        "name": "Outros",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Mobílias": {
+        "id": "be0e4018-ca46-44cd-b814-7681ba98c51a",
+        "name": "Mobílias",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Eletrodomésticos e Eletrônicos": {
+        "id": "4f95853f-d5e1-487d-8086-6ddfaf2bbab7",
+        "name": "Eletrodomésticos e Eletrônicos",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    },
+    "Entretenimento": {
+        "id": "c117dd37-82ab-43a6-bf66-d97acef97f6e",
+        "name": "Entretenimento",
+        "createdAt": "2024-05-05T00:00:00.000Z",
+        "updatedAt": "2024-05-05T00:00:00.000Z"
+    }
+}
