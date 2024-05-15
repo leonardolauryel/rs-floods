@@ -4,6 +4,7 @@ import re
 import json
 from datetime import datetime
 import pytz
+import difflib
 
 
 def is_valid_coordinates(latitude, longitude):
@@ -143,3 +144,29 @@ def converter_utc_para_brasilia(utc_time_str):
     legible_time_str = brasilia_time.strftime("%d/%m/%Y %H:%M:%S")
     
     return legible_time_str
+
+
+def normalize_text(text):
+    # Normaliza o texto para remover acentos e converter para minúsculas
+    return unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII').lower()
+
+def find_closest_key(search_word, dictionary, confidence_threshold=0.75):
+    search_word = normalize_text(search_word)  # Normaliza a palavra de busca
+    best_match_key = None
+    best_match_ratio = 0  # Armazena a melhor correspondência de semelhança encontrada
+
+    for key, values in dictionary.items():
+        normalized_values = [normalize_text(value) for value in values]
+        # Obtém as correspondências mais próximas na lista de valores normalizados e limita a uma correspondência
+        matches = difflib.get_close_matches(search_word, normalized_values, n=1, cutoff=0.1)
+        if matches:
+            # Calcula a razão de semelhança para a melhor correspondência
+            ratio = difflib.SequenceMatcher(None, search_word, matches[0]).ratio()
+            if ratio > best_match_ratio:
+                best_match_ratio = ratio
+                if best_match_ratio >= confidence_threshold:
+                    best_match_key = key
+                else:
+                    best_match_key = None
+
+    return best_match_key
