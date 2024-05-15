@@ -47,14 +47,16 @@ SUPPLY_CATEGORIES_MAP = {
         "Vacina Para Covid",
         "Vacina Para Influenza",
         "Vermífugo",
-        "Vincristina"
+        "Vincristina",
+        "Xarope Para Gripe"
     ],
     'Cuidados com Animais': [
         "Cobertores Para Pet",
         "Coleiras Para Pet",
         "Insumos Para Internação Veterinário",
         "Peiteira/Coleira Grande",
-        "Petisco Para Animais"
+        "Petisco Para Animais",
+        "Ração Senior"
     ],
     'Especialistas e Profissionais': [],
     'Acomodações e Descanso': [
@@ -70,13 +72,16 @@ SUPPLY_CATEGORIES_MAP = {
         "Esparadrapo"
     ],
     'Voluntariado': [
-        "Não Precisa De Voluntários (não Considerar Item Acima: \"voluntários - Tarde\")"
+        "Não Precisa De Voluntários (não Considerar Item Acima: \"voluntários - Tarde\")",
+        "Voluntários Para Organizar Roupas"
     ],
     'Itens Descartáveis': [
         "Fralda Geriátrica ( Xg)",
         "Luvas Descartáveis",
         "Seringa 3 E 5ml Com Agulha 70x30",
-        "Seringa De Insulina"
+        "Seringa De Insulina",
+        "Embalagem descartável para as marmitas",
+        "Fraldas"
     ],
     'Higiene Pessoal': [
         "Bucha",
@@ -84,7 +89,10 @@ SUPPLY_CATEGORIES_MAP = {
         "Higiene Pessoal",
         "Repelente",
         "Banheira",
-        "Luva G"
+        "Luva G",
+        "Pasta De Dente Infantil",
+        "Xampu Infantil",
+        "Talco Infantil"
     ],
     'Alimentos e Água': [
         "Açúcar",
@@ -95,7 +103,12 @@ SUPPLY_CATEGORIES_MAP = {
         "Óleo De Cozinha",
         "Polenta",
         "Saladas",
-        "Tomate"
+        "Tomate",
+        "Enlatados (ervilha e milho)",
+        "Oléo",
+        "Chá",
+        "Suco Em Pó",
+        "Fórmula infantil"
     ],
     'Material de Limpeza': [
         "Álcool Em Gel Potes Médios Para Espalha",
@@ -113,7 +126,11 @@ SUPPLY_CATEGORIES_MAP = {
         "Roupas Maculinas",
         "Roupas Masculinas De Moletom G A Xxg (casacos E Calças)",
         "Meia Infantil",
-        "Tênis 36-39"
+        "Tênis 36-39",
+        "Roupa íntima feminina",
+        "Cueca",
+        "Blusão G",
+        "Calça Com Elástico F E M"
     ],
     'Veículos de Resgate e Transporte': [
         "Gás 45 Kg"
@@ -122,7 +139,11 @@ SUPPLY_CATEGORIES_MAP = {
         "Espaçador Infantil Para Bombinha",
         "Protetor Auricular Para Ruídos",
         "Termômetro",
-        "Biombos"
+        "Biombos",
+        "Bombona Vazia 20l",
+        "Bico",
+        "Carrinho De Bebe",
+        "Fita Adesiva Crepe"
     ],
     'Mobílias': [
         "Baldes/bacias"
