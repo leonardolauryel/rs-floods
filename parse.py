@@ -476,14 +476,17 @@ def create_menus_sql(menus):
     menus_sql = []
     menus_sql.append("-- Inserting Menus")
 
+    latest_menus = {}
+
     for menu_key, menu in menus.items():
         if(menu['name'] == "Medicamentos"):
-            wait[menu_key] = menu
+            latest_menus[menu_key] = menu
         else:
             menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
                                 f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
     
-    for menu in wait.values():
+    # Adiciona o menu de Medicamentos por último
+    for menu in latest_menus.values():
         menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
                             f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
 
