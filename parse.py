@@ -5,6 +5,7 @@ from logs_message import create_log, get_logs
 import requests
 import logging
 import time
+from pprint import pprint
 
 # -------------- Requisições -------------- 
 def fetch_supply_categories_data():
@@ -60,6 +61,25 @@ def fetch_supplies_data():
         print("Falha na requisição:", response.status_code)
         return None
 
+
+def fetch_json(url, local_file):
+    try:
+        # Try to download the JSON data from the URL
+        print("Acessando supplyNamesMap remoto")
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an HTTPError if the HTTP request returned an unsuccessful status code
+        data = response.json()
+    except (requests.exceptions.RequestException, json.JSONDecodeError):
+        # If downloading fails or JSON decoding fails, try to read the local file
+        print("Falha ao acessar supplyNamesMap remoto")
+        print("Acessando supplyNamesMap local")
+        try:
+            with open(local_file, 'r') as file:
+                data = json.load(file)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            # If the local file is not found or JSON decoding fails, raise an error
+            raise RuntimeError(f"Failed to load JSON data from both URL and local file: {e}")
+    return data
 
 def get_parent_menu_by_key(menus, menu_key):
     parent_menu = menus.get(menu_key)
@@ -150,7 +170,10 @@ def create_locations_obj():
         if 'DESATIVADO' in shelter['name']:
             create_log("info", f"O abrigo '{shelter['name']}' está desativado")
             continue
-        # TO-DO: Melhorar style
+        
+        if not is_within_days(shelter['updatedAt'], MAX_TIME_SHELTER_UPDATE):
+            continue
+
         url = f"https://sos-rs.com/abrigo/{shelter['id']}\""
         overlayed_popup_content =  f"<div style=\"width: 100%; height: 100vh; margin-top: -104px; border: none; position: relative;\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;\" title=\"P&aacute;gina Incorporada\" src=\"{url}\"></iframe></div>"
 
@@ -192,7 +215,19 @@ def create_locations_obj():
             }
 
             for supply in shelter['shelterSupplies']:
-                location['shelterSupplies'].append(supply)
+                supply_obj = supply
+                supply_name = supply['supply']['name']
+
+                # Faz mapeamento dos nomes de suprimentos
+                if MAP_SUPPLY_NAMES:
+                    supply_name_mapped_static = find_closest_key(supply_obj['supply']['name'], SUPPLIES_NAMES_MAP, confidence_threshold=0.7)
+                    
+                    if supply_name_mapped_static is not None:
+                        msg_mapped_static = f"{supply_name_mapped_static}"
+                        supply_obj['supply']['name'] = supply_name_mapped_static
+                        print(f"\t\t{supply_name:<30}->\t{supply_name_mapped_static}")
+                
+                location['shelterSupplies'].append(supply_obj)
                     
             locations[shelter['id']] = location
             location_id += 1
@@ -441,8 +476,14 @@ def create_menus_sql(menus):
     menus_sql = []
     menus_sql.append("-- Inserting Menus")
 
-    for menu in menus.values():
-        
+    for menu_key, menu in menus.items():
+        if(menu['name'] == "Medicamentos"):
+            wait[menu_key] = menu
+        else:
+            menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
+                                f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
+    
+    for menu in wait.values():
         menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
                             f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
 
@@ -494,13 +535,12 @@ def create_tags_related_locations_sql(tags_related_locations):
 def create_sql_commands():
     sql_commands = []
 
-    # array = ['Livros']
-
-    # for item in array:
-    #     closest_key = find_closest_key(item, SUPPLY_CATEGORIES_MAP, confidence_threshold=0.7)
-
-    #     print(f"{item:<30} ->   {closest_key}")
-    # return ''
+    try:
+        global SUPPLIES_NAMES_MAP
+        SUPPLIES_NAMES_MAP = fetch_json(SUPPLY_NAMES_MAP_URL, SUPPLY_NAMES_MAP_LOCAL)
+        print("Dados de supplyNamesMap obtidos com sucesso")
+    except RuntimeError as e:
+        print(e)
 
     menus_group = create_menus_group_obj()
     menus = create_menus_obj(menus_group)
@@ -515,6 +555,10 @@ def create_sql_commands():
     # save_json(locations, "./mocks/locations.json")
     # save_json(tags, "./mocks/tags.json")
     # save_json(tags_related_locations, "./mocks/tags_related_locations.json")
+
+    print(f"Menus: {len(menus)}")
+    print(f"Locations: {len(locations)}")
+    print(f"Tags: {len(tags)}")
 
 
     # #Configurações iniciais do mapa

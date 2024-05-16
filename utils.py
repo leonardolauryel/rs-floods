@@ -2,7 +2,7 @@ import random
 import unicodedata
 import re
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import difflib
 
@@ -145,7 +145,6 @@ def converter_utc_para_brasilia(utc_time_str):
     
     return legible_time_str
 
-
 def normalize_text(text):
     # Normaliza o texto para remover acentos e converter para minúsculas
     return unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII').lower()
@@ -170,3 +169,16 @@ def find_closest_key(search_word, dictionary, confidence_threshold=0.75):
                     best_match_key = None
 
     return best_match_key
+
+def is_within_days(date_str, days):
+    # Convert the date string to a datetime object
+    input_date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+    
+    # Get the current date and time
+    current_date = datetime.utcnow()
+    
+    # Calculate the difference in days
+    delta = current_date - input_date
+    
+    # Check if the difference is within the specified days
+    return delta <= timedelta(days=days)
