@@ -9,7 +9,7 @@ OUTPUT_FILE = "sos-rs.sql"
 
 API_URL = "https://api.sos-rs.com"
 
-SUPPLY_NAMES_MAP_URL = "https://raw.githubusercontent.com/leonardolauryel/map-data/main/data/supplyNamesap.json"
+SUPPLY_NAMES_MAP_URL = "https://raw.githubusercontent.com/leonardolauryel/map-data/main/data/supplyNamesMap.json"
 
 SUPPLY_NAMES_MAP_LOCAL = "./local_data/supplyNamesMap.json"
 
