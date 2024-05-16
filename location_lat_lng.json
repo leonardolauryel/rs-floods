@@ -2607,6 +2607,181 @@
         "address": "R. LL - Guajuviras, Canoas - RS, 92415-000, Brazil",
         "lat": -29.8975575,
         "lng": -51.1353528
+    },
+    "AbrigoSoParaMulheresECriancasCanoas": {
+        "name": "Abrigo Só Para Mulheres E Crianças - Canoas",
+        "address": "Canoas, RS, Brazil",
+        "lat": -29.9077898,
+        "lng": -51.1847036
+    },
+    "AbrigoBairroIndependenciaSaoLeopoldo": {
+        "name": "Abrigo Bairro Independência - São Leopoldo",
+        "address": "R. Gesse Ávila de Souza, 401 - Feitoria, São Leopoldo - RS, 93050-290, Brazil",
+        "lat": -29.755611,
+        "lng": -51.1103023
+    },
+    "EspacoCulturalMarlonEMarcelinho": {
+        "name": "Espaço Cultural Marlon E Marcelinho",
+        "address": "R. Prof. Augusto Osvaldo Thiesen, 40 - Rubem Berta, Porto Alegre - RS, 91250-340, Brazil",
+        "lat": -30.0242708,
+        "lng": -51.1020346
+    },
+    "SaseAbracandoComCarinhozonaSul": {
+        "name": "Sase Abraçando Com Carinho (zona Sul)",
+        "address": "Av. Juca Batista, 3369 - Cavalhada, Porto Alegre - RS, 91755-000, Brazil",
+        "lat": -30.1546315,
+        "lng": -51.20009
+    },
+    "ParoquiaNossaSenhoraDeMontserrat": {
+        "name": "Paróquia Nossa Senhora De Montserrat",
+        "address": "R Anita Garibaldi, 1121 - Mont'Serrat, Porto Alegre - RS, 90450-001, Brazil",
+        "lat": -30.02645339999999,
+        "lng": -51.18459199999999
+    },
+    "ConceitoVestibulares": {
+        "name": "Conceito Vestibulares",
+        "address": "Av. Independência, 702 - Independência, Porto Alegre - RS, 90035-072, Brazil",
+        "lat": -30.0292513,
+        "lng": -51.2142284
+    },
+    "AssociacaoRuralDePelotas": {
+        "name": "Associação Rural De Pelotas",
+        "address": "Av. Fernando Osório, 1754 - Tres Vendas, Pelotas - RS, 96055-030, Brazil",
+        "lat": -31.7351596,
+        "lng": -52.3435022
+    },
+    "AbrigoDeAnimaisArarigboiaabrigoPet": {
+        "name": "Abrigo De Animais Ararigboia [abrigo Pet]",
+        "address": "Municipal Park Ararigbóia - R. Saicã, 06 - Petrópolis, Porto Alegre - RS, 90670-110, Brazil",
+        "lat": -30.0465471,
+        "lng": -51.1828315
+    },
+    "BigBarCanoas": {
+        "name": "Big Bar - Canoas",
+        "address": "R. Carlos Drumond de Andrade, 49 - Harmonia, Canoas - RS, 92310-050, Brazil",
+        "lat": -29.9212572,
+        "lng": -51.18984529999999
+    },
+    "IgrejaEbenezerAlvorada": {
+        "name": "Igreja Ebenezer - Alvorada",
+        "address": "R. Daniel Ribeiro de Oliveira, 329 - Piratini, Alvorada - RS, 94852-310, Brazil",
+        "lat": -30.0268659,
+        "lng": -51.0514539
+    },
+    "CantinhoDosAnjoscausaAnimal": {
+        "name": "Cantinho Dos Anjos (causa Animal)",
+        "address": "Av. Protásio Alves, 393 - Rio Branco, Porto Alegre - RS, 90410-000, Brazil",
+        "lat": -30.0378678,
+        "lng": -51.2044399
+    },
+    "CabralEsquadrias": {
+        "name": "Cabral Esquadrias",
+        "address": "Av. Delegado Ely Corrêa Prado, 117 - Mário Quintana, Porto Alegre - RS, 91260-300, Brazil",
+        "lat": -30.0403394,
+        "lng": -51.1042387
+    },
+    "AssociacaoMeninoJesusDePraga": {
+        "name": "Associação Menino Jesus De Praga",
+        "address": "R. Corcovado, 587 - Parque da Matriz, Cachoeirinha - RS, 94950-550, Brazil",
+        "lat": -29.9465315,
+        "lng": -51.0838893
+    },
+    "IgrejaBeOneChurch": {
+        "name": "Igreja Be One Church",
+        "address": "Rua Anselmo Crippa, 188 - Floresta, Caxias do Sul - RS, 95099-510, Brazil",
+        "lat": -29.175945,
+        "lng": -51.20364199999999
+    },
+    "AbrigoSoParaMulheresECriancas": {
+        "name": "Abrigo Só Para Mulheres E Crianças",
+        "address": "R. Venâncio Aires, 2400 - Niterói, Canoas - RS, 92110-001, Brazil",
+        "lat": -29.9402364,
+        "lng": -51.1750694
+    },
+    "AmparoSantaCruz": {
+        "name": "Amparo Santa Cruz",
+        "address": "Estr. Costa Gama, 719 - Belém Velho, Porto Alegre - RS, 91787-311, Brazil",
+        "lat": -30.1197423,
+        "lng": -51.1772883
+    },
+    "CentroPopularDeCulturaCentroDeDistribuicaoDeDoacoesparaPessoasNaCasaDeFamiliares": {
+        "name": "Centro Popular De Cultura - Centro De Distribuição De Doações (para Pessoas Na Casa De Familiares)",
+        "address": "Rua Tarcila Moráes Dutra, 140 - Rubem Berta, Porto Alegre - RS, 91170-170, Brazil",
+        "lat": -30.0047158,
+        "lng": -51.0942243
+    },
+    "PontoDeColetaEspartanoSkatepark": {
+        "name": "Ponto De Coleta Espartano Skatepark",
+        "address": "Av. Protásio Alves, 3839 - Petrópolis, Porto Alegre - RS, 91310-002, Brazil",
+        "lat": -30.0397543,
+        "lng": -51.1727071
+    },
+    "ArtHoteldesativado": {
+        "name": "Art Hotel [desativado]",
+        "address": "Av. Cel. Lucas de Oliveira, 995 - Bela Vista, Porto Alegre - RS, 90440-011, Brazil",
+        "lat": -30.0313895,
+        "lng": -51.1947129
+    },
+    "CentroSocialIgrejaPadrePedroLeonardi": {
+        "name": "Centro Social Igreja Padre Pedro Leonardi",
+        "address": "Estr. Chácara do Banco, 71 - Restinga, Porto Alegre - RS, 91790-750, Brazil",
+        "lat": -30.1638577,
+        "lng": -51.14539
+    },
+    "UsinaDoGasometro": {
+        "name": "Usina Do Gasômetro",
+        "address": "Av. Pres. João Goulart - Centro Histórico, Porto Alegre - RS, 90010-120, Brazil",
+        "lat": -30.0349078,
+        "lng": -51.2409961
+    },
+    "SerAssisCampoDoPeriquito": {
+        "name": "Ser Assis - Campo Do Periquito",
+        "address": "Av. Vicente Monteggia, 2709 - Cavalhada, Porto Alegre - RS, 91740-290, Brazil",
+        "lat": -30.1142468,
+        "lng": -51.2134683
+    },
+    "IgrejaNossaSenhoraDasDores": {
+        "name": "Igreja Nossa Senhora Das Dores",
+        "address": "R. Riachuelo, 600 - Centro Histórico, Porto Alegre - RS, 90010-272, Brazil",
+        "lat": -30.0330407,
+        "lng": -51.23565989999999
+    },
+    "ColegioProvinciaDeSaoPedrodesativado": 
+    {
+        "name": "Colégio Província De São Pedro [desativado]",
+        "address": "Rua Tomaz Gonzaga, 466 - Boa Vista, Porto Alegre - RS, 91340-480, Brazil",
+        "lat": -30.026279,
+        "lng": -51.17494929999999
+    },
+    "AcolhimentoDeAnimaisFranciscoDeAssisExclusivoPets": {
+        "name": "Acolhimento De Animais Francisco De Assis - Exclusivo Pets",
+        "address": "Av. Pres. Getúlio Vargas, 10301 - Vila Elsa, Viamão - RS, 94836-000, Brazil",
+        "lat": -30.0001175,
+        "lng": -51.0012883
+    },
+    "AbrigoParadaTres": {
+        "name": "Abrigo Parada Três",
+        "address": "Av. Rodolfo Müler - Feitoria, São Leopoldo - RS, 93056-040, Brazil",
+        "lat": -29.7570416,
+        "lng": -51.0878667
+    },
+    "EscolaEstadualLucianaDeAbreuexclusivoMulheresECriancas": {
+        "name": "Escola Estadual Luciana De Abreu (exclusivo Mulheres E Crianças)",
+        "address": "R. Gen. Jacinto Osório, 60 - Santana, Porto Alegre - RS, 90040-290, Brazil",
+        "lat": -30.04106,
+        "lng": -51.21202479999999
+    },
+    "SedeCampestreDaAfbrders": {
+        "name": "Sede Campestre Da Afbrde-rs",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "CasaMulheresMirabalexclusivoParaMulheresECriancas": {
+        "name": "Casa Mulheres Mirabal (exclusivo Para Mulheres E Crianças)",
+        "address": "R. Souza Reis, 132 - São João, Porto Alegre - RS, 90240-650, Brazil",
+        "lat": -30.005966,
+        "lng": -51.19042899999999
     }
 
 }
