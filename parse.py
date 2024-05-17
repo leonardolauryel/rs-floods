@@ -1,6 +1,6 @@
 from utils import *
 from constants import *
-from logs_message import create_log, get_logs
+from logs_message import *
 
 import requests
 import logging
@@ -223,9 +223,14 @@ def create_locations_obj():
                     supply_name_mapped_static = find_closest_key(supply_obj['supply']['name'], SUPPLIES_NAMES_MAP, confidence_threshold=0.7)
                     
                     if supply_name_mapped_static is not None:
-                        msg_mapped_static = f"{supply_name_mapped_static}"
                         supply_obj['supply']['name'] = supply_name_mapped_static
-                        print(f"\t\t{supply_name:<30}->\t{supply_name_mapped_static}")
+
+                        msg = f"{supply_name:<30}->\t{supply_name_mapped_static}"
+                        create_log("supply_name_mapped", msg)
+                    else:
+                        msg = f"{supply_name}"
+                        create_log("supply_name_not_mapped", msg)
+
                 
                 location['shelterSupplies'].append(supply_obj)
                     
@@ -577,7 +582,7 @@ def create_sql_commands():
     sql_commands.extend(create_tags_related_locations_sql(tags_related_locations))
 
 
-    get_logs('all')
+    save_logs('all')
     
     return sql_commands
 

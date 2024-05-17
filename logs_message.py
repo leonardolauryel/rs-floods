@@ -1,3 +1,4 @@
+from constants import *
 import logging
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -14,6 +15,9 @@ info_messages = []
 warning_messages = []
 error_messages = []
 critical_messages = []
+
+supply_name_mapped_messages = []
+supply_name_not_mapped_messages  = []
 
 def create_log(type, message):
     match type:
@@ -32,12 +36,19 @@ def create_log(type, message):
         case "critical":
             logging.critical(message)
             critical_messages.append(message)
+
+        case "supply_name_mapped":
+            logging.info(message)
+            supply_name_mapped_messages.append(message)
+        case "supply_name_not_mapped":
+            logging.info(message)
+            supply_name_not_mapped_messages.append(message)
         case _:
             msg = "Tipo informado para o log incorreto"
             logging.error(msg)
             error_messages.append(msg)
 
-def get_logs(type):
+def save_logs(type):
     data = []
     match type:
         case "debug":
@@ -65,18 +76,23 @@ def get_logs(type):
                 data.append("\n\nWARNING")
                 for warning_message in sorted(warning_messages):
                     data.append(warning_message)
-                
+            
+            if len(supply_name_mapped_messages):
+                data.append("\n\nSUPPLY_NAME_MAPPED")
+                for supply_name_mapped_message in sorted(supply_name_mapped_messages):
+                    data.append(supply_name_mapped_message)
+            
+            if len(supply_name_not_mapped_messages):
+                data.append("\n\nSUPPLY_NAME_N0T_MAPPED")
+                for supply_name_not_mapped_message in sorted(supply_name_not_mapped_messages):
+                    data.append(supply_name_not_mapped_message)
+            
             if len(error_messages):
                 data.append("\n\nERROR")
                 for error_message in sorted(error_messages):
                     data.append(error_message)
-            
-            if len(critical_messages):
-                data.append("\n\nCRITICAL")
-                for critical_message in sorted(critical_messages):
-                    data.append(critical_message)
 
-    with open('logs.txt', 'w') as file:
+    with open(f"{LOGS_FOLDER}/logs.txt", 'w') as file:
         for log in data:
             file.write(f"{log}\n")
 
