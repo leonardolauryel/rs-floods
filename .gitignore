@@ -1,4 +1,5 @@
 __pycache__
 coordinates_data.json
-logs.txt
+execution_logs/
 shelters.json
+get_coord.py
