@@ -3,6 +3,7 @@ import utils
 import json
 import unicodedata
 import re
+import Levenshtein
 
 def sanitize_key(s):
     # Normaliza para forma NFKD e depois converte para ASCII ignorando erros de conversão
@@ -91,6 +92,26 @@ def get_location_google_api(api_key, endereco):
         print("Erro na requisição:", resposta.status_code)
         return None
 
+def find_most_similar_address(address, results):
+    """
+    Finds the most similar address in the results array based on the 'formatted_address' attribute.
+    
+    :param address: The address string to compare.
+    :param results: A list of dictionaries, each containing a 'formatted_address' attribute.
+    :return: The dictionary from results with the most similar 'formatted_address'.
+    """
+    most_similar = None
+    highest_similarity = float('-inf')
+    
+    for result in results:
+        formatted_address = result['formatted_address']
+        similarity = Levenshtein.ratio(address, formatted_address)
+        
+        if similarity > highest_similarity:
+            highest_similarity = similarity
+            most_similar = result
+    
+    return most_similar
 
 loc_coord = {}
 errors = []
@@ -98,12 +119,7 @@ chave_api = 'TOKEN'  # Substitua por sua chave de API real
 
 filename = "coordinates_data.json"
 
-locations = {'EspacoPetIgrejaAuxiliadora': {'name': 'Espaço Pet Igreja Auxiliadora', 'address': 'Rua 24 de outubro 1751'}}
-
-
-
-
-
+locations = {} ## add locations
 
 
 try:
@@ -119,38 +135,31 @@ for location in locations.values():
     try:
         results = get_location_google_api(chave_api, f"{location['name']} - {location['address']} - RS")
 
-        if (len(results) == 1):
-            loc_coord[sanitize_key(location['name'])] = {
-                'name': location['name'],
-                'address': results[0]['formatted_address'],
-                'lat': results[0]['geometry']['location']['lat'],
-                'lng': results[0]['geometry']['location']['lng']
-            }
-        elif (len(results) == 0):
+        if (len(results) > 1):
+            most_similar_result = find_most_similar_address(location['address'], results)
+            
+            if most_similar_result is not None:
+                result = most_similar_result
+            else:
+                print(f"Mais de uma localização encontrada para o local: {location}")
+                
+        elif (len(results) == 1):
+            result = results[0]
+        else:
             print(f"Nenhuma localização encontrada para o local: {location}")
             errors.append(location)
-        else:
-            print(results)
-            loc_many_coord[sanitize_key(location['name'])] = []
-            for result in results:
-                loc_many_coord[sanitize_key(location['name'])].append(
-                    {
-                        'name': location['name'],
-                        'address': result['formatted_address'],
-                        'lat': result['geometry']['location']['lat'],
-                        'lng': result['geometry']['location']['lng']
-                    }
-                )
-            
-            print(f"Mais de uma localização encontrada para o local: {location}")
+
+        loc_coord[sanitize_key(location['name'])] = {
+            'name': location['name'],
+            'address': result['formatted_address'],
+            'lat': result['geometry']['location']['lat'],
+            'lng': result['geometry']['location']['lng']
+        }
 
     except Exception as e:
         print(f"Erro {location}")
         print(e)
         errors.append(location)
-
-print("\n\nMuitas localizações encontradas:")
-print(loc_many_coord)
 
 print("\n\nFalha ao obter as coordenadas de:")
 print(errors)
