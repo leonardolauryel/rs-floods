@@ -7,6 +7,7 @@ INITIAL_LONGITUDE = -51.1227169
 # NOME ARQUIVO SQL DE SAIDA
 OUTPUT_FILE = "sos-rs.sql"
 
+LOGS_FOLDER = "./execution_logs"
 API_URL = "https://api.sos-rs.com"
 
 SUPPLY_NAMES_MAP_URL = "https://raw.githubusercontent.com/leonardolauryel/map-data/main/data/supplyNamesMap.json"
