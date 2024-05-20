@@ -240,29 +240,7 @@ def create_locations_obj():
             pass
             #create_log("error", f"O id do abrigo '{shelter['name']}' termina com /r")
 
-
-
-    # Add como posso ajudar
-
-    overlayed_popup_content = """<div>
-        <h1 style="color: #444444; font-size: 24px; text-align: center;">Ajude as v&iacute;timas das enchentes no RS</h1>
-        <p style="font-size: 14px; margin-bottom: 20px; text-align: center;">Neste momento de crise sem precedentes, as enchentes devastadoras no Rio Grande do Sul deixaram um rastro de destrui&ccedil;&atilde;o e desespero. Fam&iacute;lias inteiras perderam tudo: lares, mem&oacute;rias e a seguran&ccedil;a de um cotidiano que, at&eacute; ent&atilde;o, parecia garantido. Diante dessa calamidade, a solidariedade se torna nossa maior for&ccedil;a. Contribua para a campanha de doa&ccedil;&atilde;o e ajude a reconstruir vidas, restaurar lares e trazer esperan&ccedil;a para aqueles que agora enfrentam os dias mais desafiadores de suas vidas. Cada doa&ccedil;&atilde;o, por menor que seja, pode trazer um grande impacto. Junte-se a n&oacute;s nesse movimento de apoio e compaix&atilde;o.</p>
-        <p style="text-align: center;"><a style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 0px;" href="https://www.vakinha.com.br/vaquinha/a-maior-campanha-solidaria-do-rs" target="_blank" rel="noopener">Clique aqui para doar</a></p>
-        <p><img style="width: 30vw; height: auto; margin-top: 5px; display: block; margin-left: auto; margin-right: auto;" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/WhatsApp-Image-2024-05-08-at-10.27.57.jpeg?w=732&amp;h=412&amp;crop=1" alt="Enchente no RS 2024" /></p>
-        <p style="font-size: small; margin-top: 5px; text-align: center;">Fonte: <a style="color: #007bff;" href="https://www.cnnbrasil.com.br/nacional/chuvas-no-rs-sem-agua-luz-e-comida-prefeito-decide-evacuar-municipio-inteiro/">CNN Brasil</a></p>
-        <p style="text-align: center; font-size: medium;">Agradecemos &agrave; DOC9 pelo desenvolvimento da plataforma <a href="https://sos-rs.com/" target="_blank" rel="noopener">SOS-RS</a> e pela disponibiliza&ccedil;&atilde;o dos dados para esta aplica&ccedil;&atilde;o.</p>
-        </div>"""
-    locations['ComoPossoAjudar'] = {
-        'location_id': location_id,
-        'name': 'Como posso ajudar?',
-        'description': '',
-        'overlayed_popup_content': overlayed_popup_content,
-        'latitude': 0,
-        'longitude': 0,
-        'active': active,
-        'shelterSupplies': [],
-        'address': ''
-    }
+    add_about_location(locations, location_id)
 
     create_log("error", f"Os abrigos '{shelters_without_coordinates}' não possuem coordenadas.")
 
@@ -445,6 +423,32 @@ def create_location_description(shelter, lat, lng):
     
     return description
 
+def add_about_location(locations, location_id):
+    overlayed_popup_content = """
+        <div style="width: 100%; margin: auto; margin-top: -28px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <p>&nbsp;</p>
+        <div style="margin: 1px 20px 0px 10px;">
+        <p>O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
+        <h2 style="color: #0056b3;"><span style="color: #000000;">Contato</span></h2>
+        <p>Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:inserir_email">inserir_email</a></p>
+        <h2 style="color: #0056b3;"><span style="color: #000000;">Agradecimentos</span></h2>
+        <p>Agradecemos &agrave; equipe do <a target="_blank" href="https://sos-rs.com/">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
+        </div>
+        </div>
+        """
+
+    locations['Sobreestemapa'] = {
+        'location_id': location_id,
+        'name': 'Sobre este mapa',
+        'description': '',
+        'overlayed_popup_content': overlayed_popup_content,
+        'latitude': 0,
+        'longitude': 0,
+        'active': True,
+        'shelterSupplies': [],
+        'address': ''
+    }
+    
 # -------------- Cria os comandos sql --------------
 def create_settings_sql():
     settings_sql = ["-- Use this SQL to completely cleanse the map database. The result will be as if the database had been created again"\
