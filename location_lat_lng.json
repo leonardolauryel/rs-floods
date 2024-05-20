@@ -2782,6 +2782,1535 @@
         "address": "R. Souza Reis, 132 - São João, Porto Alegre - RS, 90240-650, Brazil",
         "lat": -30.005966,
         "lng": -51.19042899999999
+    },
+    "ParoquiaSantaRosaDeLima": {
+        "name": "Paróquia Santa Rosa De Lima",
+        "address": "Av. Bernardino de Oliveira Paim, 82 - Santa Rosa de Lima, Porto Alegre - RS, 91160-300, Brazil",
+        "lat": -29.99463,
+        "lng": -51.1007696
+    },
+    "SosSarandi": {
+        "name": "Sos Sarandi",
+        "address": "R. Oliveira Lopes, 157 - Sarandi, Porto Alegre - RS, 91120-430, Brazil",
+        "lat": -29.99148809999999,
+        "lng": -51.1282529
+    },
+    "SesiCachoeirinha": {
+        "name": "Sesi Cachoeirinha",
+        "address": "R. Ver. José Stuart da Silva, 1015 - Vila da Paz, Cachoeirinha - RS, 94930-540, Brazil",
+        "lat": -29.94599719999999,
+        "lng": -51.109747
+    },
+    "IgrejaVidasRestauradas": {
+        "name": "Igreja Vidas Restauradas",
+        "address": "Rua Tenente Alpoin, 142 - Vila Joao Pessoa, Porto Alegre - RS, 91510-710, Brazil",
+        "lat": -30.0654493,
+        "lng": -51.1808134
+    },
+    "PeCeromIndigenasRestinga": {
+        "name": "Pe. Cerom | Indigenas | Restinga",
+        "address": "Estr. Chácara do Banco, 71 - Restinga, Porto Alegre - RS, 91790-750, Brazil",
+        "lat": -30.1639809,
+        "lng": -51.145594
+    },
+    "AdBomPrincipio": {
+        "name": "Ad Bom Princípio",
+        "address": "R. Boa Vista, 53 - Vila Bom Principio, Cachoeirinha - RS, 94950-070, Brazil",
+        "lat": -29.9367436,
+        "lng": -51.0776201
+    },
+    "PavilhaoDeUmaChancePavilhaoEcoSustentavelDaCulturaHipHop": {
+        "name": "Pavilhão Dê Uma Chance - Pavilhão Eco Sustentável Da Cultura Hip Hop",
+        "address": "R. Imperador Hiroito, 385 - Restinga, Porto Alegre - RS, 91791-500, Brazil",
+        "lat": -30.1468258,
+        "lng": -51.13682559999999
+    },
+    "CozinhaComunitariaMensageirosDaLuz": {
+        "name": "Cozinha Comunitária Mensageiros Da Luz",
+        "address": "R. Tomé de Souza, 567 - Nossa Sra. das Gracas, Canoas - RS, 92110-060, Brazil",
+        "lat": -29.9336129,
+        "lng": -51.1711678
+    },
+    "PetMeu": {
+        "name": "Pet Meu",
+        "address": "R. Gonçalves Chaves, 3737 - Centro, Pelotas - RS, 96015-560, Brazil",
+        "lat": -31.7532459,
+        "lng": -52.3319958
+    },
+    "CeadPortao": {
+        "name": "Cead Portão",
+        "address": "R. da Liberdade, 265 - Boa Vista, Portão - RS, 93180-000, Brazil",
+        "lat": -29.70138979999999,
+        "lng": -51.2433501
+    },
+    "CtgEstanciaPasqualetto": {
+        "name": "Ctg Estância Pasqualetto",
+        "address": "R. São Guilherme, 1800 - São José, Porto Alegre - RS, 91520-650, Brazil",
+        "lat": -30.0761722,
+        "lng": -51.15890659999999
+    },
+    "IgrejaSearaCachoeirinha": {
+        "name": "Igreja Seara - Cachoeirinha",
+        "address": "R. Abrahão Lincoln, 71 - Vila Vista Alegre, Cachoeirinha - RS, 94945-010, Brazil",
+        "lat": -29.9310221,
+        "lng": -51.0763393
+    },
+    "CentenariaUniaoGauchaJSimoesLopesNeto": {
+        "name": "Centenária União Gaúcha J. Simões Lopes Neto",
+        "address": "Av. Engenheiro Ildefonso Simões Lopes, 531 - COHAB Tablada, Pelotas - RS, 96060-290, Brazil",
+        "lat": -31.7317438,
+        "lng": -52.32431219999999
+    },
+    "SociedadeBeneficenteCulturalRecreativaSaoMiguelSaoMiguelRubroNegro": {
+        "name": "Sociedade Beneficente Cultural Recreativa São Miguel ( São Miguel Rubro Negro)",
+        "address": "R. Dr. Manoel José Lopes Fernandes, 86 - Vila Joao Pessoa, Porto Alegre - RS, 91510-420, Brazil",
+        "lat": -30.0733946,
+        "lng": -51.1755121
+    },
+    "OngPasProtegerAmarESensibilizar": {
+        "name": "Ong Pas - Proteger, Amar E Sensibilizar",
+        "address": "Estr. São Caetano, 480 - Lami, Porto Alegre - RS, 91787-740, Brazil",
+        "lat": -30.2140189,
+        "lng": -51.0961114
+    },
+    "CtgGauchoLitoraneo": {
+        "name": "Ctg Gaúcho Litorâneo",
+        "address": "R. Angélica Diehl - Tramandaí, RS, 95590-000, Brazil",
+        "lat": -30.0139943,
+        "lng": -50.1678417
+    },
+    "GinasioMunicipalAgostinhoEmilioCavasottoNovoHamburgo": {
+        "name": "Ginásio Municipal Agostinho Emilio Cavasotto - Novo Hamburgo",
+        "address": "R. Portugal, 599 - Rincão, Novo Hamburgo - RS, 93348-520, Brazil",
+        "lat": -29.6722929,
+        "lng": -51.1434578
+    },
+    "CentroDeDoacoesDaBoqueirao": {
+        "name": "Centro De Doações Da Boqueirão",
+        "address": "Av. Boqueirão, 1161 - Igara, Canoas - RS, 92020-583, Brazil",
+        "lat": -29.9049861,
+        "lng": -51.1668955
+    },
+    "EscolaParaSurdosFreiPacifico": {
+        "name": "Escola Para Surdos Frei Pacifico",
+        "address": "R. Paulino Chaves, 235 - Santo Antônio, Porto Alegre - RS, 90640-200, Brazil",
+        "lat": -30.0585666,
+        "lng": -51.2015085
+    },
+    "Giseda": {
+        "name": "Giseda",
+        "address": "R. Washington Luís, 256 - Niterói, Canoas - RS, 92440-678, Brazil",
+        "lat": -29.9649212,
+        "lng": -51.170894
+    },
+    "SillerAbrigoTemporario": {
+        "name": "Siller Abrigo Temporário",
+        "address": "RS-020, 13800 - Morungava, Gravataí - RS, 94175-170, Brazil",
+        "lat": -29.8556979,
+        "lng": -50.9549103
+    },
+    "EscolaSarmentoLeite": {
+        "name": "Escola Sarmento Leite",
+        "address": "R. Eugênio Du Pasquier, 280 - Cristo Redentor, Porto Alegre - RS, 91040-350, Brazil",
+        "lat": -30.0059688,
+        "lng": -51.1623506
+    },
+    "InstitutoJosimarTavares": {
+        "name": "Instituto Josimar Tavares",
+        "address": "Av. Visc. de Pelotas, 479 - Tres Vendas, Pelotas - RS, 96060-700, Brazil",
+        "lat": -31.7298899,
+        "lng": -52.3328711
+    },
+    "IgrejaLagoinhaCachoerinha": {
+        "name": "Igreja Lagoinha - Cachoerinha",
+        "address": "Av. Mário Tavares Haussen., 40 - COHAB, Cachoeirinha - RS, 94930, Brazil",
+        "lat": -29.9500869,
+        "lng": -51.1016711
+    },
+    "SociedadeAmigosDoCassinoSac": {
+        "name": "Sociedade Amigos Do Cassino - Sac",
+        "address": "Av. Rio Grande, 98 - Rio Grande, RS, 96207-000, Brazil",
+        "lat": -32.1844264,
+        "lng": -52.15851749999999
+    },
+    "ClubeSeteDeSetembro": {
+        "name": "Clube Sete De Setembro",
+        "address": "São Caetano, Arroio do Meio - RS, 95940-000, Brazil",
+        "lat": -29.3868675,
+        "lng": -51.9218196
+    },
+    "IgrejaBatistaBoasNovas": {
+        "name": "Igreja Batista Boas Novas",
+        "address": "R. Dr. João Daniel Hillebrand, 320 - Rondônia, Novo Hamburgo - RS, 93415-520, Brazil",
+        "lat": -29.7153403,
+        "lng": -51.1252844
+    },
+    "CasaDeSaoFrancisco": {
+        "name": "Casa De São Francisco",
+        "address": "R. Onze de Junho, 194 - Boa Vista, Portão - RS, 93180-000, Brazil",
+        "lat": -29.7011048,
+        "lng": -51.2438115
+    },
+    "IgrejaEvangelicaMissionariaMinisterioBetania": {
+        "name": "Igreja Evangélica Missionária - Ministério Betânia",
+        "address": "R. Gervazio Braga Pinheiro, 740 - Lomba do Pinheiro, Porto Alegre - RS, 91570-490, Brazil",
+        "lat": -30.12107189999999,
+        "lng": -51.0991648
+    },
+    "AcergsAssociacaoDeCegosDoRs": {
+        "name": "Acergs - Associação De Cegos Do Rs",
+        "address": "R. Vig. José Inácio, 433 - 6 Andar - Centro Histórico, Porto Alegre - RS, 90010-010, Brazil",
+        "lat": -30.0295521,
+        "lng": -51.2259466
+    },
+    "YleYemanjaOlobomiDei": {
+        "name": "Ylê Yemanjá Olobomi Dei",
+        "address": "R. Manuel Xavier, 389 - Bom Jesus, Porto Alegre - RS, 91420-150, Brazil",
+        "lat": -30.0431762,
+        "lng": -51.15803460000001
+    },
+    "ParoquiaNossaSenhoraFatimaDoIapi": {
+        "name": "Paróquia Nossa Senhora Fátima Do - Iapi",
+        "address": "R. Encantadora, 440 - Partenon, Porto Alegre - RS, 91530-480, Brazil",
+        "lat": -30.0715907,
+        "lng": -51.1523218
+    },
+    "MevanMissoesEvangelisticasVindeAmadosMeus": {
+        "name": "Mevan - Missões Evangelísticas Vinde Amados Meus",
+        "address": "Av. Bernardino Silveira Pastoriza, 880 - Santa Rosa de Lima, Porto Alegre - RS, 91160-310, Brazil",
+        "lat": -29.9907255,
+        "lng": -51.0995657
+    },
+    "InstitutoAnjosDoCristal": {
+        "name": "Instituto Anjos Do Cristal",
+        "address": "R. Tamandaré, 754 - Cristal, Porto Alegre - RS, 91999-000, Brazil",
+        "lat": -30.0963251,
+        "lng": -51.2427098
+    },
+    "ParoquiaSaoJoseNovoHamburgo": {
+        "name": "Paróquia São José - Novo Hamburgo",
+        "address": "R. Simão Bolívar, 266 - São Jorge, Novo Hamburgo - RS, 93537-210, Brazil",
+        "lat": -29.6743955,
+        "lng": -51.0949043
+    },
+    "ClubeCaixeiralPelotasdesativado": {
+        "name": "Clube Caixeiral Pelotas [desativado]",
+        "address": "Pr. Cel. Pedro Osório, 106 - Centro, Pelotas - RS, 96015-010, Brazil",
+        "lat": -31.7693084,
+        "lng": -52.3402141
+    },
+    "LarDosIdososParoquiaNsaSraDasGracas": {
+        "name": "Lar Dos Idosos - Paróquia Nsa Sra Das Graças",
+        "address": "Av. Feitoria, 5490 - Feitoria, São Leopoldo - RS, 93055-000, Brazil",
+        "lat": -29.7514052,
+        "lng": -51.0911717
+    },
+    "InformaTelecomCaxiasDoSul": {
+        "name": "Informa Telecom - Caxias Do Sul",
+        "address": "R. João Nichele, 2287 - Cinquentenário, Caxias do Sul - RS, 95012-631, Brazil",
+        "lat": -29.17489119999999,
+        "lng": -51.2149067
+    },
+    "CtgEstanciaDaFigueira": {
+        "name": "Ctg Estância Da Figueira",
+        "address": "R. Dr. Vergara, 5345 - Belém Velho, Porto Alegre - RS, 91712-120, Brazil",
+        "lat": -30.115738,
+        "lng": -51.180463
+    },
+    "LionsClubeCanoasCozinhaSolidaria": {
+        "name": "Lions Clube Canoas - Cozinha Solidária",
+        "address": "Av. Boqueirão, 1901 - Igara, Canoas - RS, 92022-701, Brazil",
+        "lat": -29.9055099,
+        "lng": -51.1570872
+    },
+    "Ginasio20DeSetembroIvoti": {
+        "name": "Ginásio 20 De Setembro - Ivoti",
+        "address": "R. Eng. Régis Bitencourt, 1353 - Harmonia, Ivoti - RS, 93900-000, Brazil",
+        "lat": -29.6089477,
+        "lng": -51.16505429999999
+    },
+    "IgrejaBatistaDaGraca": {
+        "name": "Igreja Batista Da Graça",
+        "address": "R. Latino Coelho, 608 - Estância Velha, Canoas - RS, 92030-180, Brazil",
+        "lat": -29.9222007,
+        "lng": -51.1485122
+    },
+    "AbrigoCasaDescobrindoOSaber": {
+        "name": "Abrigo Casa Descobrindo O Saber",
+        "address": "R. Jacareí, 88 - Ipanema, Porto Alegre - RS, 91760-420, Brazil",
+        "lat": -30.1392976,
+        "lng": -51.2271726
+    },
+    "EscolaEstadualInfanteDomHenriqueexclusivoPets": {
+        "name": "Escola Estadual Infante Dom Henrique [exclusivo Pets]",
+        "address": "R. Gonçalves Dias, 1022 - Menino Deus, Porto Alegre - RS, 90130-061, Brazil",
+        "lat": -30.0591662,
+        "lng": -51.2213798
+    },
+    "ParoquiaSantaAnaCentroDeDistribuicaocozinha": {
+        "name": "Paróquia Santa Ana - Centro De Distribuição/cozinha",
+        "address": "Rua Emílio Otto, 98 - Morro Santana, Porto Alegre - RS, 91450-260, Brazil",
+        "lat": -30.04011749999999,
+        "lng": -51.1226911
+    },
+    "AdMadureiraNovoHamburgoCanudos": {
+        "name": "Ad Madureira Novo Hamburgo - Canudos",
+        "address": "R. Bananal, 439 - Canudos, Novo Hamburgo - RS, 93546-550, Brazil",
+        "lat": -29.6951722,
+        "lng": -51.1008346
+    },
+    "ParoquiaSantaRosaDeLimaapagar": {
+        "name": "Paróquia Santa Rosa De Lima [apagar]",
+        "address": "Av. Bernardino de Oliveira Paim, 82 - Santa Rosa de Lima, Porto Alegre - RS, 91160-300, Brazil",
+        "lat": -29.99463,
+        "lng": -51.1007696
+    },
+    "AbrigoParaCavalosCainaCostaDemeneghiexclusivoPets": {
+        "name": "Abrigo Para Cavalos Cainã Costa Demeneghi. [exclusivo Pets]",
+        "address": "Beco Manoel Crescêncio, Rio Grande do Sul, Brazil",
+        "lat": -29.8570994,
+        "lng": -50.8565139
+    },
+    "EscolaYellow": {
+        "name": "Escola Yellow",
+        "address": "R. Dr. Prudente de Moraes, 431 - Chácara das Pedras, Porto Alegre - RS, 91230-170, Brazil",
+        "lat": -30.0303065,
+        "lng": -51.1646568
+    },
+    "EscolaAurelioReis": {
+        "name": "Escola Aurélio Reis",
+        "address": "R. Monte Alegre, 119 - Jardim Floresta, Porto Alegre - RS, 91040-120, Brazil",
+        "lat": -30.0031107,
+        "lng": -51.15604279999999
+    },
+    "PiquetePiazitoCarreteiroQuarai": {
+        "name": "Piquete Piazito Carreteiro - Quaraí",
+        "address": "R. Duque de Caxias, 2148, Quaraí - RS, 97560-000, Brazil",
+        "lat": -30.3748652,
+        "lng": -56.45749499999999
+    },
+    "EeebEscolaEstadualDeEducacaoBasicaComendadorAlbinoSouzaCruzRolante": {
+        "name": "Eeeb - Escola Estadual De Educação Básica - Comendador Albino Souza Cruz - Rolante",
+        "address": "R. Conceição, 850 - Centro Histórico, Rolante - RS, 95690-000, Brazil",
+        "lat": -29.6511287,
+        "lng": -50.5802998
+    },
+    "ToSalvoAbrigoParaAnimaisEmCanoas": {
+        "name": "Tô Salvo - Abrigo Para Animais Em Canoas",
+        "address": "Av. Getúlio Vargas, 6880 - Centro, Canoas - RS, 92010-134, Brazil",
+        "lat": -29.9043241,
+        "lng": -51.17796420000001
+    },
+    "ParoquiaSaoJosePrimaveraNovoHamburgo": {
+        "name": "Paróquia São José Primavera - Novo Hamburgo",
+        "address": "R. Osvaldo Cruz, 585 - Primavera, Novo Hamburgo - RS, 93340-000, Brazil",
+        "lat": -29.6875142,
+        "lng": -51.1488798
+    },
+    "MissaoPompeiaCibaiMigracoes": {
+        "name": "Missão Pompéia - Cibai Migrações",
+        "address": "R. Dr. Barros Cassal, 220 - Floresta, Porto Alegre - RS, 90035-030, Brazil",
+        "lat": -30.0274111,
+        "lng": -51.2170289
+    },
+    "DoutorDecioGomesPereiraSapiranga": {
+        "name": "Doutor Décio Gomes Pereira - Sapiranga",
+        "address": "R. Pres. Kenedy, 222 - Centro, Sapiranga - RS, 93815-016, Brazil",
+        "lat": -29.6402493,
+        "lng": -51.0027748
+    },
+    "GrupoLibertacaoANossaCasa": {
+        "name": "Grupo Libertação A Nossa Casa",
+        "address": "R. Luíza Rocco, 61 - Glória, Porto Alegre - RS, 90870-050, Brazil",
+        "lat": -30.07402,
+        "lng": -51.20468779999999
+    },
+    "ParoquiaSaoMartinhoexclusivoMulheresECriancas": {
+        "name": "Paróquia São Martinho (exclusivo Mulheres E Crianças)",
+        "address": "Rua Coronel Claudino, 220 - Cristal, Porto Alegre - RS, 91910-670, Brazil",
+        "lat": -30.0954482,
+        "lng": -51.2434069
+    },
+    "QuilomboDoAreal": {
+        "name": "Quilombo Do Areal",
+        "address": "Rua Santa Terezinha, 711 - Casa D - Farroupilha, Porto Alegre - RS, 90040-180, Brazil",
+        "lat": -30.0436867,
+        "lng": -51.2099061
+    },
+    "AcolhimentoDeAnimaisFranciscoDeAssisexclusivoPets": {
+        "name": "Acolhimento De Animais Francisco De Assis [exclusivo Pets]",
+        "address": "Av. Pres. Getúlio Vargas, 10301 - Vila Elsa, Viamão - RS, 94836-000, Brazil",
+        "lat": -30.0001175,
+        "lng": -51.0012883
+    },
+    "CdBairroIndependenciaSaoLeopoldo": {
+        "name": "Cd Bairro Independência - São Leopoldo",
+        "address": "R. Gesse Ávila de Souza, 401 - Feitoria, São Leopoldo - RS, 93050-290, Brazil",
+        "lat": -29.755611,
+        "lng": -51.1103023
+    },
+    "MulheresVoluntariasexclusivoMulheresECriancas": {
+        "name": "Mulheres Voluntárias [exclusivo Mulheres E Crianças]",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "SociedadeLibanesaAjePoacentroDeDistribuicao": {
+        "name": "Sociedade Libanesa - Aje - Poa [centro De Distribuição]",
+        "address": "Av. Sociedade Libanesa, 10 - Boa Vista, Porto Alegre - RS, 91340-330, Brazil",
+        "lat": -30.0266723,
+        "lng": -51.17643349999999
+    },
+    "AbrigoExclusivoMulheresECriancasapagar": {
+        "name": "Abrigo - Exclusivo Mulheres E Crianças [apagar]",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "AbrigoCoracaoDeMaeexclusivoMulheresECriancas": {
+        "name": "Abrigo Coração De Mãe [exclusivo Mulheres E Crianças]",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "EefVascoDaGama": {
+        "name": "E.e.f Vasco Da Gama",
+        "address": "R. Bolívia, 580 - São Luís, Canoas - RS, 92420-170, Brazil",
+        "lat": -29.8858228,
+        "lng": -51.1734337
+    },
+    "BgdArenaapagar": {
+        "name": "Bgd Arena [apagar]",
+        "address": "R. Bento Martins, 457 - Piratini, Alvorada - RS, 94852-490, Brazil",
+        "lat": -30.0076742,
+        "lng": -51.0529664
+    },
+    "IgrejaBatistaDaFeitoriaSaoLeopoldo": {
+        "name": "Igreja Batista Da Feitoria - São Leopoldo",
+        "address": "R. Jorge Meyer, 108 - Feitoria, São Leopoldo - RS, 93054-220, Brazil",
+        "lat": -29.7521096,
+        "lng": -51.095049
+    },
+    "NexosIbnChurchapagar": {
+        "name": "Nexos Ibn Church [apagar]",
+        "address": "R. Ouro Preto, 785 - Jardim Floresta, Porto Alegre - RS, 91040-610, Brazil",
+        "lat": -29.9994725,
+        "lng": -51.1547427
+    },
+    "EscolaEstadualDeEnsinoFundamentalPortoAlegre": {
+        "name": "Escola Estadual De Ensino Fundamental Porto Alegre",
+        "address": "Rua João Dallegrave, 130 - Morro Santana, Porto Alegre - RS, 91260-170, Brazil",
+        "lat": -30.0378727,
+        "lng": -51.1254569
+    },
+    "AssociacaoDeMulherMariaDaGloria": {
+        "name": "Associação De Mulher Maria Da Gloria",
+        "address": "Da Glória, Glorinha - RS, 94380-000, Brazil",
+        "lat": -29.8828298,
+        "lng": -50.7786874
+    },
+    "EscolaEstadualapagar": {
+        "name": "Escola Estadual [apagar]",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "UcergsUniaoDeCegosDoRioGrandeDoSul": {
+        "name": "Ucergs - União De Cegos Do Rio Grande Do Sul",
+        "address": "Rua Frei Henrique Golland Trindade, 425 - Boa Vista, Porto Alegre - RS, 90480-140, Brazil",
+        "lat": -30.0222091,
+        "lng": -51.1770629
+    },
+    "OngEsterMulher": {
+        "name": "Ong Ester Mulher",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "BibliotecaComunitariaAninhaPeixoto": {
+        "name": "Biblioteca Comunitária Aninha Peixoto",
+        "address": "Av. Donário Braga, 159 - Rubem Berta, Porto Alegre - RS, 91160-360, Brazil",
+        "lat": -29.9981722,
+        "lng": -51.0996734
+    },
+    "ColegioSaoJosePelotas": {
+        "name": "Colégio São José - Pelotas",
+        "address": "R. Gonçalves Chaves, 315 - Centro, Pelotas - RS, 96015-560, Brazil",
+        "lat": -31.775747,
+        "lng": -52.3416313
+    },
+    "CdChocolate": {
+        "name": "Cd Chocolate",
+        "address": "Av. Luiz Moschetti, 857 - Vila Joao Pessoa, Porto Alegre - RS, 91510-590, Brazil",
+        "lat": -30.0737871,
+        "lng": -51.1737392
+    },
+    "CapelaSantoAgostinhoEncantado": {
+        "name": "Capela Santo Agostinho - Encantado",
+        "address": "R. Agostinho Costi, 1271 - Vila Amazonas, Encantado - RS, 95960-000, Brazil",
+        "lat": -29.226927,
+        "lng": -51.8829588
+    },
+    "EmebEscolaMunicipalDeEducacaoBasicaEzequielNunesFilho": {
+        "name": "Emeb - Escola Municipal De Educação Básica Ezequiel Nunes Filho",
+        "address": "R. Ezequiel Nunes Filho, 181 - São Sebastiao, Esteio - RS, 93265-390, Brazil",
+        "lat": -29.8607675,
+        "lng": -51.1790256
+    },
+    "EeemErnestoAlves": {
+        "name": "Eeem Ernesto Alves",
+        "address": "Tv. sergipe, 145 - Centro, Santa Cruz do Sul - RS, 96810-220, Brazil",
+        "lat": -29.7106532,
+        "lng": -52.43383859999999
+    },
+    "CafeteriaDaTuka": {
+        "name": "Cafeteria Da Tuka",
+        "address": "Av. Benjamin Constant, 112 - São João, Porto Alegre - RS, 90520-080, Brazil",
+        "lat": -30.0075554,
+        "lng": -51.18693160000001
+    },
+    "SouthTrainingSantoAntonio": {
+        "name": "South Training - Santo Antônio",
+        "address": "R. Paulino Chaves, 262 - Santo Antônio, Porto Alegre - RS, 90640-200, Brazil",
+        "lat": -30.05825119999999,
+        "lng": -51.2008257
+    },
+    "IgrejaBolaDeNeveSaoSebastiaoPoa": {
+        "name": "Igreja Bola De Neve - São Sebastião / Poa",
+        "address": "Av. Assis Brasil, 6041 - São Sebastião, Porto Alegre - RS, 91010-004, Brazil",
+        "lat": -29.99768509999999,
+        "lng": -51.131147
+    },
+    "EstacionamentoIguatemi6AndarabrigoPet": {
+        "name": "Estacionamento Iguatemi 6° Andar [abrigo Pet]",
+        "address": "Av. João Wallig, 1800 - Passo d'Areia, Porto Alegre - RS, 91349-900, Brazil",
+        "lat": -30.0251223,
+        "lng": -51.1624198
+    },
+    "IgrejaSantaLuziaCachoeirinha": {
+        "name": "Igreja Santa Luzia - Cachoeirinha",
+        "address": "Av. Amazonas, 215 - Vila Vista Alegre, Cachoeirinha - RS, 94955-030, Brazil",
+        "lat": -29.91642,
+        "lng": -51.0719074
+    },
+    "IgrejaEvangelicaPontoDeFe": {
+        "name": "Igreja Evangélica Ponto De Fé",
+        "address": "R. Ouro Preto, 682 - Jardim Floresta, Porto Alegre - RS, 91040-610, Brazil",
+        "lat": -30.0004128,
+        "lng": -51.1552109
+    },
+    "CtgOsFarrapos": {
+        "name": "Ctg Os Farrapos",
+        "address": "R. Raul Pompéia, 1400 - Tres Vendas, Pelotas - RS, 96065-400, Brazil",
+        "lat": -31.7149187,
+        "lng": -52.354896
+    },
+    "EscolaEstadualDeEnsinoFundamentalBentoGoncalves": {
+        "name": "Escola Estadual De Ensino Fundamental Bento Gonçalves",
+        "address": "R. Jorge Furtado, 47 - Rubem Berta, Porto Alegre - RS, 91160-680, Brazil",
+        "lat": -30.0015777,
+        "lng": -51.1023463
+    },
+    "ProjetoPas": {
+        "name": "Projeto Pas",
+        "address": "Av. Juca Batista, 3993 - Aberta dos Morros, Porto Alegre - RS, 91755-000, Brazil",
+        "lat": -30.1576644,
+        "lng": -51.1965863
+    },
+    "GinasioDoColegioSinodalDaPaz": {
+        "name": "Ginásio Do Colégio Sinodal Da Paz",
+        "address": "R. Rodrigues Alves, 153 - Industrial, Novo Hamburgo - RS, 93320-420, Brazil",
+        "lat": -29.7148529,
+        "lng": -51.131079
+    },
+    "AbrigoDeAnimaisLimaESilvaNovoHamburgoabrigoPet": {
+        "name": "Abrigo De Animais Lima E Silva - Novo Hamburgo [abrigo Pet]",
+        "address": "R. Lima e Silva, 455 - Centro, Novo Hamburgo - RS, 93510-030, Brazil",
+        "lat": -29.6844833,
+        "lng": -51.1289153
+    },
+    "IgrejaOndaDasUncoes": {
+        "name": "Igreja Onda Das Unções",
+        "address": "R. Luís Alves Pereira, 959 - Areal, Pelotas - RS, 96085-210, Brazil",
+        "lat": -31.7397143,
+        "lng": -52.2972288
+    },
+    "EsporteClubeComerciarioCampoBranco": {
+        "name": "Esporte Clube Comerciário Campo Branco",
+        "address": "R. São Leopoldo, 754 - Stella Maris, Viamão - RS, 94855-710, Brazil",
+        "lat": -30.0478244,
+        "lng": -51.0509909
+    },
+    "PetZenPelotas": {
+        "name": "Pet Zen Pelotas",
+        "address": "Av. Domingos de Almeida, 1661 - Areal, Pelotas - RS, 96085-470, Brazil",
+        "lat": -31.754623,
+        "lng": -52.3184328
+    },
+    "Agromeyer": {
+        "name": "Agromeyer",
+        "address": "Av. Bento Gonçalves, 2643 - Partenon, Porto Alegre - RS, 90650-003, Brazil",
+        "lat": -30.061983,
+        "lng": -51.1889528
+    },
+    "ParqueDoImigrante": {
+        "name": "Parque Do Imigrante",
+        "address": "Av. Parque do Imigrante, s/n - Alto do Parque, Lajeado - RS, 95900-000, Brazil",
+        "lat": -29.4550644,
+        "lng": -51.9543134
+    },
+    "CentroEspiritaAmorFeECaridade": {
+        "name": "Centro Espírita Amor Fé E Caridade",
+        "address": "Av. Esperança, 37 - Igara, Canoas - RS, 92440-565, Brazil",
+        "lat": -29.9024297,
+        "lng": -51.1449629
+    },
+    "SouthTrainingPassoDareia": {
+        "name": "South Training - Passo D'areia",
+        "address": "R. Jari, 221 - Passo d'Areia, Porto Alegre - RS, 91350-170, Brazil",
+        "lat": -30.0139025,
+        "lng": -51.169701
+    },
+    "ParoquiaSantaLuziaGravatai": {
+        "name": "Paróquia Santa Luzia - Gravataí",
+        "address": "R. Alfredo Emilio Allen, 183 - Salgado Filho, Gravataí - RS, 94020-120, Brazil",
+        "lat": -29.9354946,
+        "lng": -50.99932769999999
+    },
+    "TerreiroDeUmbandaCaboclaIemanja": {
+        "name": "Terreiro De Umbanda Cabocla Iemanja",
+        "address": "R. Hermes da Fonseca, 346 - Formoza, Alvorada - RS, 94814-240, Brazil",
+        "lat": -30.00013,
+        "lng": -51.0692263
+    },
+    "EmefTomeDeSouza": {
+        "name": "Emef Tomé De Souza",
+        "address": "R. Parobé, 214 - Centro, Esteio - RS, 93265-011, Brazil",
+        "lat": -29.8439533,
+        "lng": -51.1620297
+    },
+    "PrincipioAnimalabrigoPet": {
+        "name": "Principio Animal [abrigo Pet]",
+        "address": "Av. Carlos Gomes, 111 - Auxiliadora, Porto Alegre - RS, 90480-003, Brazil",
+        "lat": -30.0233116,
+        "lng": -51.1844382
+    },
+    "OngPeDeChule": {
+        "name": "Ong Pé De Chulé",
+        "address": "Av. do Lami, 2429 - Belém Novo, Porto Alegre - RS, 91782-201, Brazil",
+        "lat": -30.21345699999999,
+        "lng": -51.1530977
+    },
+    "EsefEscolaSuperiorDeEducacaoFisicaEFisioterapiaUfpel": {
+        "name": "Esef - Escola Superior De Educação Física E Fisioterapia - Ufpel",
+        "address": "R. Luís de Camões, 625 - Tres Vendas, Pelotas - RS, 96055-630, Brazil",
+        "lat": -31.7384281,
+        "lng": -52.3324195
+    },
+    "CrasMathiasVelhoCanoas": {
+        "name": "Cras Mathias Velho - Canoas",
+        "address": "R. São Gabriel, 441 - Harmonia, Canoas - RS, 92330-210, Brazil",
+        "lat": -29.9015163,
+        "lng": -51.2284739
+    },
+    "ShoppingTotal": {
+        "name": "Shopping Total",
+        "address": "Av. Cristóvão Colombo, 545 - Floresta, Porto Alegre - RS, 90560-002, Brazil",
+        "lat": -30.0254659,
+        "lng": -51.2114623
+    },
+    "SeminarioDiocesanoMariaAuxiliadora": {
+        "name": "Seminário Diocesano Maria Auxiliadora",
+        "address": "R. Padre Valentin Weschenfelder, 77 - Industrial, Dois Irmãos - RS, 93950-000, Brazil",
+        "lat": -29.5896216,
+        "lng": -51.0809185
+    },
+    "IgrejaPentecostalMissaoDaUltimaHora": {
+        "name": "Igreja Pentecostal Missão Da Última Hora",
+        "address": "R. Alm. Tamandaré, 613 - Duque de Caxias, São Leopoldo - RS, 93020-190, Brazil",
+        "lat": -29.7891025,
+        "lng": -51.1402916
+    },
+    "PousadaImbe": {
+        "name": "Pousada Imbé",
+        "address": "Av. Beira-Mar, 239 - Nordeste, Imbé - RS, 95625-000, Brazil",
+        "lat": -29.9367755,
+        "lng": -50.10203749999999
+    },
+    "GinasioEsporteEscolaLeopoldina": {
+        "name": "Ginásio Esporte Escola Leopoldina",
+        "address": "Tv. Carlos Alberto Zimmer - Zona Nova, Capão da Canoa - RS, 95555-000, Brazil",
+        "lat": -29.7483789,
+        "lng": -50.0151614
+    },
+    "ParoquiaSantoAntonioDoPartenon": {
+        "name": "Paróquia Santo Antônio Do Partenon",
+        "address": "Rua Luiz de Camões, 35 - Partenon, Porto Alegre - RS, 90610-320, Brazil",
+        "lat": -30.0581719,
+        "lng": -51.2014788
+    },
+    "HospitalNossaSenhoraDasGracas": {
+        "name": "Hospital Nossa Senhora Das Graças",
+        "address": "Av. Santos Ferreira, 1864 - Mal. Rondon, Canoas - RS, 92030-000, Brazil",
+        "lat": -29.9268363,
+        "lng": -51.1612892
+    },
+    "AbrigoRuaIpeNovoHamburgo": {
+        "name": "Abrigo Rua Ipê - Novo Hamburgo",
+        "address": "R. do Ipê, 333 - Ideal, Novo Hamburgo - RS, 93332-040, Brazil",
+        "lat": -29.7095648,
+        "lng": -51.137835
+    },
+    "FaculdadeDeMedicinaFamedUfpel": {
+        "name": "Faculdade De Medicina - Famed - Ufpel",
+        "address": "Av. Duque de Caxias, 250 - Fragata, Pelotas - RS, 96030-000, Brazil",
+        "lat": -31.7595784,
+        "lng": -52.3614943
+    },
+    "ClinicaPetPointViamao": {
+        "name": "Clinica Pet Point Viamão",
+        "address": "R. Santa Marta, 34 - Águas Claras, Viamão - RS, Brazil",
+        "lat": -30.1172495,
+        "lng": -50.8290452
+    },
+    "ForoRegionalDoPartenon": {
+        "name": "Foro Regional Do Partenon",
+        "address": "R. Cel. Aparício Borges, 2025 - Partenon, Porto Alegre - RS, 90680-570, Brazil",
+        "lat": -30.0715986,
+        "lng": -51.1899101
+    },
+    "AbrigoSaoLuisOrione": {
+        "name": "Abrigo São Luís Orione",
+        "address": "R. Dormênio, 501 - Santa Tereza, Porto Alegre - RS, 90840-100, Brazil",
+        "lat": -30.07750819999999,
+        "lng": -51.2306916
+    },
+    "OngApaamArroioDoMeioabrigoPet": {
+        "name": "Ong Apaam - Arroio Do Meio [abrigo Pet]",
+        "address": "R. Antônio Fornari, 265 - Medianeira, Arroio do Meio - RS, 95940-000, Brazil",
+        "lat": -29.3905875,
+        "lng": -51.952498
+    },
+    "ParoquiaJoaoPauloSegundoIi": {
+        "name": "Paróquia João Paulo Segundo Ii",
+        "address": "Av. Visc. da Graça, 773 - Fragata, Pelotas - RS, 96025-370, Brazil",
+        "lat": -31.7698656,
+        "lng": -52.3616497
+    },
+    "EscolaMariaMarques": {
+        "name": "Escola Maria Marques",
+        "address": "rua - R. Manoel dos Santos, 212 - Tres Marias, Esteio - RS, 93295-680, Brazil",
+        "lat": -29.8672004,
+        "lng": -51.1061142
+    },
+    "EscolaLuteranaDaPaz": {
+        "name": "Escola Luterana Da Paz",
+        "address": "Av. Alcídes São Severiano, 100 - Sarandi, Porto Alegre - RS, 91130-500, Brazil",
+        "lat": -29.9958825,
+        "lng": -51.1257897
+    },
+    "CentroSocialAntonioGianelli": {
+        "name": "Centro Social Antônio Gianelli",
+        "address": "R. Dr. Barbosa Gonçalves, 61 - Chácara das Pedras, Porto Alegre - RS, 91330-320, Brazil",
+        "lat": -30.0350946,
+        "lng": -51.1617453
+    },
+    "AcademiaPerfectUnidadeAssisBrasil": {
+        "name": "Academia Perfect - Unidade Assis Brasil",
+        "address": "Tv. Olímpio de Oliveira Pachêco, 78 - Vila Ipiranga, Porto Alegre - RS, 91370-070, Brazil",
+        "lat": -30.0111453,
+        "lng": -51.14656429999999
+    },
+    "SalaoParoquialJoaoPauloIiPelotas": {
+        "name": "Salão Paroquial João Paulo Ii - Pelotas",
+        "address": "Brusque, State of Santa Catarina, Brazil",
+        "lat": -27.0989969,
+        "lng": -48.91706910000001
+    },
+    "EmefEscolaJoaoBedaKorbes": {
+        "name": "E.m.e.f. Escola João Beda Korbes",
+        "address": "R. Ardela Korbes, 1016 - Aimoré, Arroio do Meio - RS, 95940-000, Brazil",
+        "lat": -29.3925337,
+        "lng": -51.9252665
+    },
+    "EmefPadreAfonsoKistParobe": {
+        "name": "Emef Padre Afonso Kist - Parobé",
+        "address": "R. Gaspar Silveira Martins, 3015 - Santa Cristina, Parobé - RS, 95630-000, Brazil",
+        "lat": -29.6908741,
+        "lng": -50.8531341
+    },
+    "ColegioMedianeiraCandelaria": {
+        "name": "Colégio Medianeira - Candelária",
+        "address": "Av. Júlio de Castilhos, 1280 - Centro, Candelária - RS, 96930-000, Brazil",
+        "lat": -29.6652179,
+        "lng": -52.7875861
+    },
+    "ColegioMedianeiraPortoAlegre": {
+        "name": "Colégio Medianeira - Porto Alegre",
+        "address": "R. Gen. Gomes Carneiro, 45 - Medianeira, Porto Alegre - RS, 90870-310, Brazil",
+        "lat": -30.0642366,
+        "lng": -51.210819
+    },
+    "CasaCenaculoPelotasapagar": {
+        "name": "Casa Cenáculo Pelotas[apagar]",
+        "address": "Av. Dom Joaquim, 1618 - Tres Vendas, Pelotas - RS, 96020-260, Brazil",
+        "lat": -31.73916659999999,
+        "lng": -52.3427165
+    },
+    "CtUnionStrong": {
+        "name": "Ct Union Strong",
+        "address": "Av. Edgar Píres de Castro, 1315 - Hípica, Porto Alegre - RS, 91787-235, Brazil",
+        "lat": -30.1555959,
+        "lng": -51.1782028
+    },
+    "AcolhimentoNoturnoAprenderEConstruir": {
+        "name": "Acolhimento Noturno Aprender E Construir",
+        "address": "R. Icaraí, 352 - Sumaré, Alvorada - RS, 94824-030, Brazil",
+        "lat": -29.9937585,
+        "lng": -51.0729292
+    },
+    "IgrejaEvangelicaAssembleiaDeDeusDistritoMorroSantana": {
+        "name": "Igreja Evangélica Assembléia De Deus Distrito Morro Santana",
+        "address": "Av. Dr. Luciano Raul Panatieri, 233 - Morro Santana, Porto Alegre - RS, 91450-230, Brazil",
+        "lat": -30.04412529999999,
+        "lng": -51.1259986
+    },
+    "AmurtAmurtel": {
+        "name": "Amurt Amurtel",
+        "address": "Av. Juca Batista, 6841 - Ponta Grossa, Porto Alegre - RS, 91778-063, Brazil",
+        "lat": -30.1745857,
+        "lng": -51.1768953
+    },
+    "CasaCenaculoPelotas": {
+        "name": "Casa Cenáculo - Pelotas",
+        "address": "Av. Dom Joaquim, 1618 - Tres Vendas, Pelotas - RS, 96020-260, Brazil",
+        "lat": -31.73916659999999,
+        "lng": -52.3427165
+    },
+    "IgrejaSantaCatarinaSantaMaria": {
+        "name": "Igreja Santa Catarina - Santa Maria",
+        "address": "Rua Visconde de Ferreira Pinto, 489 - Itararé, Santa Maria - RS, 97045-510, Brazil",
+        "lat": -29.6754401,
+        "lng": -53.80024659999999
+    },
+    "ColegioSantaTereza": {
+        "name": "Colégio Santa Tereza",
+        "address": "Av. da Cavalhada, 2250 - Cavalhada, Porto Alegre - RS, 91740-000, Brazil",
+        "lat": -30.0976897,
+        "lng": -51.2300111
+    },
+    "SantaTerezinhaFcPelotas": {
+        "name": "Santa Terezinha Fc - Pelotas",
+        "address": "R. Santo Antônio, 86 - Tres Vendas, Pelotas - RS, 96065-460, Brazil",
+        "lat": -31.72506259999999,
+        "lng": -52.3464649
+    },
+    "IgrejaCatolicaSaoVicenteDePaula": {
+        "name": "Igreja Católica São Vicente De Paula",
+        "address": "R. Gildo de Freitas, 1476 - Olaria, Canoas - RS, 92035-190, Brazil",
+        "lat": -29.9154303,
+        "lng": -51.119955
+    },
+    "GinasioDaEscolaOtavianoSilveira": {
+        "name": "Ginásio Da Escola Otaviano Silveira",
+        "address": "Av. Sebastião Faut, 484 - Fortuna, Sapucaia do Sul - RS, 93212-420, Brazil",
+        "lat": -29.8093193,
+        "lng": -51.1776016
+    },
+    "ParoquiaNossaSenhoraDaPaz": {
+        "name": "Paróquia Nossa Senhora Da Paz",
+        "address": "R. Prof. Cristiano Fischer, 149 - Petrópolis, Porto Alegre - RS, 91410-000, Brazil",
+        "lat": -30.0411706,
+        "lng": -51.1720663
+    },
+    "GinasioMunicipalDeCampoBom": {
+        "name": "Ginásio Municipal De Campo Bom",
+        "address": "Av. Adriano Dias, 720 - I, Campo Bom - RS, 93700-000, Brazil",
+        "lat": -29.6738424,
+        "lng": -51.0544586
+    },
+    "BorghettiAditivosELubrificantes": {
+        "name": "Borghetti Aditivos E Lubrificantes",
+        "address": "Rua Gustavo Wienandts, 1207 Fundos - Centro, Arroio do Meio - RS, 95940-000, Brazil",
+        "lat": -29.3968246,
+        "lng": -51.9470862
+    },
+    "OabOrdemDosAdvogados": {
+        "name": "Oab - Ordem Dos Advogados",
+        "address": "Rua Washington Luiz, 1110 - Centro Histórico, Porto Alegre - RS, 90010-460, Brazil",
+        "lat": -30.0374765,
+        "lng": -51.2289956
+    },
+    "CervejariaDaTuka": {
+        "name": "Cervejaria Da Tuka",
+        "address": "Largo das Paineiras, 144 - Vila Joao Pessoa, Porto Alegre - RS, 91510-070, Brazil",
+        "lat": -30.0708479,
+        "lng": -51.1751648
+    },
+    "GinasioDaEscolaWandaRocha": {
+        "name": "Ginásio Da Escola Wanda Rocha",
+        "address": "R. Fernando Osório Filho, 201 - Rio Grande, RS, 96205-090, Brazil",
+        "lat": -32.177356,
+        "lng": -52.1596741
+    },
+    "EmebEscolaMunicipalDeEducacaoBasicaDulceDeMoraes": {
+        "name": "Emeb - Escola Municipal De Educação Básica Dulce De Moraes",
+        "address": "R. República Argentina, 150 - Vila Cruzeiro, Esteio - RS, 93285-270, Brazil",
+        "lat": -29.8537571,
+        "lng": -51.1620728
+    },
+    "AssociacaoEspiritaHumbertoDeCampos": {
+        "name": "Associação Espírita Humberto De Campos",
+        "address": "Rua Santa Terezinha, 827 - Nossa Sra. das Gracas, Canoas - RS, 92025-620, Brazil",
+        "lat": -29.9309047,
+        "lng": -51.163022
+    },
+    "EmebEscolaMunicipalDeEducacaoBasicaEvaKarnalJohann": {
+        "name": "Emeb - Escola Municipal De Educação Básica Eva Karnal Johann",
+        "address": "R. Alvício Nienow, 222 - Liberdade, Esteio - RS, 93265-290, Brazil",
+        "lat": -29.8573257,
+        "lng": -51.1671361
+    },
+    "CondominioResidencialAcorianos": {
+        "name": "Condomínio Residencial Açorianos",
+        "address": "R. Amadeu F. de Oliveira Freitas, 65 - Morro Santana, Porto Alegre - RS, 91260-010, Brazil",
+        "lat": -30.039091,
+        "lng": -51.1268716
+    },
+    "InstitutoDeEducacaoSaoFranciscoZonaNorte": {
+        "name": "Instituto De Educação São Francisco - Zona Norte",
+        "address": "Av. Baltazar de Oliveira Garcia, 4879 - Rubem Berta, Porto Alegre - RS, 91180-001, Brazil",
+        "lat": -30.0131229,
+        "lng": -51.09744
+    },
+    "ParoquiaNossaSenhoraDeFatimaGravatai": {
+        "name": "Paróquia Nossa Senhora De Fátima - Gravataí",
+        "address": "Av. Dorival Cândido Luz de Oliveira, 6089 - Gravataí, RS, 94060-001, Brazil",
+        "lat": -29.933104,
+        "lng": -51.05532849999999
+    },
+    "SosAlvoradacentroDeDistribuicao": {
+        "name": "Sos Alvorada [centro De Distribuição]",
+        "address": "R. Dom Luís de Vasconcelos, 174 - Maria Regina, Alvorada - RS, 94828-230, Brazil",
+        "lat": -29.9978315,
+        "lng": -51.0591442
+    },
+    "AbrigoParaPessoasLgbtCascataexclusivoLgbtqiapn": {
+        "name": "Abrigo Para Pessoas Lgbt - Cascata [exclusivo Lgbtqiapn+]",
+        "address": "R. Eleutério Araújo, 32 - Partenon, Porto Alegre - RS, 90680-410, Brazil",
+        "lat": -30.0646945,
+        "lng": -51.1867069
+    },
+    "IgrejaCatolicaTresCoroas": {
+        "name": "Igreja Católica - Três Coroas",
+        "address": "R. Doze de Maio, 437 - Centro, Três Coroas - RS, 95660-000, Brazil",
+        "lat": -29.5166798,
+        "lng": -50.7783183
+    },
+    "IgrejaBolaDeNevePelotas": {
+        "name": "Igreja Bola De Neve - Pelotas",
+        "address": "R. Santos Dumont, 660 - Centro, Pelotas - RS, 96020-380, Brazil",
+        "lat": -31.7542719,
+        "lng": -52.341174
+    },
+    "CtgRanchoDaAmizadeGravatai": {
+        "name": "Ctg Rancho Da Amizade Gravataí",
+        "address": "R. Aladim Pinto, 345 - Parque Ipiranga, Gravataí - RS, 94110-200, Brazil",
+        "lat": -29.9113969,
+        "lng": -51.0626359
+    },
+    "CentroEnergeticoSaoJeronimoacacias": {
+        "name": "Centro Energético - São Jerônimo (acácias)",
+        "address": "R. José de Souza, 161, São Jerônimo - RS, 96700-000, Brazil",
+        "lat": -29.9635748,
+        "lng": -51.6696094
+    },
+    "IgrejaPibGravatai": {
+        "name": "Igreja Pib Gravataí",
+        "address": "Av. Brasil, 330 - Barnabé, Gravataí - RS, 94150-000, Brazil",
+        "lat": -29.9348983,
+        "lng": -51.0280044
+    },
+    "GinasioDoSesiCampoBom": {
+        "name": "Ginásio Do Sesi - Campo Bom",
+        "address": "Av. Pres. Vargas, 937 - Centro, Campo Bom - RS, 93700-000, Brazil",
+        "lat": -29.6872914,
+        "lng": -51.0509394
+    },
+    "IgrejaElevGravatai": {
+        "name": "Igreja Elev Gravataí",
+        "address": "Av. Brasil, 315 - Barnabé, Gravataí - RS, 94150-000, Brazil",
+        "lat": -29.935405,
+        "lng": -51.028045
+    },
+    "EscolaEstadualDeEnsinoMedioDrEdmarFetter": {
+        "name": "Escola Estadual De Ensino Médio Dr. Edmar Fetter",
+        "address": "Laranjal - R. Cinco, 100 - Colina Verde, Pelotas - RS, 96050-000, Brazil",
+        "lat": -31.7541359,
+        "lng": -52.2401236
+    },
+    "IgrejaCabeludaPelotas": {
+        "name": "Igreja Cabeluda - Pelotas",
+        "address": "R. Quinze de Novembro, 466-500 - Centro, Pelotas - RS, 96015-000, Brazil",
+        "lat": -31.7723759,
+        "lng": -52.3428286
+    },
+    "ParqueDaOktoberfest": {
+        "name": "Parque Da Oktoberfest",
+        "address": "Parque da Oktoberfest - R. Galvão Costa, 755 - Centro, Santa Cruz do Sul - RS, 96180-198, Brazil",
+        "lat": -29.7100111,
+        "lng": -52.4310535
+    },
+    "CasaCenaculoapagar": {
+        "name": "Casa Cenáculo [apagar]",
+        "address": "Av. Dom Joaquim, 1618 - Tres Vendas, Pelotas - RS, 96020-260, Brazil",
+        "lat": -31.73916659999999,
+        "lng": -52.3427165
+    },
+    "ArcaabrigoPet": {
+        "name": "Arca [abrigo Pet]",
+        "address": "Av. Soledade, 484 - Petrópolis, Porto Alegre - RS, 90470-340, Brazil",
+        "lat": -30.0330722,
+        "lng": -51.1796799
+    },
+    "CasaDolceabrigoPet": {
+        "name": "Casa Dolce [abrigo Pet]",
+        "address": "Av. Teixeira Mendes, 1023 - Chácara das Pedras, Porto Alegre - RS, 91330-391, Brazil",
+        "lat": -30.0311417,
+        "lng": -51.1654527
+    },
+    "AntigoCentroClinicoGaucho": {
+        "name": "Antigo Centro Clínico Gaucho",
+        "address": "Av. do Forte, 143 - Vila Ipiranga, Porto Alegre - RS, 91360-000, Brazil",
+        "lat": -30.0121195,
+        "lng": -51.15330669999999
+    },
+    "AbamfAssociacaoDaBrigadaMilitarECorpoDeBombeirosMilitaresDoRs": {
+        "name": "Abamf - Associação Da Brigada Militar E Corpo De Bombeiros Militares Do Rs",
+        "address": "Av. Veiga, 223 - Cel. Aparicio Borges, Porto Alegre - RS, 91510-120, Brazil",
+        "lat": -30.0667638,
+        "lng": -51.1844765
+    },
+    "IgrejaManancialChurch": {
+        "name": "Igreja Manancial Church",
+        "address": "Av. São Borja, 1417 - Rio Branco, São Leopoldo - RS, 93032-405, Brazil",
+        "lat": -29.7799709,
+        "lng": -51.1253168
+    },
+    "ComunidadeQuilombolaMariaLuizaIreno": {
+        "name": "Comunidade Quilombola Maria Luiza Ireno",
+        "address": "Av. Dr. Sezefredo Azambuja Vieira, 590 - Olaria, Canoas - RS, 92031-040, Brazil",
+        "lat": -29.9193978,
+        "lng": -51.1383054
+    },
+    "LaranjalPraiaClube": {
+        "name": "Laranjal Praia Clube",
+        "address": "Av. Rio Grande do Sul, 129 - Laranjal, Pelotas - RS, 96090-590, Brazil",
+        "lat": -31.7620475,
+        "lng": -52.2298171
+    },
+    "SosEnchentes": {
+        "name": "Sos Enchentes",
+        "address": "Estr. dos Caetanos, 1213 - Res. Meu Rincao, Cachoeirinha - RS, 94970-250, Brazil",
+        "lat": -29.8788702,
+        "lng": -51.1092306
+    },
+    "ParoquiaNossaSenhoraAparecidaSaoLeopoldoapagar": {
+        "name": "Paróquia Nossa Senhora Aparecida São Leopoldo [apagar]",
+        "address": "Av. Parobé, S/N - Scharlau, São Leopoldo - RS, 93125-100, Brazil",
+        "lat": -29.7286563,
+        "lng": -51.1508
+    },
+    "HotelGremio": {
+        "name": "Hotel Grêmio",
+        "address": "R. Dr. Timóteo, 577 - Floresta, Porto Alegre - RS, 90570-041, Brazil",
+        "lat": -30.0202846,
+        "lng": -51.2002433
+    },
+    "AmotraAssociacaoDeMoradoresDoTravessao": {
+        "name": "Amotra - Associação De Moradores Do Travessão",
+        "address": "R. Pedro Hansen, 843 - Travessão, Dois Irmãos - RS, 93950-000, Brazil",
+        "lat": -29.6261002,
+        "lng": -51.1182265
+    },
+    "CtgChaleiraPreta": {
+        "name": "Ctg Chaleira Preta",
+        "address": "R. Armando Divan, 357 - Morada do Vale I, Gravataí - RS, 94080-350, Brazil",
+        "lat": -29.9197751,
+        "lng": -51.0680279
+    },
+    "IgrejaApostolicaMinisterioKairos": {
+        "name": "Igreja Apostólica Ministério Kairós",
+        "address": "Av. Centenário, 768 - Centro, Gravataí - RS, 94035-240, Brazil",
+        "lat": -29.9488235,
+        "lng": -50.9938425
+    },
+    "GinasioRioBrancoSaoSebastiaoDoCai": {
+        "name": "Ginásio Rio Branco - São Sebastião Do Caí",
+        "address": "Estr. Bela Vista, 62, São Sebastião do Caí - RS, 95760-000, Brazil",
+        "lat": -29.5497212,
+        "lng": -51.3614556
+    },
+    "IgrejaAssembleiaDeDeusDeCapaoDaCanoa": {
+        "name": "Igreja Assembleia De Deus De Capão Da Canoa",
+        "address": "Av. Valdomiro Cândido dos Reis, 1084 - Capão da Canoa, RS, 95555-000, Brazil",
+        "lat": -29.7579692,
+        "lng": -50.0381271
+    },
+    "IgrejaMetodistaWesleyana": {
+        "name": "Igreja Metodista Wesleyana",
+        "address": "R. Padre Diogo Feijó, 164 - Fragata, Pelotas - RS, 96030-720, Brazil",
+        "lat": -31.7591868,
+        "lng": -52.3759135
+    },
+    "OngPachamamaSitioAonikenGravataicentroDeDistribuicao": {
+        "name": "Ong Pachamama - Sítio Aoniken - Gravataí [centro De Distribuição]",
+        "address": "Morungava, Gravataí - RS, Brazil",
+        "lat": -29.8204332,
+        "lng": -50.9241226
+    },
+    "ParoquiaNossaSenhoraAparecidaNovoHamburgo": {
+        "name": "Paróquia Nossa Senhora Aparecida Novo Hamburgo",
+        "address": "R. Farroupilha, 315 - São José, Novo Hamburgo - RS, 93530-500, Brazil",
+        "lat": -29.6596568,
+        "lng": -51.1114918
+    },
+    "GinasioMunicipalIvora": {
+        "name": "Ginásio Municipal - Ivorá",
+        "address": "R. Bento Gonçalves, 1064, Ivorá - RS, 98160-000, Brazil",
+        "lat": -29.5200657,
+        "lng": -53.5757974
+    },
+    "AbrigoResidencialChacaraHorizon": {
+        "name": "Abrigo Residencial - Chácara - Horizon",
+        "address": "Av. Pedro Quaresma da Silva - Boa Saúde, Novo Hamburgo - RS, 93347-277, Brazil",
+        "lat": -29.6771425,
+        "lng": -51.1699611
+    },
+    "MinisterioPalavraPura": {
+        "name": "Ministério Palavra Pura",
+        "address": "Av. Dorival Cândido Luz de Oliveira, 3926 - São Geraldo, Gravataí - RS, 94050-000, Brazil",
+        "lat": -29.936106,
+        "lng": -51.033295
+    },
+    "SociedadeLibanesaDePelotas": {
+        "name": "Sociedade Libanesa De Pelotas",
+        "address": "R. Prof. Dr. Araújo, 711 - Centro, Pelotas - RS, 96020-360, Brazil",
+        "lat": -31.7624658,
+        "lng": -52.34646069999999
+    },
+    "GrupoEspiritaIrmaoIsmaelcentroDeDistribuicao": {
+        "name": "Grupo Espírita Irmão Ismael [centro De Distribuição]",
+        "address": "R. Alegrete, 100 - Niterói, Canoas - RS, 92120-170, Brazil",
+        "lat": -29.9544756,
+        "lng": -51.1750767
+    },
+    "ProcuraseUmAmigorsabrigoPet": {
+        "name": "Procura-se Um Amigo-rs [abrigo Pet]",
+        "address": "R. Prof. Cristiano Fischer, 420 - Petrópolis, Porto Alegre - RS, 91410-000, Brazil",
+        "lat": -30.043677,
+        "lng": -51.1718637
+    },
+    "Associacaoapagar": {
+        "name": "Associação [apagar]",
+        "address": "Rua Reverendo Daniel Betts, 319 - Morro Santana, Porto Alegre - RS, 91450-400, Brazil",
+        "lat": -30.0428526,
+        "lng": -51.1263821
+    },
+    "GinasioMunicipalDeEsportesSaoMartinho": {
+        "name": "Ginásio Municipal De Esportes - São Martinho",
+        "address": "R. Vinte Quatro de Janeiro, 2140, São Martinho da Serra - RS, 97190-000, Brazil",
+        "lat": -29.5274238,
+        "lng": -53.8538207
+    },
+    "EstadioBocaDoLobo": {
+        "name": "Estádio Boca Do Lobo",
+        "address": "R. Padre Anchieta - Centro, Pelotas - RS, 96015-420, Brazil",
+        "lat": -31.760726,
+        "lng": -52.3367302
+    },
+    "CasaDoTrabalhadorPelotas": {
+        "name": "Casa Do Trabalhador - Pelotas",
+        "address": "R. Santa Cruz, 2464a - Centro, Pelotas - RS, 96015-710, Brazil",
+        "lat": -31.7658613,
+        "lng": -52.3363295
+    },
+    "FenacNovoHamburgo": {
+        "name": "Fenac - Novo Hamburgo",
+        "address": "R. Araxá, 505 - Ideal, Novo Hamburgo - RS, 93334-000, Brazil",
+        "lat": -29.7030431,
+        "lng": -51.1385438
+    },
+    "AbrigoDePareciNovo": {
+        "name": "Abrigo De Pareci Novo",
+        "address": "R. Alonso Remi Dietrich, 37 - Centro, Pareci Novo - RS, 95783-000, Brazil",
+        "lat": -29.6370866,
+        "lng": -51.4004716
+    },
+    "ParqueGermaniaabrigoPet": {
+        "name": "Parque Germânia [abrigo Pet]",
+        "address": "Portão 4 - Farrapos, Porto Alegre - RS, 90250-590, Brazil",
+        "lat": -29.9740874,
+        "lng": -51.19605439999999
+    },
+    "AssociacaoDoGuabiroba": {
+        "name": "Associação Do Guabiroba",
+        "address": "Av. Theodoro muller, 2420A - Fragata, Pelotas - RS, 96040-160, Brazil",
+        "lat": -31.7428649,
+        "lng": -52.3721705
+    },
+    "GremioDosSargentosCriancasTea": {
+        "name": "Grêmio Dos Sargentos - Crianças Tea",
+        "address": "Av. Mauá, 2001 - Centro, São Leopoldo - RS, 93110-320, Brazil",
+        "lat": -29.7743498,
+        "lng": -51.1440782
+    },
+    "AbrigoIeacigrejaNovaEsperanca": {
+        "name": "Abrigo Ieac/igreja Nova Esperança",
+        "address": "Av. Plínio Kroeff, 2121 - Rubem Berta, Porto Alegre - RS, 91150-170, Brazil",
+        "lat": -29.9941291,
+        "lng": -51.112426
+    },
+    "EeefGenIbaIlhaMoreira": {
+        "name": "Eeef Gen Iba Ilha Moreira",
+        "address": "R. 1, 278 - Jardim Carvalho, Porto Alegre - RS, 91430-308, Brazil",
+        "lat": -30.0542334,
+        "lng": -51.15022039999999
+    },
+    "IgrejaMatrizNossaSenhoraDosAnjos": {
+        "name": "Igreja Matriz Nossa Senhora Dos Anjos",
+        "address": "R. Cônego Pedro Wagner, 717 - Centro, Gravataí - RS, 94010-160, Brazil",
+        "lat": -29.9445226,
+        "lng": -50.99278899999999
+    },
+    "IgrejaDosVales": {
+        "name": "Igreja Dos Vales",
+        "address": "R. Santa Clara, 192 - Santa Fe, Gravataí - RS, 94060-300, Brazil",
+        "lat": -29.9364097,
+        "lng": -51.05214609999999
+    },
+    "IgrejaMatrizSalaoParoquialCanela": {
+        "name": "Igreja Matriz - Salão Paroquial - Canela",
+        "address": "Praça Matriz, 69 - Centro, Canela - RS, 95680-000, Brazil",
+        "lat": -29.363215,
+        "lng": -50.8091857
+    },
+    "AssembleiaDeDeusAMissaoDoEvangelho": {
+        "name": "Assembleia De Deus A Missão Do Evangelho",
+        "address": "R. Bélgica, 150 - Parque Mal. Rondon, Cachoeirinha - RS, 94965-030, Brazil",
+        "lat": -29.9037401,
+        "lng": -51.0664345
+    },
+    "ComunidadeCatolicaSantoAntonioDeEstanciaVelha": {
+        "name": "Comunidade Católica Santo Antônio De Estância Velha",
+        "address": "R. Flôres da Cunha, 414 - Floresta, Estância Velha - RS, 93600-000, Brazil",
+        "lat": -29.6495851,
+        "lng": -51.161603
+    },
+    "AbrigoIpa": {
+        "name": "Abrigo Ipa",
+        "address": "Rua Coronel Joaquim Pedro Salgado, 80 - Rio Branco, Porto Alegre - RS, 90420-060, Brazil",
+        "lat": -30.0339394,
+        "lng": -51.197158
+    },
+    "ComunidadeSaoJoao": {
+        "name": "Comunidade São João",
+        "address": "R. João Célio Schmitz, 90 - Parque Olinda, Gravataí - RS, 94065-345, Brazil",
+        "lat": -29.9457709,
+        "lng": -51.0525558
+    },
+    "SalaoDeFestasGaje": {
+        "name": "Salão De Festas Gaje",
+        "address": "Rua Almirante Barroso - Formoza, Alvorada - RS, 94814-400, Brazil",
+        "lat": -29.9971084,
+        "lng": -51.0690276
+    },
+    "IgrejaFamiliaLuzDeDeus": {
+        "name": "Igreja Familia, Luz De Deus",
+        "address": "R. Vila Lobos, 470 - Tamandaré, Esteio - RS, 93260-400, Brazil",
+        "lat": -29.8361613,
+        "lng": -51.1635633
+    },
+    "IgrejaAssembleiaDeDeusMinisterioUniao": {
+        "name": "Igreja Assembleia De Deus, Ministério União",
+        "address": "R. Rio Grande, 1681 - Centro, Esteio - RS, 93265-000, Brazil",
+        "lat": -29.8544875,
+        "lng": -51.1681895
+    },
+    "IgrejaAdgp": {
+        "name": "Igreja Adgp",
+        "address": "R. Doná Isabel, 727 - Liberdade, Esteio - RS, 93285-320, Brazil",
+        "lat": -29.85712109999999,
+        "lng": -51.1646256
+    },
+    "IgrejaIeq": {
+        "name": "Igreja Ieq",
+        "address": "R. Roquete Pinto, 513 - Niterói, Canoas - RS, 92130-440, Brazil",
+        "lat": -29.9629774,
+        "lng": -51.1652545
+    },
+    "IgrejaBrasaEsteio": {
+        "name": "Igreja Brasa Esteio",
+        "address": "R. São Francisco, 400 - Olímpica, Esteio - RS, 93285-040, Brazil",
+        "lat": -29.8572833,
+        "lng": -51.1529599
+    },
+    "Lideraco": {
+        "name": "Lideraco",
+        "address": "R. Latino Coelho, 379 - Estância Velha, Canoas - RS, 92030-180, Brazil",
+        "lat": -29.924331,
+        "lng": -51.14840299999999
+    },
+    "UnidosDaTuca": {
+        "name": "Unidos Da Tuca",
+        "address": "R. A, 100 - Vila Joao Pessoa, Porto Alegre - RS, 91510-430, Brazil",
+        "lat": -30.0697804,
+        "lng": -51.1728178
+    },
+    "AldeiaIndigenaPorFiFapontoDeColetaECentroDeDistribuicao": {
+        "name": "Aldeia Indígena Por Fi Fa [ponto De Coleta E Centro De Distribuição]",
+        "address": "Estr. do Quilombo - Feitoria Seller, São Leopoldo - RS, 93054-590, Brazil",
+        "lat": -29.7676183,
+        "lng": -51.09720249999999
+    },
+    "AbrigoTabajara": {
+        "name": "Abrigo Tabajara",
+        "address": "Estrada dos Batillanas, 515 - Cascata, Porto Alegre - RS, 91712-310, Brazil",
+        "lat": -30.0850771,
+        "lng": -51.18543
+    },
+    "IgrejaMinisterioNovaJerusalem": {
+        "name": "Igreja Ministério Nova Jerusalém",
+        "address": "R. Belém, 369 - Lago Azul, Estância Velha - RS, 93612-340, Brazil",
+        "lat": -29.666022,
+        "lng": -51.1926728
+    },
+    "GalpaoJoaoTremarinpontoDeColeta": {
+        "name": "Galpão João Tremarin [ponto De Coleta]",
+        "address": "R. Iran Paulo Sprenger, 356 - Feitoria, São Leopoldo - RS, 93050-020, Brazil",
+        "lat": -29.7555802,
+        "lng": -51.10994360000001
+    },
+    "DceUfrgsdiretorioCentralDeEstudantescentroDeDistribuicao": {
+        "name": "Dce - Ufrgs (diretório Central De Estudantes) [centro De Distribuição]",
+        "address": "R. Vicente da Fontoura, 2280 - Santa Cecília, Porto Alegre - RS, 90630-200, Brazil",
+        "lat": -30.0421237,
+        "lng": -51.1965958
+    },
+    "ClubeDiamantinosDePelotascentroDeDistribuicao": {
+        "name": "Clube Diamantinos De Pelotas [centro De Distribuição]",
+        "address": "Rua Dr. Miguel Barcellos, 504 - Centro, Pelotas - RS, 96015-150, Brazil",
+        "lat": -31.7643708,
+        "lng": -52.3361859
+    },
+    "ParoquiaNossaSenhoraDasGracasPoa": {
+        "name": "Paróquia Nossa Senhora Das Graças Poa",
+        "address": "Av. Wenceslau Escobar, 2380 - Tristeza, Porto Alegre - RS, 91900-000, Brazil",
+        "lat": -30.1105952,
+        "lng": -51.2537458
+    },
+    "CcrCentroCristaoRestaurar": {
+        "name": "Ccr - Centro Cristão Restaurar",
+        "address": "R. Teotônio Viléla, 1794 - Parque Granja Esperanca, Cachoeirinha - RS, 94960-570, Brazil",
+        "lat": -29.9104804,
+        "lng": -51.0800085
+    },
+    "MitraDioceseDeNovoHamburgoParoquiaSantaCatarina": {
+        "name": "Mitra Diocese De Novo Hamburgo - Paróquia Santa Catarina",
+        "address": "R. Gen. Osório, 729 - Hamburgo Velho, Novo Hamburgo - RS, 93510-205, Brazil",
+        "lat": -29.6764267,
+        "lng": -51.1164448
+    },
+    "IeAfroMeninaEncantoDoCacador": {
+        "name": "Iê Afro Menina Encanto Do Caçador",
+        "address": "R. das Rosas, 16 - Três Figueiras, Porto Alegre - RS, 90470-330, Brazil",
+        "lat": -30.0302789,
+        "lng": -51.1767981
+    },
+    "AldeiaIndigenaMorroDoOssocentroDeDistribuicao": {
+        "name": "Aldeia Indígena Morro Do Osso [centro De Distribuição]",
+        "address": "R. Prof. Padre Werner, 77 - Sétimo Céu, Porto Alegre - RS, 91920-770, Brazil",
+        "lat": -30.1197351,
+        "lng": -51.249136
+    },
+    "Sejarsacozinha": {
+        "name": "Sejarsa [cozinha]",
+        "address": "R. Guadalajara, 200 - Jardim Itu, Porto Alegre - RS, 91215-290, Brazil",
+        "lat": -30.02922239999999,
+        "lng": -51.1432195
+    },
+    "IgrejaNossaSenhoraDeFatimaIapi": {
+        "name": "Igreja Nossa Senhora De Fátima Iapi",
+        "address": "R. Dr. Napoleão Laureano, s/n - Passo d'Areia, Porto Alegre - RS, 90520-350, Brazil",
+        "lat": -30.0156715,
+        "lng": -51.1754623
+    },
+    "SaseAbracandoComCarinhozonaSulcentroDeDistribuicao": {
+        "name": "Sase Abraçando Com Carinho (zona Sul) [centro De Distribuição]",
+        "address": "Cavalhada, Porto Alegre - RS, Brazil",
+        "lat": -30.1020404,
+        "lng": -51.23099240000001
+    },
+    "ConceitoVestibularesabrigoExclusivoParaPets": {
+        "name": "Conceito Vestibulares (abrigo Exclusivo Para Pets)",
+        "address": "Av. Independência, 702 - Independência, Porto Alegre - RS, 90035-072, Brazil",
+        "lat": -30.0292513,
+        "lng": -51.2142284
+    },
+    "IgrejaNossaSenhoraDasDorescentroDeTriagemEColetaDeDoacoes": {
+        "name": "Igreja Nossa Senhora Das Dores [centro De Triagem E Coleta De Doações]",
+        "address": "R. Riachuelo, 600 - Centro Histórico, Porto Alegre - RS, 90010-272, Brazil",
+        "lat": -30.0330407,
+        "lng": -51.23565989999999
+    },
+    "ColegioAdventistaCanoas": {
+        "name": "Colégio Adventista - Canoas",
+        "address": "Av. Farroupilha, 5616 - Mal. Rondon, Canoas - RS, 92410, Brazil",
+        "lat": -29.9071864,
+        "lng": -51.165188
+    },
+    "IgrejaDeusEAmorDeViamaocentroDeColetaEDistribuicao": {
+        "name": "Igreja Deus É Amor De Viamão [centro De Coleta E Distribuição]",
+        "address": "Rua Beco dos Soares, 1045 - São Lucas, Viamão - RS, 94450-440, Brazil",
+        "lat": -30.0838461,
+        "lng": -51.07330289999999
+    },
+    "AbrigoAliadasexclusivoParaMulheresComCriancas": {
+        "name": "Abrigo Aliadas [exclusivo Para Mulheres Com Crianças]",
+        "address": "R. Felipe de Oliveira, 35 - Santa Cecília, Porto Alegre - RS, 90630-000, Brazil",
+        "lat": -30.0426242,
+        "lng": -51.2025831
+    },
+    "IfrsInstitutoFederalDoRioGrandeDoSulPortoAlegre": {
+        "name": "Ifrs - Instituto Federal Do Rio Grande Do Sul - Porto Alegre",
+        "address": "Rua Coronel Corte Real, 142 - Petrópolis, Porto Alegre - RS, 90630-080, Brazil",
+        "lat": -30.0418729,
+        "lng": -51.1932449
+    },
+    "SociedadeGremioAtleticoMauaapagar": {
+        "name": "Sociedade Grêmio Atlético Mauá [apagar]",
+        "address": "Av. Feitoria, 3171 - Feitoria, São Leopoldo - RS, 93040-290, Brazil",
+        "lat": -29.7589999,
+        "lng": -51.108155
+    },
+    "IgrejaAdventistaDoSetimoDiaNovoHamburgo": {
+        "name": "Igreja Adventista Do Sétimo Dia - Novo Hamburgo",
+        "address": "R. Carlos Dienstbach, 347 - Rondônia, Novo Hamburgo - RS, 93415-270, Brazil",
+        "lat": -29.7005952,
+        "lng": -51.1182203
+    },
+    "IgrejaBolaDeNeveTaruma": {
+        "name": "Igreja Bola De Neve - Tarumã",
+        "address": "RS-118, 3130 - Tarumã, Viamão - RS, 94425-500, Brazil",
+        "lat": -30.0633394,
+        "lng": -51.01609939999999
+    },
+    "EscolaEstadualDeEnsinoMedioSantaRosa": {
+        "name": "Escola Estadual De Ensino Médio Santa Rosa",
+        "address": "Av. Bernardino de Oliveira Paim, 665 - Santa Rosa de Lima, Porto Alegre - RS, 91160-300, Brazil",
+        "lat": -29.996848,
+        "lng": -51.1005231
+    },
+    "PanAmericanSchoolcomunidadeEvangelicaDaCruzcentroDeDistribuicao": {
+        "name": "Pan American School (comunidade Evangélica Da Cruz) [centro De Distribuição]",
+        "address": "Av. João Obino, 130 - Petrópolis, Porto Alegre - RS, 90470-150, Brazil",
+        "lat": -30.0356097,
+        "lng": -51.182621
+    },
+    "AssociacaoDeMoradoresDaVilaTijucacentroDeColetaEDistribuicao": {
+        "name": "Associação De Moradores Da Vila Tijuca [centro De Coleta E Distribuição]",
+        "address": "Tijuca, Rio de Janeiro - State of Rio de Janeiro, Brazil",
+        "lat": -22.9324433,
+        "lng": -43.2411073
+    },
+    "EscolaMunicipalGrandeOrienteapagar": {
+        "name": "Escola Municipal Grande Oriente [apagar]",
+        "address": "Rua Wolfram Metzler, 600 - Rubem Berta, Porto Alegre - RS, 91250-320, Brazil",
+        "lat": -30.024511,
+        "lng": -51.1036298
+    },
+    "GinasioDaAssociacaoDosServidoresDoDemhabAsedcentroDeColeta": {
+        "name": "Ginásio Da Associação Dos Servidores Do Demhab - Ased [centro De Coleta]",
+        "address": "Rua Conde D'Eu, 66 - Santana, Porto Alegre - RS, 90620-020, Brazil",
+        "lat": -30.0458483,
+        "lng": -51.20253349999999
+    },
+    "SindicatoDosServidoresPublicosMunicipaisDeAlvoradaapagar": {
+        "name": "Sindicato Dos Servidores Públicos Municipais De Alvorada [apagar]",
+        "address": "Av. Wenceslau Fontoura, 105 - Sumaré, Alvorada - RS, 94824-700, Brazil",
+        "lat": -29.9946906,
+        "lng": -51.0666427
+    },
+    "CodeneRsSbrcMocidadeIndependenteDaLombaDoPinheiro": {
+        "name": "Codene Rs / Sbrc Mocidade Independente Da Lomba Do Pinheiro",
+        "address": "Estr. João de Oliveira Remião, 5683 - Lomba do Pinheiro, Porto Alegre - RS, 91560-000, Brazil",
+        "lat": -30.1141905,
+        "lng": -51.109486
+    },
+    "AtelierDaBeleza": {
+        "name": "Atelier Da Beleza",
+        "address": "State of Rio Grande do Sul, Brazil",
+        "lat": -29.3646459,
+        "lng": -51.6657692
+    },
+    "CaracolEscolinha": {
+        "name": "Caracol Escolinha",
+        "address": "Rua Engenheiro Afonso Cavalcanti, 51 - Bela Vista, Porto Alegre - RS, 90440-110, Brazil",
+        "lat": -30.0345771,
+        "lng": -51.1916085
+    },
+    "GinasioNossaSenhoraAparecida": {
+        "name": "Ginásio Nossa Senhora Aparecida",
+        "address": "R. Rosane Valls Hofmeister, 112 - Passo das Pedras, Porto Alegre - RS, 91230-135, Brazil",
+        "lat": -30.016751,
+        "lng": -51.12983699999999
+    },
+    "CentroSocialMurialdocentroDeDistribuicao": {
+        "name": "Centro Social Murialdo [centro De Distribuição]",
+        "address": "R. Primeiro de Março, 197 - São José, Porto Alegre - RS, 91520-480, Brazil",
+        "lat": -30.0663494,
+        "lng": -51.1681026
+    },
+    "CtgRodaDeChimarrao": {
+        "name": "Ctg Roda De Chimarrão",
+        "address": "Av. da Serraria, 1835 - Guarujá, Porto Alegre - RS, 91770-010, Brazil",
+        "lat": -30.1596322,
+        "lng": -51.2205503
+    },
+    "SbrcMocidadeIndependenteDaLombaDoPinheiroapagar": {
+        "name": "Sbrc Mocidade Independente Da Lomba Do Pinheiro [apagar]",
+        "address": "Estr. João de Oliveira Remião, 5675 - Agronomia, Porto Alegre - RS, 91560-000, Brazil",
+        "lat": -30.1140178,
+        "lng": -51.1092423
+    },
+    "IgrejaFonteDaAguaViva": {
+        "name": "Igreja Fonte Da Água Viva",
+        "address": "R. Alfazema, 160 - Petrópolis, Porto Alegre - RS, 91450-180, Brazil",
+        "lat": -30.0465185,
+        "lng": -51.1270068
+    },
+    "CentroAfricanoOxalaEIemanja": {
+        "name": "Centro Africano Oxalá E Iemanjá",
+        "address": "Rua Manoel Lentz da Silva, 23 - Santa Tereza, Porto Alegre - RS, 90840-680, Brazil",
+        "lat": -30.0797587,
+        "lng": -51.224524
+    },
+    "ParoquiaSantaIsabelapagar": {
+        "name": "Paróquia Santa Isabel [apagar]",
+        "address": "Av. Liberdade, 1826 - Santa Isabel, Viamão - RS, 94480-500, Brazil",
+        "lat": -30.065606,
+        "lng": -51.1070961
+    },
+    "ParoquiaCristoBomPastorapagar": {
+        "name": "Paróquia Cristo Bom Pastor [apagar]",
+        "address": "R. Cipó, 174 - Jardim Ipiranga, Porto Alegre - RS, 91360-370, Brazil",
+        "lat": -30.0200057,
+        "lng": -51.1619493
+    },
+    "AssociacaoSantaMonica": {
+        "name": "Associação Santa Mônica",
+        "address": "R. das Espatódias, 171 - Ponta Grossa, Porto Alegre - RS, 91778-050, Brazil",
+        "lat": -30.1731686,
+        "lng": -51.1805392
     }
-
 }
