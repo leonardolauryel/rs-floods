@@ -434,7 +434,7 @@ def add_about_location(locations, location_id):
         <div style="margin: 1px 20px 0px 10px;">
         <p>O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
         <h2 style="color: #0056b3;"><span style="color: #000000;">Contato</span></h2>
-        <p>Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:inserir_email">inserir_email</a></p>
+        <p>Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:gabriel.vassoler@rnp.br">gabriel.vassoler@rnp.br</a></p>
         <h2 style="color: #0056b3;"><span style="color: #000000;">Agradecimentos</span></h2>
         <p>Agradecemos &agrave; equipe do <a target="_blank" href="https://sos-rs.com/">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
         </div>
