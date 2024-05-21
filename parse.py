@@ -173,10 +173,7 @@ def create_locations_obj():
         
         if not is_within_days(shelter['updatedAt'], MAX_TIME_SHELTER_UPDATE):
             continue
-
-        url = f"https://sos-rs.com/abrigo/{shelter['id']}\""
-        overlayed_popup_content =  f"<div style=\"width: 100%; height: 100vh; margin-top: -104px; border: none; position: relative;\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;\" title=\"P&aacute;gina Incorporada\" src=\"{url}\"></iframe></div>"
-
+        
         latitude = shelter['latitude']
         longitude = shelter['longitude']
 
@@ -201,6 +198,7 @@ def create_locations_obj():
                     }
 
             description = create_location_description(shelter, latitude, longitude)
+            overlayed_popup_content = create_location_overlayed_popup_content(shelter['id'])
 
             location = {
                 'location_id': location_id,
@@ -422,6 +420,12 @@ def create_location_description(shelter, lat, lng):
     description += "</p>"
     
     return description
+
+def create_location_overlayed_popup_content(location_id):
+    url = f"https://sos-rs.com/abrigo/{location_id}\""
+    overlayed_popup_content = f"<div><iframe style=\"position: absolute; border: none; width: 100%; height: 100% !important;\" title=\"P&aacute;gina Incorporada\" src=\"{url}\"></iframe></div>"
+
+    return overlayed_popup_content
 
 def add_about_location(locations, location_id):
     overlayed_popup_content = """
