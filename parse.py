@@ -430,13 +430,13 @@ def create_location_overlayed_popup_content(location_id):
 def add_about_location(locations, location_id):
     overlayed_popup_content = """
         <div style="width: 100%; margin: auto; margin-top: -28px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <p>&nbsp;</p>
-        <div style="margin: 1px 20px 0px 10px;">
-        <p>O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
-        <h2 style="color: #0056b3;"><span style="color: #000000;">Contato</span></h2>
-        <p>Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:gabriel.vassoler@rnp.br">gabriel.vassoler@rnp.br</a></p>
-        <h2 style="color: #0056b3;"><span style="color: #000000;">Agradecimentos</span></h2>
-        <p>Agradecemos &agrave; equipe do <a target="_blank" href="https://sos-rs.com/">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
+        <p style="text-align: justify;">&nbsp;</p>
+        <div style="margin: 1px 35px 0px 35px;">
+        <p style="text-align: justify;">O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
+        <h3 style="color: #0056b3; text-align: justify;"><span style="color: #000000;">Contato</span></h3>
+        <p style="text-align: justify;">Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:gabriel.vassoler@rnp.br">gabriel.vassoler@rnp.br</a></p>
+        <h3 style="color: #0056b3; text-align: justify;"><span style="color: #000000;">Agradecimentos</span></h3>
+        <p style="text-align: justify;">Agradecemos &agrave; equipe do <a href="https://sos-rs.com/" target="_blank" rel="noopener">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
         </div>
         </div>
         """
