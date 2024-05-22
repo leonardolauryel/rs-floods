@@ -1,0 +1,1475 @@
+{
+    "Água": [
+        "Água Potável",
+        "Água Mineral",
+        "Água Mineral - 200 Litros",
+        "Água Não Potável",
+        "Água",
+        "Água Mineral"
+    ],
+    "Água Não Potável": [
+        "Água Não Potável"
+    ],
+
+
+    "Antibióticos e Profilaxia": [
+        "Antibiótico - Profilaxia Cães"
+    ],
+    "Antipulgas": [
+        "Antipulgas",
+        "Antipulgas - Animais Pequeno Porte"
+    ],
+    "Testes de Doenças": [
+        "Teste De Cinomose",
+        "Teste De Fiv E Felv"
+    ],
+    
+    "Medicamentos veterinários": [
+        "Remédios para pets",
+        "Medicamentos veterinários"
+    ],
+    "Vermífugos": [
+        "Vermífugo"
+    ],
+    "Casinha e cama animal":[
+        "Casinha para cachorro ",
+        "Casinha Porte P",
+        "Cama Pet"
+    ],
+    "Caixa e areia gato":[
+        "Caixa de areia (gato)",
+        "Areia de gato"
+    ],
+    "Coleiras": [
+        "Coleiras",
+        "Coleiras Para Pet"
+    ],
+    "Guias": [
+        "Guias De Gatos E Cachorros"
+    ],
+    "Peiteiras": [
+        "Peiteira P"
+    ],
+    "Banho E Tosa": [
+        "Banho E Tosa"
+    ],
+    "Caixa De Transporte": [
+        "Caixa De Transporte"
+    ],
+    "Toalha Para Pet": [
+        "Toalha Para Pet"
+    ],
+    "Brinquedos para cães": [
+        "Brinquedos para cães"
+    ],
+    "Fralda Grande Porte Pet": [
+        "Fralda Grande Porte Pet"
+    ],
+    "Cobertor Para Pets": [
+        "Cobertor Para Pets"
+    ],
+    "Capa De Chuva Pet": [
+        "Capa De Chuva Pet"
+    ],
+    "Roupas Pet": [
+        "Roupas Pet"
+    ],
+    "Tapete higiênico": [
+        "Tapete higiênico"
+    ],
+    "Pano Para Pet": [
+        "Pano Para Pet"
+    ],
+    "Luvas Para Pegar Gatos": [
+        "Luvas Para Pegar Gatos"
+    ],
+    "Herbalvet Ou Vet+20": [
+        "Herbalvet Ou Vet+20"
+    ],
+    "Ração Gato": [
+        "Ração Gato",
+        "Ração gato",
+        "Ração Gatos"
+    ],
+    "Ração Cão Raças Pequenas": [
+        "Ração Cão Raças Pequenas"
+    ],
+    "Ração Gastro Intestinal Para Gato (seca E Lata)": [
+        "Ração Gastro Intestinal Para Gato (seca E Lata)"
+    ],
+    "Ração Senior": [
+        "Ração Senior"
+    ],
+    "Ração Cachorro": [
+        "Ração Cachorro"
+    ],
+    "Ração Filhote Gatos": [
+        "Ração Filhote Gatos"
+    ],
+    "Ração Cocota": [
+        "Ração Cocota"
+    ],
+    "Ração úmida": [
+        "Ração úmida"
+    ],
+    "Ração": [
+        "Ração"
+    ],
+    "Ração Gastro Intestinal": [
+        "Ração Gastro Intestinal"
+    ],
+    "Sache - Cachorro": [
+        "Sache - Cachorro"
+    ],
+    "Sachê Para Gato": [
+        "Sachê Para Gato"
+    ],
+    "Petisco Para Animais": [
+        "Petisco Para Animais"
+    ],
+    "Ossinho Ou Semelhantes Para Ansiedade": [
+        "Ossinho Ou Semelhantes Para Ansiedade"
+    ],
+    "Petmilk": [
+        "Petmilk"
+    ],
+    "Nutralife": [
+        "Nutralife"
+    ],
+    "Complexo Vitamínico Para Cães Sênior": [
+        "Complexo Vitamínico Para Cães Sênior"
+    ],
+    "Suplemento Pet": [
+        "Suplemento Pet"
+    ],
+    "Meia Infantil": [
+        "Meia Infantil",
+        "Meia Infantil 22-40"
+    ],
+    "Meia": [
+        "Meia",
+        "Meias"
+    ],
+    "Meias Infantil E Adulto": [
+        "Meias Infantil E Adulto"
+    ],
+
+
+    "Abrigo Feminino e Masculino": [
+        "Abrigo Feminino E Masculino"
+    ],
+    "Agasalhos": [
+        "Agasalhos",
+        "Agasalho Masculino G/GG"
+    ],
+    "Blusão": [
+        "Blusão Adulto",
+        "Blusão G"
+    ],
+    "Calça de Moletom": [
+        "Calca De Moletom",
+        "Calça De Moletom (g, Gg, Xxg)",
+        "Calça Moletom G",
+        "Calça Moletom Gg",
+        "Calça Moleton",
+        "Calça De Moletom Masculina",
+        "Calça Moletom Masculino",
+        "Calça moleton masculina - G",
+        "Roupas Masculinas De Moletom G A Xxg (casacos E Calças)",
+        "Calça Moletom Feminino",
+        "Calça De Moletom - Feminina",
+        "Calça Com Elástico F E M",
+        "Calças Gg"
+    ],
+    "Roupa de Inverno": [
+        "Roupa De Inverno",
+        "Roupas De Frio M/g/gg",
+        "Roupas De Inverno",
+        "Roupas para frio",
+        "Roupas Femininas De Frio",
+        "Roupa Masculina Para Frio (todos Tamanhos)",
+        "Roupa Masculina De Frio M-g",
+        "Roupa De Inverno Infantil",
+        "Roupa De Inverno Infantil",
+        "Roupa De Inverno Infantil 3 A 12 Anos",
+        "Casacos Quentes Infantis",
+        "Roupas Quentes Para Crianças (1-16 Anos)",
+        "Roupas 1 E 2 Anos De Inverno",
+        "Roupas De Inverno Para Crianças, Especialmente Meninos"
+    ],
+    "Casaco de Moletom": [
+        "Casaco Moleton",
+        "Casaco De Moletom Feminino",
+        "Casaco De Moletom Masculino",
+        "Casaco G E Gg Masculino"
+    ],
+    "Pijamas de Inverno": [
+        "Pijamas Inverno"
+    ],
+    "Moletom Feminino e Masculino": [
+        "Moletom Feminino E masculino"
+    ],
+    "Roupas Infantil": [
+        "Roupa Infantil 10-14 Anos",
+        "Roupa Infantil 1-3 Anos",
+        "Roupa Infantil (4 A 10)",
+        "Roupa Infantil 7-8 Anos",
+        "Roupa Infantil Até 12 Anos",
+        "Roupa Infantil Menina",
+        "Roupa Infantil Menino",
+        "Roupa Infantil (todas Idades)",
+        "Roupas para crianças",
+        "Roupas Infantil"
+    ],
+    "Roupas Femininas": [
+        "Calça Jeans Feminina",
+        "Roupa Feminina",
+        "Roupa Feminina P",
+        "Roupas Femininas",
+        "Roupas Femininas P"
+    ],
+    "Roupas Masculinas": [
+        "Calça Masculina",
+        "Calça Masculina G",
+        "Roupas Maculinas",
+        "Roupas Masculina",
+        "Roupas Masculinas P",
+        "Bermuda Masculina",
+        "Roupa Masculina Adulta",
+        "Roupa Masculina M"
+    ],
+    "Roupas Plus Size (Masc. ou Fem.)": [
+        "Roupas plus size",
+        "Roupa plus size",
+        "Roupas Gg E Xg Feminina E Masculina",
+        "Roupas Femininas E Masculinas G E Gg"
+    ],
+
+    "Roupas Plus Feminina": [
+        "Roupas plus size feminina",
+        "Calça plus size feminina",
+        "Roupa Feminina Plus Size",
+        "Roupas femininas G/GG"
+    ],
+    "Roupas Plus Masculina": [
+        "Roupas plus size masculino",
+        "Roupa Masculina Plus Size",
+        "Roupa Masculina G E Gg",
+        "Roupa Masculina Gg"
+    ],
+    "Roupas Íntimas (Masc. ou Fem.)": [
+        "Roupa íntima",
+        "Roupas Íntimas (masc E Fem)",
+        "Roupa íntima masculina e feminina",
+        "Roupa Íntima (adulto) Feminina E Masculina",
+        "Roupas íntimas"
+    ],
+    "Roupas Íntimas (Infantil/adolescente)": [
+        "Calcinha Infantil",
+        "Cueca infantil",
+        "Roupas Íntimas Infantil",
+        "Roupas Íntimas De Criança E Adolescente",
+        "Calcinhas Infantis G",
+        "Cueca Infantil Tamanho 6+",
+        "Roupa Íntima Infantil",
+        "Roupa Intima - Menina"
+    ],
+    "Roupas Íntimas Femininas": [
+        "Roupas Íntimas Femininas",
+        "Calcinha G E Gg",
+        "Sutiãs",
+        "Calcinhas",
+        "Roupa Íntima Feminina",
+        "Calcinha",
+        "Roupas Intimas Feminino",
+        "Lingerie",
+        "Sutiã"
+    ],
+    "Roupas Íntimas Masculinas": [
+        "Roupas Íntimas Masculinas",
+        "Cuecas",
+        "Cueca G E Gg",
+        "Cueca tamanho",
+        "Cuecas Adultos G",
+        "Cueca",
+        "Roupas Intimas Masculino",
+        "Cuecas Tamanhos P M G",
+        "Roupa íntima masculina"
+    ],
+    "Roupas Íntimas Plus Size Femininas": [
+        "Roupas íntimas plus size feminina"
+    ],
+    "Chinelo": [
+        "Chinelo 36 Ao 42",
+        "Chinelo Masc",
+        "Chinelos",
+        "Chinelos 36 A 39",
+        "Chinelos Feminino",
+        "Chinelos masculinos"
+    ],
+    "Calçados/Tênis": [
+        "Calçados Esportivos",
+        "Calçados Casuais",
+        "Calçados Masculinos",
+        "Calçados Femininos",
+        "Calçados Diversos",
+        "Calçado Feminino",
+        "Calçado masculino",
+        "Calçados",
+        "Sapato Masculino",
+        "sapatos masculinos - tênis",
+        "Tênis",
+        "Tenis Feminino E Masculino Todos Os Tamanhos",
+        "Tênis (masc/fem/inf)"   
+    ],
+    "Calçados/Tênis (36-39)": [
+        "Tênis 36-39"
+    ],
+    "Calçados/Tênis (37+)": [
+        "Tenis Feminino E Masculino Acima De Tamanho 37"
+    ],
+    "Calçados/Tênis (38+)": [
+        "Tênis Masculino (38 E Maiores)"
+    ],
+    "Calçados/Tênis (39-46)": [
+        "Calçados Masculino Acima De 40",
+        "Tênis 46",
+        "Calçado Maculino 44",
+        "Calçado Masculino (39 A 43)"
+    ],
+    "Calçados/Tênis Infantil": [
+        "Calçados Infantis",
+        "Tênis Infantil",
+        "Calçado Infantil (25 A 34)",
+        "Calçado Infantil Masculino 33/34"
+    ],
+    "Galochas (Masc. E Fem.)": [
+        "Galochas Variadas (masculino E Feminino)"
+    ],
+    "Papel Para Secar Mão": [
+        "Papel Para Secar Mão"
+    ],
+    "Papel higiênico": [
+        "Papel higiênico"
+    ],
+    "Papel toalha": [
+        "Papel toalha"
+    ],
+    "Jornal": [
+        "Jornal"
+    ],
+    "Guardanapo de papel": [
+        "Guardanapo de papel"
+    ],
+    "Copo Isopor": [
+        "Copo Isopor"
+    ],
+    "Copos Plásticos": [
+        "Copos Plasticos"
+    ],
+    "Copos Descartáveis": [
+        "Copos Descartáveis 180ml",
+        "Copos Descartáveis"
+    ],
+    "Copos": [
+        "Copos"
+    ],
+    "Pratos":[
+        "Prato Descartável",
+        "Pratos Descartáveis",
+        "Pratos"
+    ],
+    "Talher Descartável": [
+        "Talher Descartável",
+        "Talheres Descartáveis"
+    ],
+    "Talheres": [
+        "Talheres"
+    ],
+    "Garfo Descartável": [
+        "Garfo Descartável"
+    ],
+    "Garfo e Faca": [
+        "Garfo e faca"
+    ],
+    "Colher Descartável": [
+        "Colher Descartável",
+        "Colheres Descartáveis (grandes/resistentes, Para Refeições)"
+    ],
+    "Utensílios Infantis": [
+        "Utensílios Infantis"
+    ],
+    "Embalagem marmita":[
+        "Embalagens descartáveis para marmitas",
+        "Embalagem De Marmita",
+        "Embalagem descartável para as marmitas",
+        "Marmitas De Isopor"
+    ],
+    "Galão De Água Vazio":[        
+        "Bombona Vazia 20l",
+        "Galão De Água Vazio"
+    ],
+    "Embalagem de Marmita": [
+        "Embalagens descartáveis para marmitas",
+        "Embalagem De Marmita",
+        "Embalagem descartável para as marmitas"
+    ],
+    "Marmitas de Isopor": [
+        "Marmitas De Isopor"
+    ],
+    "Combo de Descartáveis": [
+        "Pratos-copos-talheres-guardanapos"
+    ],
+    "Touca Descartável": [
+        "Touca Descartável",
+        "Touca Para Cozinhar"
+    ],
+    "Descartáveis Gerais": [
+        "Descartáveis"
+    ],
+    "Potes para Marmita": [
+        "Potes (marmitex)",
+        "Pote para comida"
+    ],
+    "Máscara": [
+        "Máscara"
+    ],  
+    "Leite": [
+        "Leite"
+    ],
+    "Leite em pó": [
+        "Leite em pó"
+    ],
+    "Leite Em Pó 0 Meses A 12 Anos": [
+        "Leite Em Pó 0 Meses A 12 Anos"
+    ],
+    "Leite Materno": [
+        "Leite Materno"
+    ],
+    "Farinha Láctea": [
+        "Farinha Láctea"
+    ],
+    "Mucilon": [
+        "Mucilon"
+    ],
+    "Carne em Geral": [
+        "Carne Em Geral"
+    ],
+    "Carne de Frango": [
+        "Carne Frango"
+    ],
+    "Carne de Gado": [
+        "Carne Gado",
+        "7 Kg De Guisado",
+        "Carne Moída"
+    ],
+    "Linguiça": [
+        "Linguiça"
+    ],
+    "Carne de Porco": [
+        "7 Kg De Pernil De Porco",
+        "Chuleta Suína 10kg"
+    ],
+
+    "Marmita":[
+        "Marmitas",
+        "Marmitas",
+        "Marmitas - 100",
+        "Marmitas (alimento Para Consumo Rápido)",
+        "100 Marmitas"
+    ],
+    "Achocolatado": [
+        "Achocolatado",
+        "Nescau",
+        "Nescau Em Pó"
+    ],
+    "Toddynho": [
+        "Achocolatado pronto",
+        "Toddynho",
+        "Todynho",
+        "Toddy"
+    ],
+    "Açucar": [
+        "Açucar",
+        "Açúcar",
+        "Açucar 5kg"
+    ],
+    "Pomada para Bebê": [
+        "Pamada Para Bebê"
+    ],
+    "Fraldas": [
+        "Fralda Gg (infantil)",
+        "Fralda M",
+        "Fralda G",
+        "Fralda Gg",
+        "Fraldas G, Gg, M, P",
+        "Fraldas Bebê",
+        "Fralda XG e XXG",
+        "Fraldas",
+        "Fralda RN"
+    ],
+
+    "Fraldas Geriátricas": [
+        "Fralda Geriátrica ( Xg)",
+        "Fralda Geriátrica Gg",
+        "Fralda Geriátrica G",
+        "Fraldas Geriátricas",
+        "Fralda Geriátrica",
+        "Fraldas Adultas"
+    ],
+    "Fralda para Pets": [
+        "Fralda Grande Porte Pet"
+    ], 
+    "Desodorante": [
+        "Desodorante Feminino",
+        "Desodorante roll-on sem álcool",
+        "Desodorante Masculino",
+        "Desodorante Aerosol",
+        "Desodorantes"
+    ],
+    "Sabonete para Bebê": [
+        "Sabonete P/ Bebê"
+    ],
+    "Sabonete Geral": [
+        "Sabonete"
+    ],
+    "Shampoo Infantil": [
+        "Xampu Infantil",
+        "Shampoo Infantil"
+    ],
+    "Shampoo para Piolho": [
+        "Xampu Para Piolho",
+        "Shampoo Para Piolho"
+    ],
+    "Shampoo": [
+        "Xampu Adulto",
+        "Shampoo",
+        "Shampoo Em Embalagens Pequenas"
+    ],
+    "Xampu/Shampoo para Bebês": [
+        "Xampu Para Bebês",
+        "Shampoo P/ Bebê"
+    ],
+
+    "Kits de Higiene": [
+        "Kit De Higiene",
+        "Kit Higiene Infantil",
+        "Kit Higiene Pessoal"
+    ],
+    "Itens de Higiene Pessoal": [
+        "Itens de higiena pessoal",
+        "Material De Higiene",
+        "Higiene Pessoal"
+    ],
+    "Escovas de Dentes": [
+        "Escova de dentes",
+        "Escova De Dentes Infantil"
+    ],
+    "Cremes para Cabelo": [
+        "Creme De Cabelo",
+        "Creme de pentear",
+        "Creme De Pentear"
+    ],
+    "Alicate de Corte": [
+        "Alicate de corte"
+    ],
+    "Pinça": [
+        "Pinça"
+    ],
+    "Cortadores de Unha": [
+        "Cortador De Unha",
+        "Cortador de unhas"
+    ],
+    "Talco Infantil": [
+        "Talco Infantil"
+    ],
+    "Pomada para Assadura": [
+        "Pomada para assadura",
+        "Pomada Para Bebê"
+    ],
+    "Pasta de Dente Infantil": [
+        "Pasta De Dente Infantil"
+    ],
+    "Repelente Infantil": [
+        "Repelente Infantil"
+    ],
+    "Manteiga de Cacau": [
+        "Manteiga De Cacau"
+    ],
+    "Cotonete": [
+        "Cotonete"
+    ],
+    "Pasta de Dente": [
+        "Pasta de dente"
+    ],
+    "Algodão": [
+        "Algodão"
+    ],
+    "Agulha": [
+        "Agulha Cinza Ou Roxa"
+    ],
+    "Termômetro": [
+        "Termômetro"
+    ],
+    "Esparadrapo": [
+        "Esparadrapo"
+    ],
+    "Micropore": [
+        "Micropore"
+    ],
+    "Repelente": [
+        "Repelente"
+    ],
+    "Lenços Umedecidos": [
+        "Lenços umedecidos",
+        "Lenço Umedecido"
+    ],
+    "Dersani": [
+        "Dersani"
+    ],
+    "Curativos": [
+        "Curativos"
+    ],
+    "Solução Otológica": [
+        "Solução Otológica (para Limpar Ouvido)"
+    ],
+    "Soro":[
+        "Soro",
+        "Soro Fisiológico"
+    ],
+    "Seringa": [        
+        "Seringa 10ml",
+        "Seringa 1ml",
+        "Seringa 3 E 5ml Com Agulha 70x30",
+        "Seringa 5ml",
+        "Seringa De Insulina"
+    ],
+    "Seringa De Insulina": [
+        "Seringa De Insulina"
+    ],
+    "Caneta Insulina":[
+        "Caneta Insulina Glargin (glargina)",
+        "Caneta Insulina Lispro Humalog (",
+        "Caneta Insulina Tresiba (degludeca)",
+        "Caneta Novorapid Flexpen Asparte"
+    ],
+    "Bactrim": [
+        "Bactrim 400mg",
+        "Bactrim Suspensao"
+    ],
+    "Tratamentos para Garganta": [
+        "Pastilha Para Garganta"
+    ],
+    "Tratamentos para Gripe": [
+        "Xarope Para Gripe"
+    ],
+    "Tratamentos para Piolho": [
+        "Remédio para piolho"
+    ],
+    "Medicamentos Gerais": [
+        "Remédios básicos",
+        "Medicamentos Comuns",
+        "Medicamentos prescritos"
+    ],
+    "Paracetamol": [
+        "Paracetamol em gotas"
+    ],
+    "Ivermectina": [
+        "Ivermectina"
+    ],
+    "Medicamentos Injetáveis": [
+        "Meloxitan Injetável"
+    ],
+    "Pomadas": [
+        "Pomada Nistatina"
+    ],
+    "Vacina Hepatite A": [
+        "Vacina Hepatite A"
+    ],
+    "Vacina para Covid": [
+        "Vacina Para Covid"
+    ],
+    "Vacina para Influenza": [
+        "Vacina Para Influenza"
+    ],
+    "Absorventes Higiênicos": [
+        "Absorvente",
+        "Absorventes higiênicos",
+        "Modess"
+    ],
+    "Absorvente Urinário": [
+        "Absorvente urinário"
+    ],
+    "Protetores de Calcinha": [
+        "Protetor De Calcinha"
+    ],
+    "Materiais e Produtos de Limpeza": [
+        "Material De Limpeza",
+        "Produto De Limpeza",
+        "Produtos De Limpeza",
+        "Itens de limpeza",
+        "Kit De Limpeza",
+        "Produtos de desinfecção (cloro, álcool)",
+        "Veja"
+    ],
+    "Água Sanitária e Desinfetante": [
+        "Água Sanitária",
+        "Desinfetante"
+    ],
+    "Baldes": [
+        "Balde",
+        "Baldes"
+    ],
+    "Mop Giratório": [
+        "Mop Giratório"
+    ],
+    "Vassouras e Rodos": [
+        "Vassouras e rodos",
+        "Vassouras",
+        "Rodo"
+    ],
+    "Detergentes": [
+        "Detergente"
+    ],
+    "Esponjas": [
+        "Esponja",
+        "Esponjas De Louça",
+        "Bombril"
+    ],
+    "Álcool em Gel": [
+        "Álcool em gel",
+        "Álcool Em Gel Potes Médios Para Espalha",
+        "Álcool Gel"
+    ],
+    "Álcool Líquido": [
+        "Álcool Líquido"
+    ],
+    "Banana": [
+        "Banana"
+    ],
+    "Frutas Diversas": [
+        "Frutas"
+    ],
+    "Maçã": [
+        "Maçã"
+    ],
+    "Mamão": [
+        "Mamão"
+    ],
+    "Alface": [
+        "Alface"
+    ],
+    "Alho": [
+        "Alho"
+    ],
+    "Batata": [
+        "Batata"
+    ],
+    "Batata Doce": [
+        "Batata Doce"
+    ],
+    "Brócolis": [
+        "Brócolis"
+    ],
+    "Tomate": [
+        "Tomate"
+    ],
+    "Verdura Diversa": [
+        "Verdura"
+    ],
+    "Cebola": [
+        "Cebola"
+    ],
+    "Cenoura": [
+        "Cenoura"
+    ],
+    "Chuchu": [
+        "Chuchu"
+    ],
+    "Pimentão": [
+        "Pimentão"
+    ],
+    "Moranga Cabotiá": [
+        "Moranga Cabotiá"
+    ],
+    "Repolho": [
+        "Repolho"
+    ],
+    "Saladas": [
+        "Saladas"
+    ],
+    "Legumes": [
+        "Legumes"
+    ],  
+    "Bolacha":[
+        "Bolacha Doce",
+        "Bolacha Doce",
+        "Bolachas",
+        "Bolacha Salgada",
+        "Bolachinha"
+    ],
+    "Alimento Perecível": [
+        "Alimento Perecível"
+    ],
+    "Alimentos": [
+        "Alimentos"
+    ],
+    "Alimento Não Perecível": [
+        "Alimentos Não Perecíveis"
+    ],
+    "Alimentos para Consumo Rápido": [
+        "Alimentos para consumo rápido (Leite, bolacha, suco, etc)"
+    ],
+    "Voluntário Assistente Social": [
+        "Voluntário Assistente Social"
+    ],
+    "Voluntário Dentista": [
+        "Voluntário Dentista (fratura)"
+    ],
+    "Voluntário - Madrugada": [
+        "Voluntário - Madrugada"
+    ],
+    "Voluntário - Manhã": [
+        "Voluntário - Manhã"
+    ],
+    "Voluntário - Noite": [
+        "Voluntário - Noite",
+        "Voluntários Noite"
+    ],
+    "Voluntário - Tarde": [
+        "Voluntário - Tarde"
+    ],
+    "Voluntário para Cuidar dos Animais": [
+        "Voluntário P/ Cuidar Dos Animais",
+        "Voluntários para animais",
+        "Voluntarios Para Pets Turno Da Noite"
+    ],
+    "Voluntários": [
+        "Voluntários"
+    ],
+    "Voluntários Médicos": [
+        "Voluntários Médicos"
+    ],
+    "Voluntários Para Cozinha": [
+        "Voluntários Para Cozinha"
+    ],
+    "Voluntários Para Cuidados Com Crianças": [
+        "Voluntários Para Cuidados Com Crianças"
+    ],
+    "Voluntários Para Escala": [
+        "Voluntários Para Escala"
+    ],
+    "Voluntários Para Instalar Manta Asfáltica": [
+        "Voluntários Para Instalar Manta Asfáltica"
+    ],
+    "Voluntários Para Organizar Roupas": [
+        "Voluntários Para Organizar Roupas"
+    ],
+    "Voluntários Psicólogos": [
+        "Voluntários Psicólogos"
+    ],
+    "Voluntários Veterinários": [
+        "Voluntários Veterinários"
+    ],
+    "Técnico de Enfermagem": [
+        "Técnico De Enfermagem",
+        "Técnico De Enfermagem - Noite"
+    ],
+    "Toalha de Banho": [
+        "Toalha de Banho"
+    ],
+    "Toalha de Rosto": [
+        "Toalha De Rosto"
+    ],
+    "Suco de Caixinha": [
+        "Suco de caixinha",
+        "Sucos De Caixinhas"
+    ],
+    "Suco em Pó": [
+        "Suco Em Pó"
+    ],
+    "Sucos": [
+        "Sucos"
+    ],
+    "Sacos de Lixo": [
+        "Saco De Lixo 100l",
+        "Saco De Lixo 30l Ou 50l",
+        "Saco De Lixo Grande",
+        "Sacos 200l",
+        "Sacos de lixo",
+        "Sacos De Lixo 50l E 100l",
+        "Sacos De Lixo Fortes (100l E 200l)"
+    ],
+    "Sacos Plásticos": [
+        "Sacola Plástica De Mercado",
+        "Sacolas ou sacos plásticos",
+        "Sacolas Para Montar Kits",
+        "Sacolinhas plasticas para kits",
+        "Saquinhos Para Montar Kit Higiene",
+        "Saco Plástico 5kg",
+        "Saco Plástico Pequeno"
+    ],
+    "Sabão em Barra": [
+        "Sabão Em Barra"
+    ],
+    "Sabão em Pó": [
+        "Sabão em pó"
+    ],
+    "Sabonete de Rosto": [
+        "Sabonete De Rosto"
+    ],
+    "Sabonete Glicerinado": [
+        "Sabonete glicerinado (para machucados)"
+    ],
+    "Sabonete Infantil": [
+        "Sabonete infantil",
+        "Sabonete P/ Bebê"
+    ],
+    "Sabonete Líquido": [
+        "Sabonete Líquido"
+    ],
+    "Sabonetes": [
+        "Sabonetes"
+    ],
+    "Cesta básica":[
+        "Cesta Básica",
+        "Cestas Básicas"
+    ],
+    "Cobertores":[
+        "Coberta",
+        "Coberta Grossa",
+        "Cobertas",
+        "Mantas Ou Cobertas",
+        "Cobertores"
+    ],
+    "Cordas":[
+        "Corda de varal",
+        "Cordas",
+        "Cordas De Varal",
+        "Corda naval"
+    ],
+    "Fórmula Infantil": [
+        "Fórmula infantil",
+        "Fórmula Infantil (aptamil, Nan, Etc)",
+        "Fórmula Número 1 (0-6)"
+    ],
+    "Fórmula Adulto": [
+        "Fórmula adulto"
+    ],
+    "Colchão":[
+        "Colchão",
+        "Colchão Piramidal",
+        "Colchões",
+        "Colchões De Espuma"
+    ],
+    "Lençol":[
+        "Lenço De Cima",
+        "Lençóis",
+        "Lençol",
+        "Lençol De Casal",
+        "Lençol De Solteiro",
+        "Lençol De Solteiro Com Elástico"
+    ],
+    "Óleo de cozinha":[        
+        "Oléo",
+        "Óleo De Cozinha",
+        "Óleo De Cozinha",
+        "Óleo De Soja",
+        "Óleo De Soja"
+    ],
+    "Pente/Escova de cabelo":[
+        "Pente",
+        "Pente/Escova de cabelo",
+        "Pente Fino",
+        "Escova E Pente De Cabelo",
+        "Escova de cabelo"
+    ],
+    "Barbeador Descartável": [
+        "Barbeador Descartável",
+        "Aparelho De Barbear"
+    ],
+    "Lâmina de Barbear": [
+        "Lâmina De Barbear",
+        "Gilete",
+        "Prestobarba"
+    ],
+    "Pão":[
+        "Pão",
+        "Pão De Sanduíche",
+        "Pães"
+    ],
+    "Luvas de Procedimento": [
+        "Luva De Procedimento"
+    ],
+    "Luvas de Limpeza": [
+        "Luva De Limpeza",
+        "Luvas Limpeza",
+        "Luvas para limpeza"
+    ],
+    "Luvas Descartáveis Gerais": [
+        "Luvas Descartáveis",
+        "Luva de Latex Descartável",
+        "Luva Latex"
+    ],
+    "Luva de Lã":[
+        "Luvas De Frio",
+        "Luvas De Lã"
+    ],
+    "Luvas":[
+        "Luvas",
+        "Luva G"
+    ],
+    "Livros": [
+        "Livros"
+    ],
+    "Jogos de Cartas e Tabuleiro": [
+        "Jogo de cartas, baralho, dama e dominó, etc"
+    ],
+    "Jogos para Crianças": [
+        "Jogos Para Atividades Com As Crianças"
+    ],
+    "Abajur ou Luminária": [
+        "Abajure Ou Luminária"
+    ],
+    "Luz de Emergência": [
+        "Luz de Emergência"
+    ],
+    "Velas": [
+        "Vela"
+    ],
+    "Lanternas": [
+        "Lanternas"
+    ],
+    "Pano de Chão": [
+        "Pano de chão",
+        "Panos De Chão"
+    ],
+    "Pano de Limpeza": [
+        "Pano de limpeza"
+    ],
+    "Pano de Prato": [
+        "Pano de prato"
+    ],
+    "Polenta": [
+        "Polenta",
+        "Polenta Grossa"
+    ],
+    "Farinha de Polenta": [
+        "Farinha de polenta"
+    ],
+    "Farinha de Mandioca": [
+        "Farinha De Mandioca"
+    ],
+    "Farinha de Milho": [
+        "Farinha De Milho"
+    ],
+    "Farinha de Trigo": [
+        "Farinha de trigo"
+    ],
+    "Farinha ": [
+        "Farinha"
+    ],
+    "Fita Adesiva Crepe": [
+        "Fita Adesiva Crepe"
+    ],
+    "Fita Dupla Face": [
+        "Fita Dupla Face"
+    ],
+    "Fita Durex Larga": [
+        "Fita Durex larga"
+    ],
+    "Café": [
+        "Café",
+        "Pó De Café"
+    ],
+    "Café Solúvel": [
+        "Café Solúvel"
+    ],
+    "Cama Alta para Cadeirante": [
+        "Cama alta para cadeirante"
+    ],
+    "Cama Beliche": [
+        "Cama Beliche"
+    ],
+    "Cama de Hospital": [
+        "Cama De Hospital"
+    ],
+    "Cama Geriátrica": [
+        "Cama Geriatria"
+    ],
+    "Caneta Permanente": [
+        "Caneta Permanente"
+    ],
+    "Pastas": [
+        "Pasta De Documento",
+        "Pasta Z (fichario)"
+    ],
+    "Material Escolar": [
+        "Material Escolar"
+    ],
+    "Pincel Atômico": [
+        "Pincel Atômico"
+    ],
+    "Lavanderia": [
+        "Lavanderia"
+    ],
+    "Máquina de Lavar Roupa": [
+        "Máquina de lavar roupa",
+        "Maquina De Lavar Roupas 110 V"
+    ],
+    "Máquina de Secar Roupa": [
+        "Máquina De Secar Roupa 220v"
+    ],
+    "Amaciante": [
+        "Amaciante"
+    ],
+    "Aparelho de Medir Pressão": [
+        "Aparelho De Medir Pressão"
+    ],
+    "Aquecedor Elétrico": [
+        "Aquecedor Elétrico"
+    ],
+    "Arroz": [
+        "Arroz",
+        "Arroz De 1kg"
+    ],
+    "Assistentes Sociais": [
+        "Assistentes Sociais"
+    ],
+    "Auxiliar Veterinário": [
+        "Auxiliar Veterinário"
+    ],
+    "Aveia em Flocos": [
+        "Aveia Em Flocos"
+    ],
+    "Azeite": [
+        "Azeite"
+    ],
+    "Balança": [
+        "Balança"
+    ],
+    "Banheira": [
+        "Banheira"
+    ],
+    "Bico": [
+        "Bico",
+        "Bicos"
+    ],
+    "Biombo": [
+        "Biombo",
+        "Biombos"
+    ],
+    "Bobina de Sacos Transparentes": [
+        "Bobina De Sacos Transparentes"
+    ],
+    "Brinquedos": [
+        "Brinquedos"
+    ],
+    "Bucha": [
+        "Bucha"
+    ],
+    "Cadeira de Rodas": [
+        "Cadeira De Rodas"
+    ],
+    "Cadeiras (Tipo de Praia)": [
+        "Cadeiras (tipo de praia)"
+    ],
+    "Cafeteira Industrial": [
+        "Cafeteira Industrial"
+    ],
+    "Caixas de Papelão": [
+        "Caixas de papelão"
+    ],
+    "Caixas Organizadoras": [
+        "Caixas Organizadoras"
+    ],
+    "Capa de Chuva": [
+        "Capa De Chuva",
+        "Capas de chuva"
+    ],
+    "Chá": [
+        "Chá"
+    ],
+    "Chaleira Elétrica": [
+        "Chaleira Elétrica"
+    ],
+    "Chupeta/Bico": [
+        "Chupeta/bico"
+    ],
+    "Colete Salva Vidas": [
+        "Colete Salva Vidas"
+    ],
+    "Colírio Still": [
+        "Colírii Still"
+    ],
+    "Comidas Não Perecíveis": [
+        "Comidas Não Perecíveis"
+    ],
+    "Computador": [
+        "Computador"
+    ],
+    "Condicionador": [
+        "Condicionador"
+    ],
+    "Consultar Necessidade na Portaria": [
+        "Consultar Necessidade Na Portaria"
+    ],
+    "Correntes": [
+        "Correntes"
+    ],
+    "Elástico para Cabelo": [
+        "Elástico Para Cabelo"
+    ],
+    "Enfermeiros": [
+        "Enfermeiros"
+    ],
+    "Erva Mate": [
+        "Erva Mate"
+    ],
+    "Escova de Roupa": [
+        "Escova De Roupa",
+        "Escova Para Lavar Roupa"
+    ],
+    "Escova de Vaso": [
+        "Escova De Vaso"
+    ],
+    "Espaçador Infantil para Bombinha": [
+        "Espaçador Infantil Para Bombinha"
+    ],
+    "Esponja": [
+        "Esponja"
+    ],
+    "Etiqueta de Identificação para Voluntários": [
+        "Etiqueta Identificação Voluntários"
+    ],
+    "Extintor": [
+        "Extintor"
+    ],
+    "Feijão": [
+        "Feijão"
+    ],
+    "Fibra Alimentar em Pó": [
+        "Fibra Alimentar Em Pó"
+    ],
+    "Filtro para Café (Tamanho Grande)": [
+        "Filtro Para Café Tamanho Grande"
+    ],
+    "Fisioterapeutas": [
+        "Fisioterapeutas"
+    ],
+    "Freezer": [
+        "Freezer 110v",
+        "Freezer 110v Ou 220v"
+    ],
+    "Frigobar": [
+        "Frigobar"
+    ],
+    "Frios": [
+        "Frios"
+    ],
+    "Fronhas": [
+        "Fronhas"
+    ],
+    "Gás": [
+        "Gás 45 Kg",
+        "Gás De Cozinha"
+    ],
+    "Gasolina": [
+        "Gasolina"
+    ],
+    "Gatorade/Isotônico": [
+        "Gatorade/Isotônico"
+    ],
+    "Gaze": [
+        "Gaze"
+    ],
+    "Geléia": [
+        "Geléia"
+    ],
+    "Gelo": [
+        "Gelo"
+    ],
+    "Guarda-Chuva": [
+        "Guarda Chuva"
+    ],
+    "Inseticida": [
+        "Inseticida"
+    ],
+    "Insumos para Internação Veterinário": [
+        "Insumos Para Internação Veterinário"
+    ],
+    "Itens para Criança": [
+        "Itens para criança"
+    ],
+    "Kits de Primeiros Socorros": [
+        "Kits de primeiros socorros"
+    ],
+    "Lanches": [
+        "Lanches"
+    ],
+    "Latas de Lixo": [
+        "Latas de lixo"
+    ],
+    "Leitos para Animais": [
+        "Leitos para animais"
+    ],
+    "Lentilha": [
+        "Lentilha"
+    ],
+    "Lixeira Grande": [
+        "Lixeira Grande"
+    ],
+    "Lonas": [
+        "Lonas"
+    ],
+    "Lt Casa Pátio Canil Separado": [
+        "Lt Casa Pátio Canil Separado"
+    ],
+    "Maçarico": [
+        "Maçarico"
+    ],
+    "Macarrão": [
+        "Macarrão"
+    ],
+    "Malas de Viagem": [
+        "Malas de Viagem"
+    ],
+    "Mamadeira": [
+        "Mamadeira"
+    ],
+    "Mandioca": [
+        "Mandioca"
+    ],
+    "Manta Asfáltica": [
+        "Manta Asfáltica"
+    ],
+    "Massa": [
+        "Massa"
+    ],
+    "Médicos": [
+        "Médicos"
+    ],
+    "Megafone": [
+        "Megafone"
+    ],
+    "Mesas Infantis": [
+        "Mesas Infantis"
+    ],
+    "Mistura Salgada para Pães": [
+        "Mistura Salgada Para Pães"
+    ],
+    "Molho de Tomate": [
+        "Molho de tomate"
+    ],
+    "Ovo": [
+        "Ovo",
+        "Ovos",
+        "Ovos (10 Dúzias)"
+    ],
+    "Palets": [
+        "Palets",
+        "Pallets"
+    ],
+    "Papelão": [
+        "Papelão"
+    ],
+    "Parvovirose": [
+        "Parvovirose"
+    ],
+    "Pás": [
+        "Pás"
+    ],
+    "Pente Fino": [
+        "Pente Fino"
+    ],
+    "Pipoca": [
+        "Pipoca"
+    ],
+    "Plástico Filme": [
+        "Plástico filme"
+    ],
+    "Potinho de Ração": [
+        "Potinho De Raçao"
+    ],
+    "Prateleira de Ferro": [
+        "Prateleira De Ferro"
+    ],
+    "Prendedor de Roupas": [
+        "Prendedor de roupas"
+    ],
+    "Presunto": [
+        "Presunto"
+    ],
+    "Produtos Perecíveis": [
+        "Produtos Perecíveis"
+    ],
+    "Proteínas": [
+        "Proteínas"
+    ],
+    "Protetor Auricular para Ruídos": [
+        "Protetor Auricular Para Ruídos"
+    ],
+    "Psicólogos": [
+        "Psicólogos"
+    ],
+    "Queijo": [
+        "Queijo"
+    ],
+    "Refrigerante Pequeno": [
+        "Refrigerante pequeno"
+    ],
+    "Roupa de Cama": [
+        "Roupa De Cama",
+        "Roupas de Camas"
+    ],
+    "Roupões": [
+        "Roupões"
+    ],
+    "Sal": [
+        "Sal"
+    ],
+    "Sardinha": [
+        "Sardinha"
+    ],
+    "Secador de Cabelo": [
+        "Secador De Cabelo"
+    ],
+    "Segurança para o Local": [
+        "Segurança Para O Local"
+    ],
+    "Serragem": [
+        "Serragem"
+    ],
+    "Tatames": [
+        "Tatames"
+    ],
+    "Touca": [
+        "Touca",
+        "Toucas De Lã"
+    ],
+    "Travesseiro": [
+        "Travesseiro"
+    ],
+    "Varal de Roupas": [
+        "Varal De Roupas"
+    ],
+    "Ventilador": [
+        "Ventilador"
+    ],
+    "Veterinários": [
+        "Veterinários"
+    ],
+    "Vinagre": [
+        "Vinagre"
+    ],
+    "Iogurte": [
+        "Iogurte"
+    ],
+    "Margarina": [
+        "Margarina"
+    ],
+    "Carrinhos de Bebê": [
+        "2 Carrinhos De Bebê"
+    ]
+
+}

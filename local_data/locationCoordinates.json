@@ -1,0 +1,98 @@
+{
+    "Ocupacao1oDeMaio": {
+        "name": "Ocupação 1º De Maio",
+        "address": "R. Venezuela - Maria Regina, Alvorada - RS, 94828-730, Brazil",
+        "lat": -29.9883313,
+        "lng": -51.0552153
+    },
+    "ComplexoPortoSeco": {
+        "name": "Complexo Porto Seco",
+        "address": "R. Hermes de Souza, s/n - Santa Rosa de Lima, Porto Alegre - RS, 91160-001, Brazil",
+        "lat": -29.99945779999999,
+        "lng": -51.1098329
+    },
+    "IgrejaMissionariaEmbaixadoresDeCristo": {
+        "name": "Igreja Missionária Embaixadores De Cristo",
+        "address": "R. Pau Brasil, 376 - COHAB C, Gravataí - RS, 94030-090, Brazil",
+        "lat": -29.9433895,
+        "lng": -51.0173977
+    },
+    "CasaDeRetiroVilaBetania": {
+        "name": "Casa De Retiro Vila Betânia",
+        "address": "R. da Gruta, 230 - Glória, Porto Alegre - RS, 91712-160, Brazil",
+        "lat": -30.0837263,
+        "lng": -51.1895631
+    },
+    "AbrigoCasaDeAcolhimento": {
+        "name": "Abrigo Casa De Acolhimento",
+        "address": "R. Dilmer Schneider, 941 - Capão da Canoa, RS, 95555-000, Brazil",
+        "lat": -29.7387005,
+        "lng": -50.011875
+    },
+    "GinasioMunicipalOttoBirlemCapaoDaCanoacentroDeDistribuicao": {
+        "name": "Ginásio Municipal Otto Birlem - Capão Da Canoa [centro De Distribuição]",
+        "address": "R. Tupinambá, 700 - Capão da Canoa, RS, 95555-000, Brazil",
+        "lat": -29.7571095,
+        "lng": -50.0192685
+    },
+    "AubrigoBaltazarabrigoPet": {
+        "name": "Aubrigo Baltazar [abrigo Pet]",
+        "address": "Av. Baltazar de Oliveira Garcia, 633 - São Sebastião, Porto Alegre - RS, 91130-001, Brazil",
+        "lat": -30.0107128,
+        "lng": -51.13752969999999
+    },
+    "CtgDaUlbrasomentePet": {
+        "name": "Ctg Da Ulbra [somente Pet]",
+        "address": "Av. Farroupilha, 8001 - São José, Canoas - RS, 92425-020, Brazil",
+        "lat": -29.8872874,
+        "lng": -51.1628802
+    },
+    "ColegioSantaTerezadesativado": {
+        "name": "Colégio Santa Tereza [desativado]",
+        "address": "Av. da Cavalhada, 2250 - Cavalhada, Porto Alegre - RS, 91740-000, Brazil",
+        "lat": -30.0976897,
+        "lng": -51.2300111
+    },
+    "ParoquiaSaoJoseNovoHamburgodesativado": {
+        "name": "Paróquia São José - Novo Hamburgo [desativado]",
+        "address": "R. Simão Bolívar, 266 - São Jorge, Novo Hamburgo - RS, 93537-210, Brazil",
+        "lat": -29.6743955,
+        "lng": -51.0949043
+    },
+    "SedeCampestreDaAfbrderscentroDeDistribuicao": {
+        "name": "Sede Campestre Da Afbrde-rs [centro De Distribuição]",
+        "address": "Av. Juca Batista, 5163 - Hípica, Porto Alegre - RS, 91770-001, Brazil",
+        "lat": -30.1629326,
+        "lng": -51.1835479
+    },
+    "DonnaBanhoETosaAbrigoPetdesativado": {
+        "name": "Donna Banho E Tosa - Abrigo Pet [desativado]",
+        "address": "Av. Icaraí, 1168 - Cristal, Porto Alegre - RS, 90810-000, Brazil",
+        "lat": -30.0890593,
+        "lng": -51.2411787
+    },
+    "SetcergscentroDeDistribuicaoSindicatoDasEmpresasDeTransporteDeCarga": {
+        "name": "Setcergs [centro De Distribuição] - Sindicato Das Empresas De Transporte De Carga",
+        "address": "Av. São Pedro, 1420 - São Geraldo, Porto Alegre - RS, 90230-124, Brazil",
+        "lat": -30.0127645,
+        "lng": -51.1951285
+    },
+    "AbcreiViamaocentroDeDistribuicao": {
+        "name": "Abcrei - Viamão [centro De Distribuição]",
+        "address": "Avenida dos Soares, 765 - São Lucas, Viamão - RS, 94450-550, Brazil",
+        "lat": -30.0866615,
+        "lng": -51.074403
+    },
+    "CesmarMarioQuintanadesativado": {
+        "name": "Cesmar Mario Quintana [desativado]",
+        "address": "Estr. Antônio Severino, 1493 - Rubem Berta, Porto Alegre - RS, 91250-330, Brazil",
+        "lat": -30.0238032,
+        "lng": -51.0962253
+    },
+    "ParoquiaNossaSenhoraDaGloria": {
+        "name": "Paróquia Nossa Senhora Da Glória",
+        "address": "Av. Prof. Oscar Pereira, 2851 - Glória, Porto Alegre - RS, 90660-080, Brazil",
+        "lat": -30.0754096,
+        "lng": -51.202376
+    }
+}

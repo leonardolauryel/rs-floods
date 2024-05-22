@@ -1,0 +1,148 @@
+{
+    "Medicamentos": [
+        "Antibiótico",
+        "Azitotromicina",
+        "Caneta Insulina Glargin (glargina)",
+        "Colírio",
+        "Dersani",
+        "Medicamentos Comuns",
+        "Medicamentos prescritos",
+        "Pomada para assadura",
+        "Prednizolona Para Animais",
+        "Remédio para piolho",
+        "Remédios básicos",
+        "Shampoo Para Piolho",
+        "Soro",
+        "Soro Hospitalar",
+        "Vacina Hepatite A",
+        "Vacina Para Covid",
+        "Vacina Para Influenza",
+        "Vermífugo",
+        "Vincristina",
+        "Xarope Para Gripe",
+        "Gaze"
+    ],
+    "Cuidados com Animais": [
+        "Cobertores Para Pet",
+        "Coleiras Para Pet",
+        "Insumos Para Internação Veterinário",
+        "Peiteira/Coleira Grande",
+        "Petisco Para Animais",
+        "Ração Senior"
+    ],
+    "Especialistas e Profissionais": [],
+    "Acomodações e Descanso": [
+        "Cama De Hospital",
+        "Colchão Piramidal",
+        "Travesseiros",
+        "Colchões",
+        "Cama Geriatria",
+        "Colchão Solteiro"
+    ],
+    "Equipamentos de Emergência": [
+        "Kits de primeiros socorros",
+        "Esparadrapo"
+    ],
+    "Voluntariado": [
+        "Não Precisa De Voluntários (não Considerar Item Acima: \"voluntários - Tarde\")",
+        "Voluntários Para Organizar Roupas"
+    ],
+    "Itens Descartáveis": [
+        "Fralda Geriátrica ( Xg)",
+        "Luvas Descartáveis",
+        "Seringa 3 E 5ml Com Agulha 70x30",
+        "Seringa De Insulina",
+        "Embalagem descartável para as marmitas",
+        "Fraldas"
+    ],
+    "Higiene Pessoal": [
+        "Bucha",
+        "Desodorantes",
+        "Higiene Pessoal",
+        "Repelente",
+        "Banheira",
+        "Luva G",
+        "Pasta De Dente Infantil",
+        "Xampu Infantil",
+        "Talco Infantil",
+        "Escova De Dente"
+    ],
+    "Alimentos e Água": [
+        "Açúcar",
+        "Alimentos Não Perecíveis",
+        "Cebola",
+        "Cesta Básica",
+        "Fibra Alimentar Em Pó",
+        "Óleo De Cozinha",
+        "Polenta",
+        "Saladas",
+        "Tomate",
+        "Enlatados (ervilha e milho)",
+        "Oléo",
+        "Chá",
+        "Suco Em Pó",
+        "Fórmula infantil",
+        "Leite Materno",
+        "Toddy",
+        "Erva Mate",
+        "Galão De Água Vazio",
+        "Banana",
+        "Bolacha",
+        "Filtro De Café Numero 103",
+        "Alimentos15 Kg Arroz/dia E 8 Kg Feijão",
+        "Marmitas ( Arroz, Frango E Legumes)",
+        "Mortadela/presunto/apresuntado"
+
+    ],
+    "Material de Limpeza": [
+        "Álcool Em Gel Potes Médios Para Espalha",
+        "Itens de limpeza",
+        "Sabão Em Pó",
+        "Sacos de lixo"
+    ],
+    "Vestuário": [
+        "Calça Masculina Geral",
+        "Calça Moletom Masculino",
+        "Calcinhas Infantis G",
+        "Casacos Quentes Para Adultos",
+        "Cuecas Adultos G",
+        "Roupa De Inverno Infantil",
+        "Roupas Maculinas",
+        "Roupas Masculinas De Moletom G A Xxg (casacos E Calças)",
+        "Meia Infantil",
+        "Tênis 36-39",
+        "Roupa íntima feminina",
+        "Cueca",
+        "Blusão G",
+        "Calça Com Elástico F E M",
+        "Roupas Infantil",
+        "Calçados/Tênis Infantil"
+    ],
+    "Veículos de Resgate e Transporte": [
+        "Gás 45 Kg"
+    ],
+    "Outros": [
+        "Espaçador Infantil Para Bombinha",
+        "Protetor Auricular Para Ruídos",
+        "Termômetro",
+        "Biombos",
+        "Bombona Vazia 20l",
+        "Bico",
+        "Carrinho De Bebe",
+        "Fita Adesiva Crepe",
+        "Caixa De Transporte",
+        "Prendedor de Roupas"
+    ],
+    "Mobílias": [
+        "Baldes/bacias"
+    ],
+    "Eletrodomésticos e Eletrônicos": [
+        "Ventilador",
+        "Balança",
+        "1 Geladeira 110v"
+    ],
+    "Entretenimento": [
+        "Baralho De Uno",
+        "Carrinhos/jogos/bonecas"
+    ]
+}

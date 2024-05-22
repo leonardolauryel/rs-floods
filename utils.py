@@ -5,6 +5,8 @@ import json
 from datetime import datetime, timedelta
 import pytz
 import difflib
+import urllib.parse
+import requests
 
 
 def is_valid_coordinates(latitude, longitude):
@@ -72,6 +74,30 @@ def generate_random_hex_color():
 
     # Formata os números como hexadecimal e retorna
     return f'#{r:02x}{g:02x}{b:02x}'
+
+def fetch_json(url, local_file):
+    try:
+        parsed_url = urllib.parse.urlparse(url)
+        path = parsed_url.path
+        file_name_remote = path.split('/')[-1]
+
+        # Try to download the JSON data from the URL
+        print(f"Acessando {file_name_remote} remoto")
+
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an HTTPError if the HTTP request returned an unsuccessful status code
+        data = response.json()
+    except (requests.exceptions.RequestException, json.JSONDecodeError):
+        # If downloading fails or JSON decoding fails, try to read the local file
+        print(f"Falha ao acessar {file_name_remote} remoto")
+        print(f"Acessando {local_file} local")
+        try:
+            with open(local_file, 'r') as file:
+                data = json.load(file)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            # If the local file is not found or JSON decoding fails, raise an error
+            raise RuntimeError(f"Failed to load JSON data from both URL and local file: {e}")
+    return data
 
 def save_json(data, filename):
     """

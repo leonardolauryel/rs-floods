@@ -62,25 +62,6 @@ def fetch_supplies_data():
         return None
 
 
-def fetch_json(url, local_file):
-    try:
-        # Try to download the JSON data from the URL
-        print("Acessando supplyNamesMap remoto")
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an HTTPError if the HTTP request returned an unsuccessful status code
-        data = response.json()
-    except (requests.exceptions.RequestException, json.JSONDecodeError):
-        # If downloading fails or JSON decoding fails, try to read the local file
-        print("Falha ao acessar supplyNamesMap remoto")
-        print("Acessando supplyNamesMap local")
-        try:
-            with open(local_file, 'r') as file:
-                data = json.load(file)
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            # If the local file is not found or JSON decoding fails, raise an error
-            raise RuntimeError(f"Failed to load JSON data from both URL and local file: {e}")
-    return data
-
 def get_parent_menu_by_key(menus, menu_key):
     parent_menu = menus.get(menu_key)
     if(parent_menu is not None):
@@ -155,20 +136,12 @@ def create_locations_obj():
     shelters = fetch_shelter_data()
     active = True
 
-    # Abre o json de coordenadas para caso precise
-    try:
-        json_file = './location_lat_lng.json'
-        all_coordinates = read_json(json_file)
-        print("Dados json de coorenadas carregados com sucesso.\n")
-    except Exception as e:
-        print("Falha ao ler o arquivo JSON de coordenadas.\n")
-
     shelters_without_coordinates = {}
 
     location_id = 0
     for shelter in shelters:
-        if 'DESATIVADO' in shelter['name']:
-            create_log("info", f"O abrigo '{shelter['name']}' está desativado")
+        if 'desativado' in shelter['name'].lower() or 'apagar' in shelter['name'].lower():
+            create_log("info", f"O abrigo '{shelter['name']}' está desativado ou apagado")
             continue
         
         if not is_within_days(shelter['updatedAt'], MAX_TIME_SHELTER_UPDATE):
@@ -181,7 +154,7 @@ def create_locations_obj():
             # Se as coordenadas não são validas, tenta obter elas do arquivo local
             if not is_valid_coordinates(latitude, longitude):
                 shelter_name_key = sanitize_key(shelter['name'])
-                coordinates = all_coordinates.get(shelter_name_key)
+                coordinates = LOCATION_COORDINATES.get(shelter_name_key)
 
                 if (coordinates and coordinates['lat'] and coordinates['lng']):
                     latitude = coordinates['lat']
@@ -429,14 +402,28 @@ def create_location_overlayed_popup_content(location_id):
 
 def add_about_location(locations, location_id):
     overlayed_popup_content = """
-        <div style="width: 100%; margin: auto; margin-top: -28px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <p style="text-align: justify;">&nbsp;</p>
+        <div style="position: absolute; border: none; width: 100%; height: 100% !important; overflow-y: auto;">
+        <p style="text-align: left;">&nbsp;</p>
         <div style="margin: 1px 35px 0px 35px;">
-        <p style="text-align: justify;">O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
-        <h3 style="color: #0056b3; text-align: justify;"><span style="color: #000000;">Contato</span></h3>
-        <p style="text-align: justify;">Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:gabriel.vassoler@rnp.br">gabriel.vassoler@rnp.br</a></p>
-        <h3 style="color: #0056b3; text-align: justify;"><span style="color: #000000;">Agradecimentos</span></h3>
-        <p style="text-align: justify;">Agradecemos &agrave; equipe do <a href="https://sos-rs.com/" target="_blank" rel="noopener">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
+        <p style="text-align: left;">O Mapa Interativo de Doa&ccedil;&otilde;es &eacute; uma iniciativa de alunos do Instituto de Inform&aacute;tica da UFRGS e volunt&aacute;rios, com apoio limitado da RNP. Este mapa visa facilitar a visualiza&ccedil;&atilde;o dos itens de doa&ccedil;&atilde;o que os locais necessitam, proporcionando uma plataforma centralizada e acess&iacute;vel para quem deseja ajudar.</p>
+        <h3 style="text-align: left;">Volunt&aacute;rios e Apoiadores</h3>
+        <ul style="text-align: left;">
+        <li>Ana Laura Lumertz Schardosim (INF-UFRGS)</li>
+        <li>Eduardo Raupp Peretto (INF-UFRGS)</li>
+        <li>Fernanda da Silva Bonetti</li>
+        <li>Gabriel Vassoler (RNP)</li>
+        <li>Gustavo Hermínio de Araújo (RNP)</li>
+        <li>Iara Machado (RNP)</li>
+        <li>Leonardo Lauryel Batista dos Santos</li>
+        <li>Lisandro Zambenedetti Granville (RNP)</li>
+        <li>Luciano Paschoal Gaspary (INF-UFRGS)</li>
+        <li>Manoel Narciso Reis Soares Filho (INF-UFRGS)</li>
+        <li>Marcos Schwarz (RNP)</li>
+        </ul>
+        <h3 style="color: #0056b3; text-align: left;"><span style="color: #000000;">Contato</span></h3>
+        <p style="text-align: left;">Para mais informa&ccedil;&otilde;es, entre em contato conosco pelo email: <a style="color: #0056b3; text-decoration: none;" href="mailto:gabriel.vassoler@rnp.br">gabriel.vassoler@rnp.br</a></p>
+        <h3 style="color: #0056b3; text-align: left;"><span style="color: #000000;">Agradecimentos</span></h3>
+        <p style="text-align: left;">Agradecemos &agrave; equipe do <a href="https://sos-rs.com/" target="_blank" rel="noopener">SOS-RS</a> pela disponibiliza&ccedil;&atilde;o dos dados para este mapa de filtros.</p>
         </div>
         </div>
         """
@@ -557,9 +544,24 @@ def create_sql_commands():
     try:
         global SUPPLIES_NAMES_MAP
         SUPPLIES_NAMES_MAP = fetch_json(SUPPLY_NAMES_MAP_URL, SUPPLY_NAMES_MAP_LOCAL)
-        print("Dados de supplyNamesMap obtidos com sucesso")
+        print("Dados de supplyNamesMap obtidos com sucesso\n")
     except RuntimeError as e:
         print(e)
+    
+    try:
+        global SUPPLY_CATEGORIES_MAP
+        SUPPLY_CATEGORIES_MAP = fetch_json(SUPPLY_CATEGORIES_MAP_URL, SUPPLY_CATEGORIES_MAP_LOCAL)
+        print("Dados de supplyCategoriesMap obtidos com sucesso\n")
+    except RuntimeError as e:
+        print(e)
+    
+    try:
+        global LOCATION_COORDINATES
+        LOCATION_COORDINATES = fetch_json(LOCATION_COORDINATES_URL, LOCATION_COORDINATES_LOCAL)
+        print("Dados de supplyCategoriesMap obtidos com sucesso\n")
+    except RuntimeError as e:
+        print(e)
+
 
     menus_group = create_menus_group_obj()
     menus = create_menus_obj(menus_group)
