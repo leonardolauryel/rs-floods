@@ -162,8 +162,8 @@ def create_locations_obj():
                     create_log("info", f"As coordenadas do abrigo '{shelter['name']}' foram obtidas dos dados locais")
                 else:
                     #tentar pegar do google
-                    latitude = 0
-                    longitude = 0
+                    #latitude = 0
+                    #longitude = 0
 
                     shelters_without_coordinates[sanitize_key(shelter['name'])] = {
                         'name': shelter['name'],
