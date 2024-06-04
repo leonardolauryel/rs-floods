@@ -1,8 +1,7 @@
 __pycache__
 coordinates_data.json
 execution_logs/
-shelters.json
 get_coord.py
 supplies_map.json
 supplies_map.py
-location_lat_lng.json
+sos-rs.sql
