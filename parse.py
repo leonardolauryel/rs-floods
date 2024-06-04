@@ -2,6 +2,7 @@ from utils import *
 from constants import *
 from logs_message import *
 from requests_sos_rs import *
+from sql_builder import *
 
 import logging
 import time
@@ -262,6 +263,27 @@ def remove_empty_menus(menus):
         if not menus[menu_key]['tags']:  # Checa se a lista de tags está vazia
             del menus[menu_key]  # Remove o item do dicionário
 
+def create_all_objects():
+    menus_group = create_menus_group_obj()
+    menus = create_menus_obj(menus_group)
+    locations = create_locations_obj()
+    tags = create_tags_obj(menus, locations)   
+    tags_related_locations = create_tag_related_location_obj(tags, locations)
+
+    remove_empty_menus(menus)
+
+    # save_json(menus_group, "./mocks/menus_group.json")
+    # save_json(menus, "./mocks/menus.json")
+    # save_json(locations, "./mocks/locations.json")
+    # save_json(tags, "./mocks/tags.json")
+    # save_json(tags_related_locations, "./mocks/tags_related_locations.json")
+
+    print(f"\nMenus: {len(menus)}")
+    print(f"Locations: {len(locations)}")
+    print(f"Tags: {len(tags)}")
+
+    return menus_group, menus, locations, tags, tags_related_locations
+
 
 def create_location_description(shelter, lat, lng):
     location_updatedAt = shelter['updatedAt']
@@ -384,108 +406,8 @@ def add_about_location(locations, location_id):
         'shelterSupplies': [],
         'address': ''
     }
-    
-# -------------- Cria os comandos sql --------------
-def create_settings_sql():
-    settings_sql = ["-- Use this SQL to completely cleanse the map database. The result will be as if the database had been created again"\
-    "\nTRUNCATE TABLE Location, Menu, Menugroup, Tag, Link, Links_group, Tag_related_locations, Tag_relationship;"\
-    "\n\nalter sequence administration_location_id_seq restart with 1;"\
-    "\nalter sequence administration_menu_id_seq restart with 1;"\
-    "\nalter sequence menugroup_id_seq restart with 1;"
-    "\nalter sequence administration_tag_id_seq restart with 1;"\
-    "\nalter sequence administration_tag_related_locations_id_seq restart with 1;"\
-    "\nalter sequence administration_tag_relationship_id_seq restart with 1;"\
-    "\n\n-- Setting map settings for Pontos de coleta"\
-    f"\nUPDATE map_config SET map_name = '{MAP_NAME}';"\
-    f"\nUPDATE map_config SET initial_zoom_level = {INITIAL_ZOOM_LEVEL};"\
-    f"\nUPDATE map_config SET initial_latitude = {INITIAL_LATITUDE};"\
-    f"\nUPDATE map_config SET initial_longitude = {INITIAL_LONGITUDE};\n\n"]
 
-    return settings_sql
-
-
-def create_menus_group_sql(menus_group):
-    menus_group_sql = []
-    menus_group_sql.append("-- Inserting Menus Group")
-
-    for menu_group in menus_group.values():
-        menus_group_sql.append(f"INSERT INTO MenuGroup (id,name) VALUES" \
-                                f"('{menu_group['menu_group_id']}','{menu_group['name']}');")
-    
-    menus_group_sql.append(f"\nalter sequence menugroup_id_seq restart with {len(menus_group)};\n\n")
-
-    return menus_group_sql
-
-
-def create_menus_sql(menus):
-    menus_sql = []
-    menus_sql.append("-- Inserting Menus")
-
-    # latest_menus = {}
-
-    # Ordena os menus por ordem alfabetica
-    sorted_menus = dict(sorted(menus.items(), key=lambda item: item[1]["name"]))
-
-    for menu_key, menu in sorted_menus.items():
-        # if(menu['name'] == "Medicamentos"):
-        #     latest_menus[menu_key] = menu
-        # else:
-        menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
-                            f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
-    
-    # Adiciona o menu de Medicamentos por último
-    # for menu in latest_menus.values():
-    #     menus_sql.append(f"INSERT INTO Menu (id,name,group_id,hierarchy_level,active) VALUES" \
-    #                         f"('{menu['menu_id']}','{menu['name']}', '{menu['menu_group_id']}', '{menu['hierarchy_level']}', {menu['active']});")
-
-    menus_sql.append(f"\nalter sequence administration_menu_id_seq restart with {len(menus)};\n\n")
-    return menus_sql
-
-
-def create_locations_sql(locations):
-    locations_sql = []
-    locations_sql.append("-- Inserting Locations")
-
-    for location in locations.values():
-        locations_sql.append(f"INSERT INTO Location (id, name, description, overlayed_popup_content, latitude, longitude, active) VALUES " \
-                        f"('{location['location_id']}', '{location['name']}', '{location['description']}', '{location['overlayed_popup_content']}', '{location['latitude']}', '{location['longitude']}', {location['active']});")
-
-    
-    locations_sql.append(f"\nalter sequence administration_location_id_seq restart with {len(locations)};\n\n")
-    return locations_sql
-
-
-def create_tags_sql(tags):
-    tags_sql = []
-    tags_sql.append(f"-- Inserting Tags")
-
-    for tag in tags.values():
-        tags_sql.append(f"INSERT INTO Tag (id,name,description,color,active,parent_menu_id) VALUES " \
-                            f"('{tag['tag_id']}', '{tag['name']}', '{tag['description']}', '{tag['color']}', {tag['active']}, '{tag['parent_menu_id']}');")
-
-    tags_sql.append(f"\nalter sequence administration_tag_id_seq restart with {len(tags)};\n\n")
-
-    return tags_sql
-
-
-def create_tags_related_locations_sql(tags_related_locations):
-    tags_related_locations_sql = []
-
-    tags_related_locations_sql.append(f"-- Tags relationship with Locations")
-
-    for tag_related_location in tags_related_locations.values():
-        tags_related_locations_sql.append(f"INSERT INTO Tag_related_locations (id, tag_id, location_id) VALUES " \
-                                    f"('{tag_related_location['tags_related_locations_id']}', '{tag_related_location['tag_id']}', '{tag_related_location['location_id']}');")
-
-    tags_related_locations_sql.append(f"\nalter sequence administration_tag_related_locations_id_seq restart with {len(tags_related_locations)};\n\n")
-
-    return tags_related_locations_sql
-
-
-
-def create_sql_commands():
-    sql_commands = []
-
+def fetch_location_and_name_mapping_data():
     try:
         global SUPPLIES_NAMES_MAP
         SUPPLIES_NAMES_MAP = fetch_json(SUPPLY_NAMES_MAP_URL, SUPPLY_NAMES_MAP_LOCAL)
@@ -508,50 +430,11 @@ def create_sql_commands():
         print(e)
 
 
-    menus_group = create_menus_group_obj()
-    menus = create_menus_obj(menus_group)
-    locations = create_locations_obj()
-    tags = create_tags_obj(menus, locations)   
-    tags_related_locations = create_tag_related_location_obj(tags, locations)
+if __name__ == '__main__':
+    fetch_location_and_name_mapping_data()
+    menus_group, menus, locations, tags, tags_related_locations = create_all_objects()
 
-    remove_empty_menus(menus)
-
-    # save_json(menus_group, "./mocks/menus_group.json")
-    # save_json(menus, "./mocks/menus.json")
-    # save_json(locations, "./mocks/locations.json")
-    # save_json(tags, "./mocks/tags.json")
-    # save_json(tags_related_locations, "./mocks/tags_related_locations.json")
-
-    print(f"Menus: {len(menus)}")
-    print(f"Locations: {len(locations)}")
-    print(f"Tags: {len(tags)}")
-
-
-    # #Configurações iniciais do mapa
-    sql_commands.extend(create_settings_sql())
-
-    sql_commands.extend(create_menus_group_sql(menus_group))
-    sql_commands.extend(create_menus_sql(menus))
-    sql_commands.extend(create_locations_sql(locations))
-    sql_commands.extend(create_tags_sql(tags))
-    sql_commands.extend(create_tags_related_locations_sql(tags_related_locations))
-
+    sql_commands = create_all_sql_commands(menus_group, menus, locations, tags, tags_related_locations)
+    write_sql_commands(sql_commands, OUTPUT_FILE)
 
     save_logs('all')
-    
-    return sql_commands
-
-
-def write_sql_commands(sql_commands, output_file):
-    with open(output_file, 'w') as file:
-        for command in sql_commands:
-            file.write(command + '\n')
-
-
-
-
-if __name__ == '__main__':
-    # shelter_data = fetch_shelter_data()
-
-    sql_commands = create_sql_commands()
-    write_sql_commands(sql_commands, OUTPUT_FILE)
