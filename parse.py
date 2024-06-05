@@ -20,7 +20,8 @@ def get_parent_menu_by_key(menus, menu_key):
 def correct_supply_assignments(supply, supply_categories):
 
     supply_name = supply['supply']['name']
-    closest_key = find_closest_key(supply_name, SUPPLY_CATEGORIES_MAP, confidence_threshold=0.7)
+    #closest_key = find_closest_key(supply_name, SUPPLY_CATEGORIES_MAP, confidence_threshold=0.7)
+    closest_key = find_key(supply_name, SUPPLY_CATEGORIES_MAP)
 
     # Encontrou uma categoria
     if closest_key is not None:
@@ -138,7 +139,7 @@ def create_locations_obj():
 
                 # Faz mapeamento dos nomes de suprimentos
                 if MAP_SUPPLY_NAMES:
-                    supply_name_mapped_static = find_closest_key(supply_obj['supply']['name'], SUPPLIES_NAMES_MAP, confidence_threshold=0.7)
+                    supply_name_mapped_static = find_closest_key(supply_obj['supply']['name'], SUPPLIES_NAMES_MAP, confidence_threshold=0.9)
                     
                     if supply_name_mapped_static is not None:
                         supply_obj['supply']['name'] = supply_name_mapped_static

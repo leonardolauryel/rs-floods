@@ -196,6 +196,12 @@ def find_closest_key(search_word, dictionary, confidence_threshold=0.75):
 
     return best_match_key
 
+def find_key(item, json_data):
+    for key, values in json_data.items():
+        if item in values:
+            return key
+    return None
+
 def is_within_days(date_str, days):
     # Convert the date string to a datetime object
     input_date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S.%fZ")
