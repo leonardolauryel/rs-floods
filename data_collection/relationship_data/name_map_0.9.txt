@@ -1,0 +1,230 @@
+Voluntários Tarde              ->   Voluntário - Tarde
+Voluntários Para Cozinha       ->   Voluntários Para Cozinha
+Voluntários para animais       ->   Voluntário para Cuidar dos Animais
+Voluntários Noite              ->   Voluntário - Noite
+Voluntários Manhã              ->   Voluntário - Manhã
+Voluntários Madrugada          ->   Voluntário - Madrugada
+Voluntários                    ->   Voluntários
+Voluntário - Madrugada         ->   Voluntário - Madrugada
+Veterinários                   ->   Veterinários
+Vermífugo                      ->   Vermífugos
+Vassouras                      ->   Vassouras e Rodos
+Travesseiros                   ->   Travesseiro
+Travesseiro                    ->   Travesseiro
+Touca Descartável              ->   Touca Descartável
+Touca                          ->   Touca
+Tomate                         ->   Tomate
+Todynho                        ->   Toddynho
+Toalha De Banho                ->   Toalha de Banho
+Tênis Infantil                 ->   Calçados/Tênis Infantil
+Tênis                          ->   Calçados/Tênis
+Tapete higiênico               ->   Tapete higiênico
+Talheres Descartáveis          ->   Talher Descartável
+Soro                           ->   Soro
+Shampoo para Piolho            ->   Xampu para Piolho
+Shampoo Infantil               ->   Xampu Infantil
+Shampoo                        ->   Xampu
+Seringa 10ml                   ->   Seringa
+Secador De Cabelo              ->   Secador de Cabelo
+Sardinha                       ->   Sardinha
+Sapato Masculino               ->   Calçados/Tênis
+Sal                            ->   Sal
+Sacos de lixo                  ->   Sacos de Lixo
+Saco De Lixo Grande            ->   Sacos de Lixo
+Saco De Lixo 60l               ->   Sacos de Lixo
+Saco De Lixo 200L              ->   Sacos de Lixo
+Saco De Lixo 15l               ->   Sacos de Lixo
+Saco De Lixo 150l              ->   Sacos de Lixo
+Saco De Lixo 100l              ->   Sacos de Lixo
+Saco De Lixo                   ->   Sacos de Lixo
+Sabonetes                      ->   Sabonetes
+Sabonete Líquido               ->   Sabonete Líquido
+Sabonete infantil              ->   Sabonete Infantil
+Sabão Em Pó                    ->   Sabão em Pó
+Sabão Em Barra                 ->   Sabão em Barra
+Roupas plus size               ->   Roupas Plus Size (Masc. ou Fem.)
+Roupas Pet                     ->   Roupas Pet
+Roupas Masculina - Plus size   ->   Roupas Plus Size Masculina
+Roupas Masculina               ->   Roupas Masculinas
+Roupas íntima masculina        ->   Roupas Íntimas Masculinas
+Roupas Íntima Infantil         ->   Roupas Íntimas (Infantil/adolescente)
+Roupas íntima feminina         ->   Roupas Íntimas Femininas
+Roupas Íntima                  ->   Roupas Íntimas (Masc. ou Fem.)
+Roupas Infantil                ->   Roupas Infantil
+Roupas Femininas - Plus size   ->   Roupas Plus Size Feminina
+Roupas Femininas               ->   Roupas Femininas
+Roupas de Camas                ->   Roupa de Cama
+Roupa íntima masculina         ->   Roupas Íntimas Masculinas
+Roupa íntima feminina          ->   Roupas Íntimas Femininas
+Roupa Feminina Gg              ->   Roupas Femininas
+Roupa Feminina G               ->   Roupas Femininas
+Roupa De Inverno Infantil      ->   Roupa de Inverno (Infantil)
+Roupa De Cama                  ->   Roupa de Cama
+Rodo                           ->   Vassouras e Rodos
+Ração Gatos                    ->   Ração Gato
+Ração Gastrointestinal         ->   Ração Gastro Intestinal
+Ração Cachorro                 ->   Ração Cachorro
+Ração                          ->   Ração
+Queijo                         ->   Queijo
+Psicólogos                     ->   Psicólogos
+Proteínas                      ->   Proteínas
+Produtos De Limpeza            ->   Materiais e Produtos de Limpeza
+Presunto                       ->   Presunto
+Prestobarba                    ->   Lâmina de Barbear
+Prendedores De Roupa           ->   Prendedor de Roupas
+Pratos Descartáveis            ->   Pratos
+Prateleira De Ferro            ->   Prateleira de Ferro
+Pote para comida               ->   Potes para Marmita
+Pomada para assaduras          ->   Pomada para Assadura
+Pomada para assadura           ->   Pomada para Assadura
+Polenta                        ->   Polenta
+Pó De Café                     ->   Café
+Pincel Atomico                 ->   Pincel Atômico
+Pente                          ->   Pente/Escova de cabelo
+Peiteira P                     ->   Peiteiras
+Peiteira M                     ->   Peiteiras
+Pasta De Dente Infantil        ->   Pasta de Dente Infantil
+Pasta De Dente                 ->   Pasta de Dente
+Pás                            ->   Pás
+Papel Toalha                   ->   Papel toalha
+Papel Higiênico                ->   Papel higiênico
+Papelão                        ->   Papelão
+Pão De Sanduíche               ->   Pão
+Pão                            ->   Pão
+Pano de prato                  ->   Pano de Prato
+Pano De Limpeza                ->   Pano de Chão e Limpeza
+Pano de chão                   ->   Pano de Chão e Limpeza
+Pallets                        ->   Palets
+Ovos                           ->   Ovo
+Óleo De Soja                   ->   Óleo de cozinha
+Óleo De Cozinha                ->   Óleo de cozinha
+Oléo                           ->   Óleo de cozinha
+Molho De Tomate                ->   Molho de Tomate
+Meias Infantil                 ->   Meias Infantil
+Meias                          ->   Meias
+Material Escolar               ->   Material Escolar
+Material De Limpeza            ->   Materiais e Produtos de Limpeza
+Massa                          ->   Massa
+Máscara                        ->   Máscara
+Marmitas                       ->   Marmita
+Margarina                      ->   Margarina
+Manteiga De Cacau              ->   Manteiga de Cacau
+Mamão                          ->   Mamão
+Maçã                           ->   Maçã
+Luvas De Frio                  ->   Luva de Lã
+Luva De Limpeza                ->   Luvas de Limpeza
+Lonas                          ->   Lonas
+Lixeira Grande                 ->   Lixeira Grande
+Linguiça                       ->   Linguiça
+Lentilha                       ->   Lentilha
+Lenço Umedecido                ->   Lenços Umedecidos
+Lençol De Solteiro             ->   Lençol
+Lençol De Casal                ->   Lençol
+Lençóis                        ->   Lençol
+Leite em pó                    ->   Leite em pó
+Leite                          ->   Leite
+Legumes                        ->   Legumes
+Lanterna                       ->   Lanternas
+Kit De Limpeza                 ->   Materiais e Produtos de Limpeza
+Jornal                         ->   Jornal
+Itens de limpeza               ->   Materiais e Produtos de Limpeza
+Itens De Higiene Pessoal       ->   Itens de Higiene Pessoal
+Itens de higiena pessoal       ->   Itens de Higiene Pessoal
+Iogurtes                       ->   Iogurte
+Guarda Chuva                   ->   Guarda-Chuva
+Gilete                         ->   Lâmina de Barbear
+Geleia                         ->   Geléia
+Gaze                           ->   Gaze
+Gás De Cozinha                 ->   Gás
+Garfo Descartável              ->   Garfo Descartável
+Frutas                         ->   Frutas Diversas
+Fronha                         ->   Fronhas
+Frios                          ->   Frios
+Fralda XG+ (infantil)          ->   Fraldas
+Fralda Xg                      ->   Fraldas
+Fraldas                        ->   Fraldas
+Fralda Rn                      ->   Fraldas
+Fralda Gg                      ->   Fraldas
+Fralda Geriátrica Gg           ->   Fraldas Geriátricas
+Fralda Geriátrica G+           ->   Fraldas Geriátricas
+Fralda Geriátrica G            ->   Fraldas Geriátricas
+Fralda Geriatria               ->   Fraldas Geriátricas
+Fralda G                       ->   Fraldas
+Fórmula infantil               ->   Fórmula Infantil
+Feijão                         ->   Feijão
+Feijao                         ->   Feijão
+Farinha De Milho               ->   Farinha de Milho
+Farinha                        ->   Farinha 
+Esponja                        ->   Esponjas
+Esparadrapo                    ->   Esparadrapo
+Escova De Dentes               ->   Escovas de Dentes
+Escova De Cabelo               ->   Pente/Escova de cabelo
+Erva Mate                      ->   Erva Mate
+Embalagem De Marmita           ->   Embalagem de marmita
+Detergente                     ->   Detergentes
+Desodorante Aerosol            ->   Desodorante
+Desodorante                    ->   Desodorante
+Desinfetante                   ->   Água Sanitária e Desinfetante
+Descartáveis                   ->   Descartáveis
+Dersani                        ->   Dersani
+Cuecas                         ->   Roupas Íntimas Masculinas
+Cueca                          ->   Roupas Íntimas Masculinas
+Creme De Pentear               ->   Cremes para Cabelo
+Creme De Cabelo                ->   Cremes para Cabelo
+Cotonete                       ->   Cotonete
+Cordas                         ->   Cordas
+Copos Descartáveis             ->   Copos Descartáveis
+Condicionador                  ->   Condicionador
+Colher Descartável             ->   Colher Descartável
+Coleiras                       ->   Coleiras
+Colchões                       ->   Colchão
+Colchão                        ->   Colchão
+Cobertores                     ->   Cobertores
+Cobertores                     ->   Cobertores
+Coberta Grossa                 ->   Cobertores
+Chinelo                        ->   Chinelo
+Cestas Básicas                 ->   Cesta básica
+Cenoura                        ->   Cenoura
+Cebola                         ->   Cebola
+Carne Moída                    ->   Carne de Gado
+Capa De Chuva                  ->   Capa de Chuva
+Caneta Permanente              ->   Caneta Permanente
+Cama Pet                       ->   Casinha e cama animal
+Calça Moleton                  ->   Calça de Moletom
+Calça Moletom Masculina        ->   Calça de Moletom
+Calça Moletom Feminina         ->   Calça de Moletom
+Calça Masculina                ->   Roupas Masculinas
+Calçados Masculinos            ->   Calçados/Tênis
+Calçados Infantis              ->   Calçados/Tênis Infantil
+Calçados                       ->   Calçados/Tênis
+Calçado Masculino (39 A 43)    ->   Calçados/Tênis (39-46)
+Calçado Infantil               ->   Calçados/Tênis Infantil
+Café Solúvel                   ->   Café Solúvel
+Café                           ->   Café
+Brinquedos                     ->   Brinquedos
+Bombril                        ->   Esponjas
+Bolacha Salgada                ->   Bolacha
+Bolacha Doce                   ->   Bolacha
+Bolacha                        ->   Bolacha
+Bico                           ->   Chupeta/Bico
+Batata                         ->   Batata
+Banana                         ->   Banana
+Baldes                         ->   Baldes
+Azeite                         ->   Azeite
+Arroz                          ->   Arroz
+Antipulgas                     ->   Antipulgas
+Amaciante                      ->   Amaciante
+Alimentos Perecíveis           ->   Alimentos Perecíveis
+Alimentos Não Perecíveis       ->   Alimento Não Perecível
+Alimentos                      ->   Alimentos
+Alho                           ->   Alho
+Algodão                        ->   Algodão
+Alface                         ->   Alface
+Álcool em gel                  ->   Álcool em Gel
+Água Sanitária                 ->   Água Sanitária e Desinfetante
+Água Potável                   ->   Água
+Água Não Potável               ->   Água Não Potável
+Água                           ->   Água
+Açúcar                         ->   Açúcar
+Achocolatado                   ->   Achocolatado
+Absorvente                     ->   Absorventes Higiênicos

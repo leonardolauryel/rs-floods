@@ -7,8 +7,7 @@
         "active": true,
         "tags": [
             "FormulaDeLeiteAdaptanutre_100",
-            "AlcoolemGel_100",
-            "MedicamentosGerais_100"
+            "AlcoolemGel_100"
         ]
     },
     "03fdb0f2-6b50-4895-b970-5793cad80c86_100": {
@@ -18,11 +17,10 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "RacaoGato_100",
             "RacaoCachorro_100",
-            "CobertorParaPets_100",
-            "CobertorParaPets_100",
-            "CobertorParaPets_100"
+            "RacaoGato_100",
+            "Jornal_100",
+            "Papelao_100"
         ]
     },
     "60d6808e-9d13-484d-84a4-2ca35d42b3a6_100": {
@@ -32,18 +30,20 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Travesseiro_100",
-            "Cobertores_100",
             "Toalhas_100",
-            "Lencol_100",
-            "Lencol_100",
-            "Lencol_100",
-            "Lencol_100",
-            "Lencol_100",
-            "Colchao_100",
-            "Travesseiro_100",
             "Cobertores_100",
-            "Meia_100",
+            "Travesseiro_100",
+            "ColchaoDeCasal_100",
+            "ColchaoDeCasal_100",
+            "ColchaoSolteiro_100",
+            "ColchaoSolteiro_100",
+            "ColchaoDeCasal_100",
+            "ColchaoDeCasal_100",
+            "Colchao_100",
+            "ColchaoSolteiro_100",
+            "Cobertores_100",
+            "Travesseiro_100",
+            "ColchaoDeCasal_100",
             "Cobertores_100"
         ]
     },
@@ -55,6 +55,8 @@
         "active": true,
         "tags": [
             "Voluntarios_100",
+            "Voluntarios_100",
+            "VoluntariosParaLimpezaDasCasas_100",
             "Voluntarios_100"
         ]
     },
@@ -65,7 +67,7 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "CoposDescartaveis_100",
+            "FiltroDeCafe102_100",
             "CoposDescartaveis_100",
             "ColherDescartavel_100",
             "Pratos_100"
@@ -81,7 +83,9 @@
             "ItensdeHigienePessoal_100",
             "ToalhadeBanho_100",
             "ProdutosDeHigienePessoalEmGeral_100",
-            "MateriaiseProdutosdeLimpeza_100"
+            "ProdutosDeHigiene_100",
+            "SabaoemPo_100",
+            "ItensdeHigienePessoal_100"
         ]
     },
     "a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_100": {
@@ -92,38 +96,33 @@
         "active": true,
         "tags": [
             "Cestabasica_100",
-            "Azeite_100",
-            "Acucar_100",
-            "Cafe_100",
             "Arroz_100",
+            "Cafe_100",
+            "Acucar_100",
+            "Azeite_100",
             "Feijao_100",
             "Leite_100",
-            "CarnedeGado_100",
+            "CarneSuina_100",
             "CarnedeGado_100",
             "Carne_100",
             "Cestabasica_100",
             "Ovo_100",
-            "Carne_100",
             "Frango_100",
+            "Carne_100",
             "Polenta_100",
             "Pao_100",
             "Cafe_100",
-            "Cestabasica_100",
+            "ItensDeCestaBasica_100",
+            "CarnedeGado_100",
             "CoxasobrecoxaDeFrango_100",
             "Carne_100",
-            "CarnedeGado_100",
             "Agua_100",
+            "AlimentosBasicos_100",
+            "Cestabasica_100",
             "Cafe_100",
-            "FiltroDeCafe102_100",
             "Acucar_100",
-            "Limao_100",
-            "FrutasDiversas_100",
-            "Queijo_100",
-            "Cenoura_100",
-            "Mortadela_100",
-            "Tomate_100",
             "Frango_100",
-            "CarnedeGado_100",
+            "CarneSuina_100",
             "CarnedeGado_100",
             "Carne_100",
             "Pao_100",
@@ -143,21 +142,22 @@
             "Sabao_100",
             "VassouraseRodos_100",
             "RodoComCabo_100",
+            "LuvasDeBorracha_100",
             "AguaSanitariaeDesinfetante_100",
             "MateriaiseProdutosdeLimpeza_100",
             "PanodeChaoeLimpeza_100",
             "LuvasdeLimpeza_100",
             "Esponjas_100",
             "Baldes_100",
-            "SabaoemPo_100",
+            "MateriaiseProdutosdeLimpeza_100",
             "LuvasdeLimpeza_100",
             "SacosdeLixo_100",
             "SacosdeLixo_100",
             "Esponjas_100",
             "AguaSanitariaeDesinfetante_100",
-            "Esponjas_100",
             "VassouraseRodos_100",
             "Papeltoalha_100",
+            "Galochas_100",
             "Esponjas_100",
             "Amaciante_100"
         ]
@@ -169,13 +169,14 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "RoupasMasculinas_100",
-            "RoupasFemininas_100",
+            "CobertoresParaOFrio_100",
             "RoupasInfantil_100",
-            "LuvadeLa_100",
-            "RoupasIntimasMascouFem_100",
+            "RoupasFemininas_100",
+            "CobertoresParaOFrio_100",
             "RoupasMasculinas_100",
-            "RoupasIntimasFemininas_100"
+            "CobertoresParaOFrio_100",
+            "RoupasIntimasMascouFem_100",
+            "RoupasMasculinas_100"
         ]
     },
     "ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_100": {
@@ -185,7 +186,7 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "FornoMicroondas_100"
+            "MateriaisDeConstrucao_100"
         ]
     },
     "be0e4018-ca46-44cd-b814-7681ba98c51a_100": {
@@ -195,12 +196,11 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Lencol_100",
             "CamaCasal_100",
-            "Lencol_100",
+            "CamaDeSolteiro_100",
             "Fogao_100",
-            "Lencol_100",
-            "Lencol_100"
+            "Moveis_100",
+            "MobiliasParaCasa_100"
         ]
     },
     "4f95853f-d5e1-487d-8086-6ddfaf2bbab7_100": {
@@ -210,9 +210,12 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Geleia_100",
-            "Geleia_100",
-            "Eletrodomesticos_100"
+            "FornoMicroondas_100",
+            "Geladeira_100",
+            "Geladeira_100",
+            "Eletrodomesticos_100",
+            "Geladeira_100",
+            "Televisao_100"
         ]
     },
     "5c9b6767-5310-461b-977b-906fe16370ae_10": {
@@ -222,10 +225,9 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "MedicamentosGerais_10",
-            "VacinaparaCovid_10",
-            "Seringa_10",
-            "VacinaparaCovid_10"
+            "Medicamentos_10",
+            "Zetaconazol_10",
+            "TesteFilvEFelv_10"
         ]
     },
     "03fdb0f2-6b50-4895-b970-5793cad80c86_10": {
@@ -235,31 +237,28 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "LuvasCirurgicas_10",
-            "SacheParaGato_10",
-            "Cpastar_10",
-            "RacaoCachorro_10",
-            "SaquinhoParaColeta_10",
-            "RacaoGato_10",
-            "SimparicTodosTamanhos_10",
+            "LuvasLatexPEM_10",
             "Jornal_10",
-            "CobertorParaPets_10",
-            "CobertorParaPets_10",
-            "RoupadeCama_10",
-            "Cobertores_10",
-            "AuxiliarDeVeterinariadiaNoiteEMadrugada_10",
-            "CobertorParaPets_10",
+            "AreiaParaGato_10",
+            "Cpastar_10",
+            "LuvasCirurgicas_10",
+            "SaquinhoParaColeta_10",
             "RacaoCachorro_10",
+            "ComidaParaCavalo_10",
+            "VacinaParaCavalo_10",
+            "AuxiliarDeVeterinariadiaNoiteEMadrugada_10",
+            "RacaoCachorro_10",
+            "RacaoCavalo_10",
             "RacaoGato_10",
             "LuvaDeRaspaLongaAdestramento_10",
-            "Agulha_10",
-            "RoupadeCama_10",
-            "CobertorParaPets_10",
-            "VacinaGripeParaPet_10",
-            "SimparicTodosTamanhos_10",
+            "AgulhaCinza_10",
+            "VacinaPoli_10",
             "Recovery_10",
-            "Antipulgas_10",
-            "CobertorParaPets_10"
+            "Seringas3mlComAgulha25x7_10",
+            "Tapetehigienico_10",
+            "RacaoParaFilhote_10",
+            "RacaoGastroIntestinal_10",
+            "Antipulgas_10"
         ]
     },
     "60d6808e-9d13-484d-84a4-2ca35d42b3a6_10": {
@@ -269,30 +268,34 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Lencol_10",
             "Cobertores_10",
+            "Lencol_10",
             "Colchao_10",
-            "Meia_10",
-            "ToalhadeBanho_10",
+            "Colchao_10",
+            "RoupadeCama_10",
+            "ToalhaDeMesa_10",
+            "ColchaoSolteiro_10",
+            "ColchaoDeCasal_10",
             "RoupadeCama_10",
             "Colchao_10",
-            "Lencol_10",
-            "RoupadeCama_10",
-            "Colchao_10",
             "Cobertores_10",
             "Colchao_10",
+            "ColchaoSolteiro_10",
             "RoupadeCama_10",
             "Toalhas_10",
+            "Cobertores_10",
+            "ColchaoDeCasal_10",
             "RoupadeCama_10",
-            "Meia_10",
             "Lencol_10",
-            "CamaSolteiro_10",
+            "RoupadeCama_10",
             "Colchao_10",
             "Toalhas_10",
+            "Cobertores_10",
             "RoupadeCama_10",
             "Lencol_10",
             "Colchao_10",
             "Cobertores_10",
+            "ColchaoSolteiro_10",
             "Colchao_10"
         ]
     },
@@ -316,9 +319,9 @@
             "Voluntarios_10",
             "Voluntarios_10",
             "Veterinarios_10",
-            "Veterinarios_10",
             "Voluntarios_10",
             "Voluntarios_10",
+            "PessoaParaLimpeza_10",
             "Porteiro_10",
             "Hidraulico_10",
             "Adestrador_10",
@@ -334,16 +337,12 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "SacosPlasticos_10",
-            "Fraldas_10",
-            "FraldasGeriatricas_10",
             "FraldasTodosTamanho_10",
-            "Fraldas_10",
             "LuvasDeTodosOsTamanhos_10",
-            "FitaDurexLarga_10",
-            "FraldasGeriatricas_10",
-            "FraldasGeriatricas_10",
-            "TalherDescartavel_10",
+            "FitaCrepeLarga_10",
+            "CoposDescartaveis_10",
+            "SacosdeLixo_10",
+            "FiltroDeCafe102_10",
             "FraldasTodosTamanho_10",
             "CoposDescartaveis_10"
         ]
@@ -356,21 +355,29 @@
         "active": true,
         "tags": [
             "ItensdeHigienePessoal_10",
-            "MateriaiseProdutosdeLimpeza_10",
-            "MateriaiseProdutosdeLimpeza_10",
-            "MateriaiseProdutosdeLimpeza_10",
+            "Fraldas_10",
+            "ProdutosDeHigiene_10",
+            "ProdutosDeHigiene_10",
+            "SabaoemPo_10",
+            "Sacolasdeplastico_10",
+            "ProdutosDeHigiene_10",
             "ToalhadeBanho_10",
             "ItensdeHigienePessoal_10",
-            "MateriaiseProdutosdeLimpeza_10",
-            "ToalhadeBanho_10",
-            "MateriaiseProdutosdeLimpeza_10",
-            "MateriaiseProdutosdeLimpeza_10",
+            "Fraldas_10",
+            "ProdutosDeHigiene_10",
+            "ProdutosDeHigiene_10",
             "Papelhigienico_10",
+            "Fraldas_10",
             "ItensdeHigienePessoal_10",
             "ProdutosDeHigienePessoalEmGeral_10",
             "ItensdeHigienePessoal_10",
-            "MateriaiseProdutosdeLimpeza_10",
-            "MateriaiseProdutosdeLimpeza_10",
+            "FraldasGeriatricas_10",
+            "FraldasGeriatricas_10",
+            "AventalDescartavel_10",
+            "SabaoemPo_10",
+            "SabaoemPo_10",
+            "ProdutosDeHigiene_10",
+            "ProdutosDeHigiene_10",
             "ItensdeHigienePessoal_10"
         ]
     },
@@ -382,8 +389,15 @@
         "active": true,
         "tags": [
             "Cestabasica_10",
+            "Bolacha_10",
+            "Pao_10",
+            "Iogurte_10",
             "AlimentoNaoPerecivel_10",
-            "Pimentao_10",
+            "Carne_10",
+            "Frango_10",
+            "LeiteSemLactose_10",
+            "FrutasDiversas_10",
+            "VerdurasEVegetais_10",
             "Alimentos_10",
             "Cestabasica_10",
             "AlimentoNaoPerecivel_10",
@@ -393,62 +407,60 @@
             "Agua_10",
             "Leite_10",
             "Cestabasica_10",
-            "AlimentoPerecivel_10",
             "AlimentoNaoPerecivel_10",
             "AlimentosDeProntoConsumo_10",
             "AlimentoNaoPerecivel_10",
             "Cestabasica_10",
             "Leite_10",
-            "Pao_10",
             "Marmita_10",
             "Batata_10",
             "Cebola_10",
             "Acucar_10",
             "TemperoParaAlimentos_10",
             "Massa_10",
+            "Sal_10",
             "Salsicha_10",
             "Cestabasica_10",
             "Leite_10",
             "Alimentos_10",
             "AlimentoNaoPerecivel_10",
-            "RacaoGato_10",
-            "Sucos_10",
-            "FarinhadeMandioca_10",
+            "Suco_10",
+            "FarinhaDeMandiocaBranca_10",
             "AlimentoNaoPerecivel_10",
             "Agua_10",
             "Cestabasica_10",
             "Leite_10",
             "AlimentoNaoPerecivel_10",
-            "Oleodecozinha_10",
+            "Pao_10",
             "FrutasDiversas_10",
             "Legumes_10",
-            "TemperoParaAlimentos_10",
             "Proteinas_10",
-            "GeleiaDoceDeLeitePaoBiscoitos_10",
-            "Pao_10",
-            "Presunto_10",
-            "Leite_10",
-            "Queijo_10",
-            "Bolacha_10",
-            "CarnedeGado_10",
-            "RacaoOvino_10",
-            "RacaoGato_10",
+            "TemperoParaAlimentos_10",
+            "CarneSuina_10",
             "Frios_10",
             "Cestabasica_10",
-            "AlimentoNaoPerecivel_10",
-            "Carne_10",
+            "Leite_10",
+            "Cestabasica_10",
+            "Leiteempo_10",
+            "AlimentosPereciveis_10",
             "Proteinas_10",
+            "Carne_10",
             "Proteinas_10",
             "Cestabasica_10",
             "Agua_10",
             "Iogurte_10",
-            "FiltroDeCafe102_10",
             "LeiteDesnatado_10",
-            "AlimentoNaoPerecivel_10",
+            "AlimentosPereciveis_10",
             "AlimentoNaoPerecivel_10",
             "Cestabasica_10",
+            "Limao_10",
+            "Tomate_10",
+            "Queijo_10",
+            "FrutasDiversas_10",
+            "Mortadela_10",
+            "Cenoura_10",
             "AlimentosDeProntoConsumo_10",
-            "Cestabasica_10",
+            "ItensDeCestaBasica_10",
             "Cafe_10",
             "AlimentoNaoPerecivel_10",
             "AlimentosDeProntoConsumo_10"
@@ -462,10 +474,11 @@
         "active": true,
         "tags": [
             "MateriaiseProdutosdeLimpeza_10",
-            "RodoComCabo_10",
+            "LuvasDeBorracha_10",
+            "MateriaiseProdutosdeLimpeza_10",
             "VassouraseRodos_10",
             "MateriaiseProdutosdeLimpeza_10",
-            "MateriaiseProdutosdeLimpeza_10",
+            "AguaSanitariaeDesinfetante_10",
             "SacosdeLixo_10",
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10",
@@ -474,26 +487,25 @@
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10",
-            "LuvasdeLimpeza_10",
             "Papeltoalha_10",
             "MateriaiseProdutosdeLimpeza_10",
             "BotasDeBorrachatamanho38A43_10",
             "LavaJato_10",
             "AguaSanitariaeDesinfetante_10",
-            "SabaoemBarra_10",
+            "LuvasDeBorracha_10",
             "RodoGrandes_10",
+            "SabaoemBarra_10",
             "VassouraComCabo_10",
             "AguaSanitariaeDesinfetante_10",
             "LuvasdeLimpeza_10",
-            "SacosdeLixo_10",
             "AguaSanitariaeDesinfetante_10",
-            "SacosdeLixo_10",
+            "Baldes_10",
+            "VassouraComCabo_10",
             "AguaSanitariaeDesinfetante_10",
             "LuvasdeLimpeza_10",
-            "SabaoemPo_10",
             "AguaSanitariaeDesinfetante_10",
             "Borrifador_10",
-            "LuvasdeLimpeza_10",
+            "MopBruxaDeLimpeza_10",
             "SacosdeLixo_10",
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10",
@@ -501,6 +513,7 @@
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10",
             "VassouraseRodos_10",
+            "Esponjas_10",
             "MateriaiseProdutosdeLimpeza_10",
             "MateriaiseProdutosdeLimpeza_10"
         ]
@@ -512,29 +525,26 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "LuvadeLa_10",
-            "TenisECalcadosTodasAsIdades_10",
-            "RoupadeInvernoInfantil_10",
-            "RoupadeInverno_10",
-            "RoupasMasculinas_10",
-            "Meia_10",
+            "CobertoresParaOFrio_10",
+            "Roupasdefrio_10",
             "CalcadosTenis_10",
-            "Roupoes_10",
+            "Roupas_10",
+            "CobertoresParaOFrio_10",
             "RoupasAdolescente_10",
-            "RoupasIntimasInfantiladolescente_10",
+            "RoupasInfantilTamanhos2A16_10",
             "CalcadosTenisInfantil_10",
-            "LuvadeLa_10",
-            "RoupadeInvernoInfantil_10",
-            "CalcadosTenis_10",
-            "LuvadeLa_10",
+            "CobertoresParaOFrio_10",
+            "Roupasdefrio_10",
+            "CalcadosMasculinoTodosOsTamanhos_10",
+            "CasacoQuente_10",
             "CalcadosFemininoAPartirDo36_10",
+            "Roupadefrio_10",
             "RoupaDeFrioParaCriancasDeRecemNascidosAte2Anos_10",
-            "LuvadeLa_10",
             "BotaDeBorracha32353839E40_10",
-            "Cobertores_10",
-            "LuvadeLa_10",
-            "RoupadeInvernoInfantil_10",
-            "RoupadeInverno_10"
+            "CobertoresParaOFrio_10",
+            "Roupasdefrio_10",
+            "RoupasdefrioInfantil_10",
+            "RoupaMasculinaDeInverno_10"
         ]
     },
     "ad0b5516-3eba-4368-8724-5cfb6a3ea2d3_10": {
@@ -544,17 +554,16 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "AreiaGrossa_10",
-            "Tijolo_10",
             "MateriaisDeConstrucao_10",
-            "UtensiliosInfantis_10",
-            "Touca_10",
-            "UtensiliosInfantis_10",
+            "Tijolo_10",
+            "AreiaGrossa_10",
+            "Louca_10",
+            "UtensiliosDomesticos_10",
+            "UtensiliosDomesticos_10",
             "Lanternas_10",
-            "FitaAdesivaCrepe_10",
+            "FitaAdesiva_10",
             "Grampo_10",
-            "Arroz_10",
-            "CaibroDeEucaliptoDe5mm_10",
+            "SacolaGrande_10",
             "ColeiraRepelenteParaMosquitos_10"
         ]
     },
@@ -565,13 +574,13 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Lencol_10",
-            "Lencol_10",
-            "Meia_10",
+            "Moveis_10",
+            "Mesa_10",
+            "Moveis_10",
             "CamaCasal_10",
+            "CamaSolteiro_10",
             "Sofa_10",
-            "Fogao_10",
-            "Lencol_10"
+            "Fogao_10"
         ]
     },
     "4f95853f-d5e1-487d-8086-6ddfaf2bbab7_10": {
@@ -582,7 +591,7 @@
         "active": true,
         "tags": [
             "Eletrodomesticos_10",
-            "AquecedorEletrico_10"
+            "AquecedorDeAr_10"
         ]
     },
     "03fdb0f2-6b50-4895-b970-5793cad80c86_1": {
@@ -592,22 +601,12 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Peiteiras_1",
-            "Peiteiras_1",
+            "RacaoCachorro_1",
             "Coleiras_1",
             "Casinhaecamaanimal_1",
-            "RacaoCachorro_1",
-            "Pao_1"
-        ]
-    },
-    "037ac262-4f35-42e0-83e1-4cdcceedb39c_1": {
-        "menu_id": 44,
-        "name": "Itens Descartáveis",
-        "menu_group_id": 2,
-        "hierarchy_level": "1",
-        "active": true,
-        "tags": [
-            "Fraldas_1"
+            "Peiteiras_1",
+            "Peiteiras_1",
+            "Panos_1"
         ]
     },
     "718d5be3-69c3-4216-97f1-12b690d0eb97_1": {
@@ -617,9 +616,9 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
+            "FraldaP_1",
             "EscovasdeDentes_1",
-            "Sabonetes_1",
-            "SecadordeCabelo_1"
+            "Sabonetes_1"
         ]
     },
     "a3e3bdf8-0be4-4bdc-a3b0-b40ba931be5f_1": {
@@ -640,7 +639,7 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "Roupoes_1"
+            "Roupas_1"
         ]
     },
     "4f95853f-d5e1-487d-8086-6ddfaf2bbab7_1": {
@@ -650,7 +649,8 @@
         "hierarchy_level": "1",
         "active": true,
         "tags": [
-            "AquecedorEletrico_1"
+            "AquecedorDeAr_1",
+            "SecadordeCabelo_1"
         ]
     }
 }
