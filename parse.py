@@ -6,6 +6,7 @@ from sql_builder import *
 
 import logging
 import time
+import sys
 from pprint import pprint
 
 def get_parent_menu_by_key(menus, menu_key):
@@ -263,7 +264,7 @@ def remove_empty_menus(menus):
         if not menus[menu_key]['tags']:  # Checa se a lista de tags está vazia
             del menus[menu_key]  # Remove o item do dicionário
 
-def create_all_objects():
+def create_all_objects(save_processed_data):
     menus_group = create_menus_group_obj()
     menus = create_menus_obj(menus_group)
     locations = create_locations_obj()
@@ -272,11 +273,12 @@ def create_all_objects():
 
     remove_empty_menus(menus)
 
-    # save_json(menus_group, "./mocks/menus_group.json")
-    # save_json(menus, "./mocks/menus.json")
-    # save_json(locations, "./mocks/locations.json")
-    # save_json(tags, "./mocks/tags.json")
-    # save_json(tags_related_locations, "./mocks/tags_related_locations.json")
+    if save_processed_data:
+        save_json(menus_group, "./data_collection/processed_data/menus_group.json")
+        save_json(menus, "./data_collection/processed_data/menus.json")
+        save_json(locations, "./data_collection/processed_data/locations.json")
+        save_json(tags, "./data_collection/processed_data/tags.json")
+        save_json(tags_related_locations, "./data_collection/processed_data/tags_related_locations.json")
 
     print(f"\nMenus: {len(menus)}")
     print(f"Locations: {len(locations)}")
@@ -431,8 +433,13 @@ def fetch_location_and_name_mapping_data():
 
 
 if __name__ == '__main__':
+    save_processed_data = False
+
+    if 'save-processed-data' in sys.argv:
+        save_processed_data = True
+
     fetch_location_and_name_mapping_data()
-    menus_group, menus, locations, tags, tags_related_locations = create_all_objects()
+    menus_group, menus, locations, tags, tags_related_locations = create_all_objects(save_processed_data)
 
     sql_commands = create_all_sql_commands(menus_group, menus, locations, tags, tags_related_locations)
     write_sql_commands(sql_commands, OUTPUT_FILE)

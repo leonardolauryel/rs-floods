@@ -1,0 +1,1610 @@
+{
+    "ItensdeHigienePessoal_10": {
+        "tag_id": 369,
+        "name": "Itens de Higiene Pessoal",
+        "description": "",
+        "color": "#60d534",
+        "active": true,
+        "parent_menu_id": 26
+    },
+    "MateriaiseProdutosdeLimpeza_10": {
+        "tag_id": 373,
+        "name": "Materiais e Produtos de Limpeza",
+        "description": "",
+        "color": "#619f4a",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "Lencol_10": {
+        "tag_id": 336,
+        "name": "Lençol",
+        "description": "",
+        "color": "#e91062",
+        "active": true,
+        "parent_menu_id": 35
+    },
+    "Cobertores_10": {
+        "tag_id": 334,
+        "name": "Cobertores",
+        "description": "",
+        "color": "#0a0e22",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "Cestabasica_10": {
+        "tag_id": 359,
+        "name": "Cesta básica",
+        "description": "",
+        "color": "#e28bb6",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "ItensdeHigienePessoal_100": {
+        "tag_id": 5,
+        "name": "Itens de Higiene Pessoal",
+        "description": "",
+        "color": "#f3fbcf",
+        "active": true,
+        "parent_menu_id": 7
+    },
+    "Cestabasica_100": {
+        "tag_id": 149,
+        "name": "Cesta básica",
+        "description": "",
+        "color": "#ad8153",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "MateriaiseProdutosdeLimpeza_100": {
+        "tag_id": 251,
+        "name": "Materiais e Produtos de Limpeza",
+        "description": "",
+        "color": "#ca73b3",
+        "active": true,
+        "parent_menu_id": 7
+    },
+    "Voluntarios_10": {
+        "tag_id": 229,
+        "name": "Voluntários",
+        "description": "",
+        "color": "#727bf8",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "RacaoGato_100": {
+        "tag_id": 9,
+        "name": "Ração Gato",
+        "description": "",
+        "color": "#5b6bd2",
+        "active": true,
+        "parent_menu_id": 1
+    },
+    "RacaoCachorro_100": {
+        "tag_id": 10,
+        "name": "Ração Cachorro",
+        "description": "",
+        "color": "#4edc1e",
+        "active": true,
+        "parent_menu_id": 1
+    },
+    "Travesseiro_100": {
+        "tag_id": 237,
+        "name": "Travesseiro",
+        "description": "",
+        "color": "#37e147",
+        "active": true,
+        "parent_menu_id": 3
+    },
+    "Cobertores_100": {
+        "tag_id": 311,
+        "name": "Cobertores",
+        "description": "",
+        "color": "#5b4cd2",
+        "active": true,
+        "parent_menu_id": 3
+    },
+    "Toalhas_100": {
+        "tag_id": 13,
+        "name": "Toalhas",
+        "description": "",
+        "color": "#0f6c8a",
+        "active": true,
+        "parent_menu_id": 3
+    },
+    "CobertorParaPets_100": {
+        "tag_id": 242,
+        "name": "Cobertor Para Pets",
+        "description": "",
+        "color": "#376783",
+        "active": true,
+        "parent_menu_id": 1
+    },
+    "AlimentoNaoPerecivel_10": {
+        "tag_id": 370,
+        "name": "Alimento Não Perecível",
+        "description": "",
+        "color": "#3842ae",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Pimentao_10": {
+        "tag_id": 16,
+        "name": "Pimentão",
+        "description": "",
+        "color": "#489486",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "RodoComCabo_10": {
+        "tag_id": 17,
+        "name": "Rodo Com Cabo",
+        "description": "",
+        "color": "#c5046c",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "AreiaGrossa_10": {
+        "tag_id": 19,
+        "name": "Areia Grossa",
+        "description": "",
+        "color": "#85bd9a",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "VassouraseRodos_10": {
+        "tag_id": 340,
+        "name": "Vassouras e Rodos",
+        "description": "",
+        "color": "#aa8189",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "Colchao_10": {
+        "tag_id": 372,
+        "name": "Colchão",
+        "description": "",
+        "color": "#662f7a",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "Tijolo_10": {
+        "tag_id": 24,
+        "name": "Tijolo",
+        "description": "",
+        "color": "#5f5923",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "MateriaisDeConstrucao_10": {
+        "tag_id": 25,
+        "name": "Materiais De Construção",
+        "description": "",
+        "color": "#09cd96",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "Meia_10": {
+        "tag_id": 193,
+        "name": "Meia",
+        "description": "",
+        "color": "#d205de",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "Eletrodomesticos_10": {
+        "tag_id": 27,
+        "name": "Eletrodomésticos",
+        "description": "",
+        "color": "#e18815",
+        "active": true,
+        "parent_menu_id": 36
+    },
+    "Alimentos_10": {
+        "tag_id": 153,
+        "name": "Alimentos",
+        "description": "",
+        "color": "#38ec66",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "ToalhadeBanho_10": {
+        "tag_id": 80,
+        "name": "Toalha de Banho",
+        "description": "",
+        "color": "#62eafb",
+        "active": true,
+        "parent_menu_id": 26
+    },
+    "RoupadeCama_10": {
+        "tag_id": 326,
+        "name": "Roupa de Cama",
+        "description": "",
+        "color": "#dd0c4e",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "UtensiliosInfantis_10": {
+        "tag_id": 69,
+        "name": "Utensílios Infantis",
+        "description": "",
+        "color": "#3f955e",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "Touca_10": {
+        "tag_id": 35,
+        "name": "Touca",
+        "description": "",
+        "color": "#d1b926",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "LuvasCirurgicas_10": {
+        "tag_id": 36,
+        "name": "Luvas Cirúrgicas",
+        "description": "",
+        "color": "#35cd2c",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "SacheParaGato_10": {
+        "tag_id": 37,
+        "name": "Sachê Para Gato",
+        "description": "",
+        "color": "#fdcf02",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "Cpastar_10": {
+        "tag_id": 38,
+        "name": "Cpastar",
+        "description": "",
+        "color": "#a3bdc7",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "SacosdeLixo_10": {
+        "tag_id": 300,
+        "name": "Sacos de Lixo",
+        "description": "",
+        "color": "#8fdcb7",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "SacosPlasticos_10": {
+        "tag_id": 40,
+        "name": "Sacos Plásticos",
+        "description": "",
+        "color": "#afc36f",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "RacaoCachorro_10": {
+        "tag_id": 158,
+        "name": "Ração Cachorro",
+        "description": "",
+        "color": "#336ab8",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "SaquinhoParaColeta_10": {
+        "tag_id": 42,
+        "name": "Saquinho Para Coleta",
+        "description": "",
+        "color": "#5118ea",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "RacaoGato_10": {
+        "tag_id": 257,
+        "name": "Ração Gato",
+        "description": "",
+        "color": "#6aaff1",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "SimparicTodosTamanhos_10": {
+        "tag_id": 255,
+        "name": "Simparic Todos Tamanhos",
+        "description": "",
+        "color": "#5def14",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "Jornal_10": {
+        "tag_id": 45,
+        "name": "Jornal",
+        "description": "",
+        "color": "#4a7a12",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "CobertorParaPets_10": {
+        "tag_id": 310,
+        "name": "Cobertor Para Pets",
+        "description": "",
+        "color": "#10d43e",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "Agua_10": {
+        "tag_id": 319,
+        "name": "Água",
+        "description": "",
+        "color": "#0255bf",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Fraldas_10": {
+        "tag_id": 138,
+        "name": "Fraldas",
+        "description": "",
+        "color": "#e5112f",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "LuvadeLa_10": {
+        "tag_id": 331,
+        "name": "Luva de Lã",
+        "description": "",
+        "color": "#95123b",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "MedicamentosGerais_10": {
+        "tag_id": 70,
+        "name": "Medicamentos Gerais",
+        "description": "",
+        "color": "#ce1c4c",
+        "active": true,
+        "parent_menu_id": 19
+    },
+    "Leite_10": {
+        "tag_id": 233,
+        "name": "Leite",
+        "description": "",
+        "color": "#adade4",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Baldes_10": {
+        "tag_id": 72,
+        "name": "Baldes",
+        "description": "",
+        "color": "#783413",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "TenisECalcadosTodasAsIdades_10": {
+        "tag_id": 76,
+        "name": "Tênis E Calçados Todas As Idades",
+        "description": "",
+        "color": "#19ba7b",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "RoupadeInvernoInfantil_10": {
+        "tag_id": 332,
+        "name": "Roupa de Inverno (Infantil)",
+        "description": "",
+        "color": "#ec1f75",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "RoupadeInverno_10": {
+        "tag_id": 337,
+        "name": "Roupa de Inverno",
+        "description": "",
+        "color": "#e6a4e0",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "RoupasMasculinas_10": {
+        "tag_id": 79,
+        "name": "Roupas Masculinas",
+        "description": "",
+        "color": "#812849",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "FraldasGeriatricas_10": {
+        "tag_id": 220,
+        "name": "Fraldas Geriátricas",
+        "description": "",
+        "color": "#cd0bde",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "Veterinarios_10": {
+        "tag_id": 175,
+        "name": "Veterinários",
+        "description": "",
+        "color": "#167019",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "AlimentoPerecivel_10": {
+        "tag_id": 87,
+        "name": "Alimento Perecível",
+        "description": "",
+        "color": "#721e0f",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "VacinaparaCovid_10": {
+        "tag_id": 261,
+        "name": "Vacina para Covid",
+        "description": "",
+        "color": "#395262",
+        "active": true,
+        "parent_menu_id": 19
+    },
+    "Azeite_100": {
+        "tag_id": 89,
+        "name": "Azeite",
+        "description": "",
+        "color": "#9f495c",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Acucar_100": {
+        "tag_id": 305,
+        "name": "Açúcar",
+        "description": "",
+        "color": "#ae4fc4",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "ToalhadeBanho_100": {
+        "tag_id": 91,
+        "name": "Toalha de Banho",
+        "description": "",
+        "color": "#8e9a15",
+        "active": true,
+        "parent_menu_id": 7
+    },
+    "Cafe_100": {
+        "tag_id": 357,
+        "name": "Café",
+        "description": "",
+        "color": "#b6f7ef",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Arroz_100": {
+        "tag_id": 93,
+        "name": "Arroz",
+        "description": "",
+        "color": "#1830bf",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Feijao_100": {
+        "tag_id": 94,
+        "name": "Feijão",
+        "description": "",
+        "color": "#24a574",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Leite_100": {
+        "tag_id": 95,
+        "name": "Leite",
+        "description": "",
+        "color": "#93c75d",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "CarnedeGado_100": {
+        "tag_id": 352,
+        "name": "Carne de Gado",
+        "description": "",
+        "color": "#3b01d9",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Carne_100": {
+        "tag_id": 353,
+        "name": "Carne",
+        "description": "",
+        "color": "#6ea298",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "AlimentosDeProntoConsumo_10": {
+        "tag_id": 371,
+        "name": "Alimentos De Pronto Consumo",
+        "description": "",
+        "color": "#a57ced",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "FraldasTodosTamanho_10": {
+        "tag_id": 333,
+        "name": "Fraldas Todos Tamanho",
+        "description": "",
+        "color": "#d39f53",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "Toalhas_10": {
+        "tag_id": 314,
+        "name": "Toalhas",
+        "description": "",
+        "color": "#86724c",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "Pao_10": {
+        "tag_id": 231,
+        "name": "Pão",
+        "description": "",
+        "color": "#f0d707",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Marmita_10": {
+        "tag_id": 111,
+        "name": "Marmita",
+        "description": "",
+        "color": "#ce6556",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Papelhigienico_10": {
+        "tag_id": 112,
+        "name": "Papel higiênico",
+        "description": "",
+        "color": "#839768",
+        "active": true,
+        "parent_menu_id": 26
+    },
+    "Batata_10": {
+        "tag_id": 114,
+        "name": "Batata",
+        "description": "",
+        "color": "#f534b9",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Cebola_10": {
+        "tag_id": 115,
+        "name": "Cebola",
+        "description": "",
+        "color": "#25c1b8",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Acucar_10": {
+        "tag_id": 116,
+        "name": "Açúcar",
+        "description": "",
+        "color": "#23959e",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "TemperoParaAlimentos_10": {
+        "tag_id": 227,
+        "name": "Tempero Para Alimentos",
+        "description": "",
+        "color": "#aca44e",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Massa_10": {
+        "tag_id": 118,
+        "name": "Massa",
+        "description": "",
+        "color": "#8f38fb",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Salsicha_10": {
+        "tag_id": 119,
+        "name": "Salsicha",
+        "description": "",
+        "color": "#393d55",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Ovo_100": {
+        "tag_id": 120,
+        "name": "Ovo",
+        "description": "",
+        "color": "#09c42f",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Frango_100": {
+        "tag_id": 350,
+        "name": "Frango",
+        "description": "",
+        "color": "#33820f",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "FornoMicroondas_100": {
+        "tag_id": 123,
+        "name": "Forno Microondas",
+        "description": "",
+        "color": "#860cd9",
+        "active": true,
+        "parent_menu_id": 15
+    },
+    "Geleia_100": {
+        "tag_id": 144,
+        "name": "Geléia",
+        "description": "",
+        "color": "#d0d173",
+        "active": true,
+        "parent_menu_id": 17
+    },
+    "FormulaDeLeiteAdaptanutre_100": {
+        "tag_id": 125,
+        "name": "Fórmula De Leite Adaptanutre",
+        "description": "",
+        "color": "#d1b1b3",
+        "active": true,
+        "parent_menu_id": 0
+    },
+    "Lencol_100": {
+        "tag_id": 189,
+        "name": "Lençol",
+        "description": "",
+        "color": "#768885",
+        "active": true,
+        "parent_menu_id": 16
+    },
+    "Polenta_100": {
+        "tag_id": 127,
+        "name": "Polenta",
+        "description": "",
+        "color": "#1a2653",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Pao_100": {
+        "tag_id": 355,
+        "name": "Pão",
+        "description": "",
+        "color": "#013413",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "RoupasMasculinas_100": {
+        "tag_id": 349,
+        "name": "Roupas Masculinas",
+        "description": "",
+        "color": "#69261e",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "RoupasFemininas_100": {
+        "tag_id": 133,
+        "name": "Roupas Femininas",
+        "description": "",
+        "color": "#7c3ad0",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "RoupasInfantil_100": {
+        "tag_id": 135,
+        "name": "Roupas Infantil",
+        "description": "",
+        "color": "#965930",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "AuxiliarDeVeterinariadiaNoiteEMadrugada_10": {
+        "tag_id": 141,
+        "name": "Auxiliar De Veterinária (dia, Noite E Madrugada)",
+        "description": "",
+        "color": "#6614c5",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "CamaCasal_100": {
+        "tag_id": 145,
+        "name": "Cama Casal",
+        "description": "",
+        "color": "#7392f3",
+        "active": true,
+        "parent_menu_id": 16
+    },
+    "ProdutosDeHigienePessoalEmGeral_10": {
+        "tag_id": 146,
+        "name": "Produtos De Higiene Pessoal Em Geral",
+        "description": "",
+        "color": "#c05b80",
+        "active": true,
+        "parent_menu_id": 26
+    },
+    "Fogao_100": {
+        "tag_id": 148,
+        "name": "Fogão",
+        "description": "",
+        "color": "#601c4d",
+        "active": true,
+        "parent_menu_id": 16
+    },
+    "Eletrodomesticos_100": {
+        "tag_id": 150,
+        "name": "Eletrodomésticos",
+        "description": "",
+        "color": "#7a74fc",
+        "active": true,
+        "parent_menu_id": 17
+    },
+    "CalcadosTenis_10": {
+        "tag_id": 207,
+        "name": "Calçados/Tênis",
+        "description": "",
+        "color": "#6b57a6",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "Roupoes_10": {
+        "tag_id": 154,
+        "name": "Roupões",
+        "description": "",
+        "color": "#f2dec2",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "Lanternas_10": {
+        "tag_id": 159,
+        "name": "Lanternas",
+        "description": "",
+        "color": "#e5e8c3",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "LuvasdeLimpeza_10": {
+        "tag_id": 298,
+        "name": "Luvas de Limpeza",
+        "description": "",
+        "color": "#bbfe5a",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "Papeltoalha_10": {
+        "tag_id": 163,
+        "name": "Papel toalha",
+        "description": "",
+        "color": "#1f61a0",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "LuvasDeTodosOsTamanhos_10": {
+        "tag_id": 164,
+        "name": "Luvas De Todos Os Tamanhos",
+        "description": "",
+        "color": "#b17d28",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "LuvaDeRaspaLongaAdestramento_10": {
+        "tag_id": 165,
+        "name": "Luva De Raspa Longa Adestramento",
+        "description": "",
+        "color": "#53b2c2",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "FitaAdesivaCrepe_10": {
+        "tag_id": 166,
+        "name": "Fita Adesiva Crepe",
+        "description": "",
+        "color": "#046b33",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "FitaDurexLarga_10": {
+        "tag_id": 167,
+        "name": "Fita Durex Larga",
+        "description": "",
+        "color": "#2a9c6e",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "Sucos_10": {
+        "tag_id": 168,
+        "name": "Sucos",
+        "description": "",
+        "color": "#cf3e6e",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Agulha_10": {
+        "tag_id": 169,
+        "name": "Agulha",
+        "description": "",
+        "color": "#32a8bb",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "FarinhadeMandioca_10": {
+        "tag_id": 170,
+        "name": "Farinha de Mandioca",
+        "description": "",
+        "color": "#919c4f",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Grampo_10": {
+        "tag_id": 171,
+        "name": "Grampo",
+        "description": "",
+        "color": "#55f7f2",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "Porteiro_10": {
+        "tag_id": 172,
+        "name": "Porteiro",
+        "description": "",
+        "color": "#ee8904",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "Hidraulico_10": {
+        "tag_id": 173,
+        "name": "Hidráulico",
+        "description": "",
+        "color": "#73de89",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "Adestrador_10": {
+        "tag_id": 174,
+        "name": "Adestrador",
+        "description": "",
+        "color": "#dd1e49",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "VoluntarioparaCuidardosAnimais_10": {
+        "tag_id": 176,
+        "name": "Voluntário para Cuidar dos Animais",
+        "description": "",
+        "color": "#414836",
+        "active": true,
+        "parent_menu_id": 24
+    },
+    "Voluntarios_100": {
+        "tag_id": 348,
+        "name": "Voluntários",
+        "description": "",
+        "color": "#b85d6b",
+        "active": true,
+        "parent_menu_id": 5
+    },
+    "Sabao_100": {
+        "tag_id": 181,
+        "name": "Sabão",
+        "description": "",
+        "color": "#2a8c5d",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "VassouraseRodos_100": {
+        "tag_id": 361,
+        "name": "Vassouras e Rodos",
+        "description": "",
+        "color": "#f974ce",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "RodoComCabo_100": {
+        "tag_id": 183,
+        "name": "Rodo Com Cabo",
+        "description": "",
+        "color": "#bbb9e9",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "LuvadeLa_100": {
+        "tag_id": 184,
+        "name": "Luva de Lã",
+        "description": "",
+        "color": "#9a90dd",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "AguaSanitariaeDesinfetante_100": {
+        "tag_id": 309,
+        "name": "Água Sanitária e Desinfetante",
+        "description": "",
+        "color": "#ef6c81",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "Colchao_100": {
+        "tag_id": 188,
+        "name": "Colchão",
+        "description": "",
+        "color": "#ed86d4",
+        "active": true,
+        "parent_menu_id": 3
+    },
+    "RoupasAdolescente_10": {
+        "tag_id": 195,
+        "name": "Roupas Adolescente",
+        "description": "",
+        "color": "#d3260a",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "RoupasIntimasInfantiladolescente_10": {
+        "tag_id": 201,
+        "name": "Roupas Íntimas (Infantil/adolescente)",
+        "description": "",
+        "color": "#a7cfd2",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "CalcadosTenisInfantil_10": {
+        "tag_id": 203,
+        "name": "Calçados/Tênis Infantil",
+        "description": "",
+        "color": "#6b83c7",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "CalcadosFemininoAPartirDo36_10": {
+        "tag_id": 209,
+        "name": "Calçados Feminino A Partir Do 36",
+        "description": "",
+        "color": "#26abbb",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "RoupaDeFrioParaCriancasDeRecemNascidosAte2Anos_10": {
+        "tag_id": 210,
+        "name": "Roupa De Frio Para Crianças De Recém Nascidos Até 2 Anos",
+        "description": "",
+        "color": "#1226e0",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "CamaSolteiro_10": {
+        "tag_id": 211,
+        "name": "Cama Solteiro",
+        "description": "",
+        "color": "#ca8cc4",
+        "active": true,
+        "parent_menu_id": 22
+    },
+    "CamaCasal_10": {
+        "tag_id": 212,
+        "name": "Cama Casal",
+        "description": "",
+        "color": "#e76f9b",
+        "active": true,
+        "parent_menu_id": 35
+    },
+    "Sofa_10": {
+        "tag_id": 213,
+        "name": "Sofá",
+        "description": "",
+        "color": "#4031fe",
+        "active": true,
+        "parent_menu_id": 35
+    },
+    "Fogao_10": {
+        "tag_id": 214,
+        "name": "Fogão",
+        "description": "",
+        "color": "#e4561e",
+        "active": true,
+        "parent_menu_id": 35
+    },
+    "Oleodecozinha_10": {
+        "tag_id": 215,
+        "name": "Óleo de cozinha",
+        "description": "",
+        "color": "#8dde1b",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "EscovasdeDentes_1": {
+        "tag_id": 216,
+        "name": "Escovas de Dentes",
+        "description": "",
+        "color": "#be4c91",
+        "active": true,
+        "parent_menu_id": 45
+    },
+    "Sabonetes_1": {
+        "tag_id": 217,
+        "name": "Sabonetes",
+        "description": "",
+        "color": "#915c6e",
+        "active": true,
+        "parent_menu_id": 45
+    },
+    "Fraldas_1": {
+        "tag_id": 218,
+        "name": "Fraldas",
+        "description": "",
+        "color": "#a4214f",
+        "active": true,
+        "parent_menu_id": 44
+    },
+    "BotasDeBorrachatamanho38A43_10": {
+        "tag_id": 221,
+        "name": "Botas De Borracha (tamanho 38 A 43)",
+        "description": "",
+        "color": "#4e701f",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "LavaJato_10": {
+        "tag_id": 222,
+        "name": "Lava Jato",
+        "description": "",
+        "color": "#b5025d",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "AguaSanitariaeDesinfetante_10": {
+        "tag_id": 295,
+        "name": "Água Sanitária e Desinfetante",
+        "description": "",
+        "color": "#e02cb0",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "FrutasDiversas_10": {
+        "tag_id": 225,
+        "name": "Frutas Diversas",
+        "description": "",
+        "color": "#f3c031",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Legumes_10": {
+        "tag_id": 226,
+        "name": "Legumes",
+        "description": "",
+        "color": "#31064a",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Proteinas_10": {
+        "tag_id": 313,
+        "name": "Proteínas",
+        "description": "",
+        "color": "#135820",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "GeleiaDoceDeLeitePaoBiscoitos_10": {
+        "tag_id": 230,
+        "name": "Geleia, Doce De Leite, Pão, Biscoitos",
+        "description": "",
+        "color": "#79edd9",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Presunto_10": {
+        "tag_id": 232,
+        "name": "Presunto",
+        "description": "",
+        "color": "#1a9927",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Queijo_10": {
+        "tag_id": 234,
+        "name": "Queijo",
+        "description": "",
+        "color": "#2c9af7",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Bolacha_10": {
+        "tag_id": 235,
+        "name": "Bolacha",
+        "description": "",
+        "color": "#9f5f21",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "CoxasobrecoxaDeFrango_100": {
+        "tag_id": 236,
+        "name": "Coxa/sobrecoxa De Frango",
+        "description": "",
+        "color": "#f006a3",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "CarnedeGado_10": {
+        "tag_id": 239,
+        "name": "Carne de Gado",
+        "description": "",
+        "color": "#6170f8",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "ProdutosDeHigienePessoalEmGeral_100": {
+        "tag_id": 244,
+        "name": "Produtos De Higiene Pessoal Em Geral",
+        "description": "",
+        "color": "#8e8e54",
+        "active": true,
+        "parent_menu_id": 7
+    },
+    "PanodeChaoeLimpeza_100": {
+        "tag_id": 245,
+        "name": "Pano de Chão e Limpeza",
+        "description": "",
+        "color": "#27b421",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "LuvasdeLimpeza_100": {
+        "tag_id": 302,
+        "name": "Luvas de Limpeza",
+        "description": "",
+        "color": "#278d4c",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "Meia_100": {
+        "tag_id": 247,
+        "name": "Meia",
+        "description": "",
+        "color": "#f1dcd7",
+        "active": true,
+        "parent_menu_id": 3
+    },
+    "Esponjas_100": {
+        "tag_id": 364,
+        "name": "Esponjas",
+        "description": "",
+        "color": "#bd29a1",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "Baldes_100": {
+        "tag_id": 249,
+        "name": "Baldes",
+        "description": "",
+        "color": "#7a9b3c",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "RoupasIntimasMascouFem_100": {
+        "tag_id": 250,
+        "name": "Roupas Íntimas (Masc. ou Fem.)",
+        "description": "",
+        "color": "#6e3d28",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "SabaoemPo_100": {
+        "tag_id": 252,
+        "name": "Sabão em Pó",
+        "description": "",
+        "color": "#c24516",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "AlcoolemGel_100": {
+        "tag_id": 253,
+        "name": "Álcool em Gel",
+        "description": "",
+        "color": "#88b77c",
+        "active": true,
+        "parent_menu_id": 0
+    },
+    "VacinaGripeParaPet_10": {
+        "tag_id": 254,
+        "name": "Vacina Gripe Para Pet",
+        "description": "",
+        "color": "#01168a",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "RacaoOvino_10": {
+        "tag_id": 256,
+        "name": "Ração Ovino",
+        "description": "",
+        "color": "#5f3936",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Arroz_10": {
+        "tag_id": 258,
+        "name": "Arroz",
+        "description": "",
+        "color": "#73a33e",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "CaibroDeEucaliptoDe5mm_10": {
+        "tag_id": 259,
+        "name": "Caibro De Eucalipto De 5mm",
+        "description": "",
+        "color": "#fee76d",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "Seringa_10": {
+        "tag_id": 260,
+        "name": "Seringa",
+        "description": "",
+        "color": "#cf915e",
+        "active": true,
+        "parent_menu_id": 19
+    },
+    "TalherDescartavel_10": {
+        "tag_id": 262,
+        "name": "Talher Descartável",
+        "description": "",
+        "color": "#7222e2",
+        "active": true,
+        "parent_menu_id": 25
+    },
+    "Recovery_10": {
+        "tag_id": 263,
+        "name": "Recovery",
+        "description": "",
+        "color": "#b30403",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "Frios_10": {
+        "tag_id": 264,
+        "name": "Frios",
+        "description": "",
+        "color": "#32eda1",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "CoposDescartaveis_100": {
+        "tag_id": 304,
+        "name": "Copos Descartáveis",
+        "description": "",
+        "color": "#3882af",
+        "active": true,
+        "parent_menu_id": 6
+    },
+    "MedicamentosGerais_100": {
+        "tag_id": 266,
+        "name": "Medicamentos Gerais",
+        "description": "",
+        "color": "#b452cb",
+        "active": true,
+        "parent_menu_id": 0
+    },
+    "Agua_100": {
+        "tag_id": 267,
+        "name": "Água",
+        "description": "",
+        "color": "#b458f8",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Antipulgas_10": {
+        "tag_id": 268,
+        "name": "Antipulgas",
+        "description": "",
+        "color": "#a72426",
+        "active": true,
+        "parent_menu_id": 20
+    },
+    "SabaoemBarra_10": {
+        "tag_id": 269,
+        "name": "Sabão em Barra",
+        "description": "",
+        "color": "#1c1c9b",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "RodoGrandes_10": {
+        "tag_id": 270,
+        "name": "Rodo Grandes",
+        "description": "",
+        "color": "#9119b9",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "VassouraComCabo_10": {
+        "tag_id": 271,
+        "name": "Vassoura Com Cabo",
+        "description": "",
+        "color": "#a0a00a",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "Carne_10": {
+        "tag_id": 278,
+        "name": "Carne",
+        "description": "",
+        "color": "#a5b344",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Peiteiras_1": {
+        "tag_id": 281,
+        "name": "Peiteiras",
+        "description": "",
+        "color": "#23cac1",
+        "active": true,
+        "parent_menu_id": 39
+    },
+    "Coleiras_1": {
+        "tag_id": 282,
+        "name": "Coleiras",
+        "description": "",
+        "color": "#ef27c9",
+        "active": true,
+        "parent_menu_id": 39
+    },
+    "Casinhaecamaanimal_1": {
+        "tag_id": 283,
+        "name": "Casinha e cama animal",
+        "description": "",
+        "color": "#3887c1",
+        "active": true,
+        "parent_menu_id": 39
+    },
+    "RacaoCachorro_1": {
+        "tag_id": 284,
+        "name": "Ração Cachorro",
+        "description": "",
+        "color": "#16a1fe",
+        "active": true,
+        "parent_menu_id": 39
+    },
+    "AquecedorEletrico_1": {
+        "tag_id": 286,
+        "name": "Aquecedor Elétrico",
+        "description": "",
+        "color": "#05a93a",
+        "active": true,
+        "parent_menu_id": 55
+    },
+    "Pao_1": {
+        "tag_id": 287,
+        "name": "Pão",
+        "description": "",
+        "color": "#7dda42",
+        "active": true,
+        "parent_menu_id": 39
+    },
+    "SecadordeCabelo_1": {
+        "tag_id": 288,
+        "name": "Secador de Cabelo",
+        "description": "",
+        "color": "#ec2da3",
+        "active": true,
+        "parent_menu_id": 45
+    },
+    "PotesparaMarmita_1": {
+        "tag_id": 289,
+        "name": "Potes para Marmita",
+        "description": "",
+        "color": "#71d5e1",
+        "active": true,
+        "parent_menu_id": 46
+    },
+    "ColeiraRepelenteParaMosquitos_10": {
+        "tag_id": 290,
+        "name": "Coleira Repelente Para Mosquitos",
+        "description": "",
+        "color": "#b24544",
+        "active": true,
+        "parent_menu_id": 34
+    },
+    "SabaoemPo_10": {
+        "tag_id": 293,
+        "name": "Sabão em Pó",
+        "description": "",
+        "color": "#7773a5",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "ExtensaoEletrica_10": {
+        "tag_id": 294,
+        "name": "Extensão Elétrica",
+        "description": "",
+        "color": "#b23c14",
+        "active": true,
+        "parent_menu_id": 23
+    },
+    "Borrifador_10": {
+        "tag_id": 296,
+        "name": "Borrifador",
+        "description": "",
+        "color": "#a0b673",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "BotaDeBorracha32353839E40_10": {
+        "tag_id": 297,
+        "name": "Bota De Borracha 32, 35, 38, 39 E 40",
+        "description": "",
+        "color": "#68b88f",
+        "active": true,
+        "parent_menu_id": 29
+    },
+    "AquecedorEletrico_10": {
+        "tag_id": 299,
+        "name": "Aquecedor Elétrico",
+        "description": "",
+        "color": "#3d6d13",
+        "active": true,
+        "parent_menu_id": 36
+    },
+    "FiltroDeCafe102_100": {
+        "tag_id": 303,
+        "name": "Filtro De Café 102",
+        "description": "",
+        "color": "#ef2f99",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "SacosdeLixo_100": {
+        "tag_id": 307,
+        "name": "Sacos de Lixo",
+        "description": "",
+        "color": "#591a11",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "Iogurte_10": {
+        "tag_id": 320,
+        "name": "Iogurte",
+        "description": "",
+        "color": "#dfcab3",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "FiltroDeCafe102_10": {
+        "tag_id": 321,
+        "name": "Filtro De Café 102",
+        "description": "",
+        "color": "#04edd2",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "LeiteDesnatado_10": {
+        "tag_id": 322,
+        "name": "Leite Desnatado",
+        "description": "",
+        "color": "#c9f467",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "BotasDeBorracha_10": {
+        "tag_id": 328,
+        "name": "Botas De Borracha",
+        "description": "",
+        "color": "#909a21",
+        "active": true,
+        "parent_menu_id": 28
+    },
+    "Limao_100": {
+        "tag_id": 341,
+        "name": "Limão",
+        "description": "",
+        "color": "#6e38a5",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "FrutasDiversas_100": {
+        "tag_id": 342,
+        "name": "Frutas Diversas",
+        "description": "",
+        "color": "#dcfa8a",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Queijo_100": {
+        "tag_id": 343,
+        "name": "Queijo",
+        "description": "",
+        "color": "#15aed1",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Cenoura_100": {
+        "tag_id": 344,
+        "name": "Cenoura",
+        "description": "",
+        "color": "#c4ae73",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Mortadela_100": {
+        "tag_id": 345,
+        "name": "Mortadela",
+        "description": "",
+        "color": "#e97579",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "Tomate_100": {
+        "tag_id": 347,
+        "name": "Tomate",
+        "description": "",
+        "color": "#53104c",
+        "active": true,
+        "parent_menu_id": 8
+    },
+    "ColherDescartavel_100": {
+        "tag_id": 354,
+        "name": "Colher Descartável",
+        "description": "",
+        "color": "#1fde61",
+        "active": true,
+        "parent_menu_id": 6
+    },
+    "Pratos_100": {
+        "tag_id": 356,
+        "name": "Pratos",
+        "description": "",
+        "color": "#9c3d7d",
+        "active": true,
+        "parent_menu_id": 6
+    },
+    "Papeltoalha_100": {
+        "tag_id": 362,
+        "name": "Papel toalha",
+        "description": "",
+        "color": "#47ff08",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "RoupasIntimasFemininas_100": {
+        "tag_id": 363,
+        "name": "Roupas Íntimas Femininas",
+        "description": "",
+        "color": "#ebded5",
+        "active": true,
+        "parent_menu_id": 10
+    },
+    "Amaciante_100": {
+        "tag_id": 365,
+        "name": "Amaciante",
+        "description": "",
+        "color": "#af4b42",
+        "active": true,
+        "parent_menu_id": 9
+    },
+    "Cafe_10": {
+        "tag_id": 366,
+        "name": "Café",
+        "description": "",
+        "color": "#b4472b",
+        "active": true,
+        "parent_menu_id": 27
+    },
+    "Agua_1": {
+        "tag_id": 367,
+        "name": "Água",
+        "description": "",
+        "color": "#a0640e",
+        "active": true,
+        "parent_menu_id": 46
+    },
+    "Roupoes_1": {
+        "tag_id": 368,
+        "name": "Roupões",
+        "description": "",
+        "color": "#be866c",
+        "active": true,
+        "parent_menu_id": 48
+    },
+    "CoposDescartaveis_10": {
+        "tag_id": 374,
+        "name": "Copos Descartáveis",
+        "description": "",
+        "color": "#05e1e5",
+        "active": true,
+        "parent_menu_id": 25
+    }
+}
